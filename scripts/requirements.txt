@@ -1,0 +1,7 @@
+pandas
+logging
+requests
+unidecode
+numpy
+bs4
+lxml
