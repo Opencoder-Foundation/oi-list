@@ -17,6 +17,13 @@ html, body {
   grid-template-rows: auto 1fr auto;
 }
 
+.app-embedded {
+  width: 100%;
+  min-height: auto;
+  padding: 0.5rem;
+  display: block;
+}
+
 .app-header {
   display: flex;
   align-items: center;

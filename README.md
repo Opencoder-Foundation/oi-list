@@ -61,22 +61,52 @@ Po buildzie powstają m.in.:
 
 ## Osadzanie widgetu
 
+Najprostsza opcja (działa prawie wszędzie): **`iframe`**.
+
+Wystarczy wkleić:
+
+```html
+<iframe
+  src="https://opencoder-foundation.github.io/oi-list/?embed=1"
+  title="Lista zadań OI"
+  width="100%"
+  height="760"
+  style="border:0;"
+  loading="lazy"
+></iframe>
+```
+
+Jeśli chcesz wskazać inny plik danych:
+
+```html
+<iframe
+  src="https://opencoder-foundation.github.io/oi-list/?embed=1&dataUrl=https%3A%2F%2Fopencoder-foundation.github.io%2Foi-list%2Fresults.json"
+  title="Lista zadań OI"
+  width="100%"
+  height="760"
+  style="border:0;"
+  loading="lazy"
+></iframe>
+```
+
+Zaawansowana opcja (web component):
+
 1. Udostępnij `dist/embed.js` na swoim hostingu.
 2. Dodaj do strony:
 
 ```html
-<script src="https://twoja-domena.pl/embed.js" defer></script>
-<oi-list-widget data-url="https://twoja-domena.pl/results.json"></oi-list-widget>
+<script src="https://opencoder-foundation.github.io/oi-list/embed.js" defer></script>
+<oi-list-widget data-url="https://opencoder-foundation.github.io/oi-list/results.json"></oi-list-widget>
 ```
 
 Programistycznie (manualny mount):
 
 ```html
-<script src="https://twoja-domena.pl/embed.js" defer></script>
+<script src="https://opencoder-foundation.github.io/oi-list/embed.js" defer></script>
 <div id="list-container"></div>
 <script>
   window.OIListWidget.mount(document.getElementById("list-container"), {
-    dataUrl: "https://twoja-domena.pl/results.json",
+    dataUrl: "https://opencoder-foundation.github.io/oi-list/results.json",
   });
 </script>
 ```

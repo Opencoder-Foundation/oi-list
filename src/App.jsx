@@ -2,6 +2,18 @@ import "./App.css";
 import ListWidget from "./ListWidget";
 
 const App = () => {
+  const searchParams = new URLSearchParams(window.location.search);
+  const isEmbedMode = searchParams.get("embed") === "1";
+  const dataUrlParam = searchParams.get("dataUrl") || "/results.json";
+
+  if (isEmbedMode) {
+    return (
+      <main className="app app-embedded">
+        <ListWidget dataUrl={dataUrlParam} embedded />
+      </main>
+    );
+  }
+
   return (
     <main className="app">
       <header className="app-header">
