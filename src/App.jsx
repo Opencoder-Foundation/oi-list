@@ -1,10 +1,11 @@
 import "./App.css";
 import ListWidget from "./ListWidget";
+import { DEFAULT_RESULTS_URL, withBase } from "./assetUrls";
 
 const App = () => {
   const searchParams = new URLSearchParams(window.location.search);
   const isEmbedMode = searchParams.get("embed") === "1";
-  const dataUrlParam = searchParams.get("dataUrl") || "/results.json";
+  const dataUrlParam = searchParams.get("dataUrl") || DEFAULT_RESULTS_URL;
 
   if (isEmbedMode) {
     return (
@@ -18,16 +19,16 @@ const App = () => {
     <main className="app">
       <header className="app-header">
         <h1>Lista zadań z OI</h1>
-        <img src="/favicon.png" alt="Logo OI" className="header-logo" />
+        <img src={withBase("favicon.png")} alt="Logo OI" className="header-logo" />
       </header>
 
-      <ListWidget dataUrl="/results.json" />
+      <ListWidget dataUrl={DEFAULT_RESULTS_URL} />
 
       <footer className="app-footer">
         <div className="footer-section support-section">
           <span className="footer-label">Wspierane przez</span>
           <a href="https://oki.org.pl/" target="_blank" rel="noreferrer" className="partner-link">
-            <img src="/oki-logo.png" alt="Logo OKI" />
+            <img src={withBase("oki-logo.png")} alt="Logo OKI" />
           </a>
         </div>
 
