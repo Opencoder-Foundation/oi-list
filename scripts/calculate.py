@@ -97,7 +97,7 @@ def get_problems_elo(num: int, center: float | None = None, centerstd: float | N
     for name in df.columns:
         if name in ["imię i nazwisko", "suma1", "suma2", "suma3"]:
             continue
-        res[str(num) + name] = max(0, int(4000 + 600 *b[i]))
+        res[str(num) + name] = max(800, int(4000 + 600 *b[i]))
         i += 1
     return res, mean, std
 
