@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+.oi-list-widget {
+  background: #ffffff;
+  color: #16171d;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 600;
+}
+
+
+.oi-list-widget.is-embedded {
+  width: 100%;
+}
+
+.oi-list-toolbar {
+  display: grid;
+  grid-template-columns: 2fr repeat(3, minmax(130px, 1fr));
+  gap: 0.5rem;
+}
+
+.oi-list-input,
+.oi-list-select {
+  border: 1px solid #c9c9c9;
+  border-radius: 8px;
+  padding: 0.6rem 0.7rem;
+  font-size: 0.95rem;
+  background: #ffffff;
+  color: inherit;
+}
+
+.oi-list-input:focus,
+.oi-list-select:focus {
+  outline: 2px solid #FEDE5A;
+  outline-offset: 1px;
+}
+
+.oi-list-meta {
+  margin: 0.85rem 0 0.75rem;
+  font-size: 0.9rem;
+}
+
+.oi-list-state {
+  margin: 1rem 0;
+}
+
+.oi-list-error {
+  color: #c53232;
+}
+
+.oi-list-results {
+  display: grid;
+  gap: 0.6rem;
+  max-height: 70vh;
+  overflow: auto;
+  padding-right: 0.15rem;
+}
+
+.oi-list-item {
+  position: relative;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  padding: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  text-decoration: none;
+  color: inherit;
+  background: #fafafa;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.oi-list-item:hover {
+  border-color: #FEDE5A;
+}
+
+.oi-list-item-static {
+  cursor: default;
+}
+
+.oi-list-item__name {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.oi-list-item__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  color: #4e5660;
+  padding-right: 1.5rem;
+}
+
+.oi-list-item__tags code,
+.oi-list-item__tags span {
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 0.15rem 0.5rem;
+  background: #f4f4f4;
+}
+
+.oi-list-item__external-link {
+  position: absolute;
+  bottom: 0.85rem;
+  right: 0.85rem;
+  width: 25px;
+  height: 25px;
+  color: #8c8c8c;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+@media (max-width: 860px) {
+  .oi-list-toolbar {
+    grid-template-columns: 1fr;
+  }
+}
