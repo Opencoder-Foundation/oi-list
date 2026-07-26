@@ -197,9 +197,9 @@ const ListWidget = ({ dataUrl = DEFAULT_RESULTS_URL, embedded = false }) => {
                 <span className="oi-list-item__name">{problem.name}</span>
                 <span className="oi-list-item__tags">
                   <code>{problem.code || "N/A"}</code>
-                  <span>rating {problem.rating || 0}</span>
                   <span>etap {problem.stage || "?"}</span>
                   <span>edycja {problem.year || "?"}</span>
+                  <span>rating {problem.rating || 0}</span>
                 </span>
                 {problem.url ? (
                   <svg
