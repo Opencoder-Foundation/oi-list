@@ -7,7 +7,7 @@ use reqwest::StatusCode;
 use serde::{Deserialize, Serialize};
 use std::fs::File;
 
-use crate::{AppState, utils::year_to_oi};
+use crate::{AppState};
 
 #[derive(Deserialize)]
 pub struct FindResultRequest {
@@ -244,7 +244,7 @@ pub async fn confirm_result(
         }
     };
 
-    if year < 2004 {
+    if year < 11 || year > 33 {
         return Err((
             StatusCode::BAD_REQUEST,
             Json(serde_json::json!({
@@ -484,7 +484,7 @@ pub async fn get_results(
 
     let path = format!(
         "data/results/{}oi.csv",
-        year_to_oi(result_year)
+        result_year
     );
 
     let file = File::open(path)
