@@ -67,7 +67,7 @@ Wystarczy wkleić:
 
 ```html
 <iframe
-  src="https://opencoder-foundation.github.io/oi-list/?embed=1"
+  src="https://zadania.oki.org.pl/oi-list/?embed=1"
   title="Lista zadań OI"
   width="100%"
   height="760"
@@ -80,7 +80,7 @@ Jeśli chcesz wskazać inny plik danych:
 
 ```html
 <iframe
-  src="https://opencoder-foundation.github.io/oi-list/?embed=1&dataUrl=https%3A%2F%2Fopencoder-foundation.github.io%2Foi-list%2Fresults.json"
+  src="https://zadania.oki.org.pl/oi-list/?embed=1&dataUrl=https%3A%2F%2Fzadania.oki.org.pl%2Foi-list%2Fresults.json"
   title="Lista zadań OI"
   width="100%"
   height="760"
@@ -95,18 +95,18 @@ Zaawansowana opcja (web component):
 2. Dodaj do strony:
 
 ```html
-<script src="https://opencoder-foundation.github.io/oi-list/embed.js" defer></script>
-<oi-list-widget data-url="https://opencoder-foundation.github.io/oi-list/results.json"></oi-list-widget>
+<script src="https://zadania.oki.org.pl/oi-list/embed.js" defer></script>
+<oi-list-widget data-url="https://zadania.oki.org.pl/oi-list/results.json"></oi-list-widget>
 ```
 
 Programistycznie (manualny mount):
 
 ```html
-<script src="https://opencoder-foundation.github.io/oi-list/embed.js" defer></script>
+<script src="https://zadania.oki.org.pl/oi-list/embed.js" defer></script>
 <div id="list-container"></div>
 <script>
   window.OIListWidget.mount(document.getElementById("list-container"), {
-    dataUrl: "https://opencoder-foundation.github.io/oi-list/results.json",
+    dataUrl: "https://zadania.oki.org.pl/oi-list/results.json",
   });
 </script>
 ```
