@@ -21,7 +21,7 @@ const RATING_COLORS = {
   8001: "#ffffff"
 };
 
-function getRatingInfo(rating) {
+const getRatingInfo = (rating) => {
   const thresholds = Object.keys(RATING_COLORS)
     .map(Number)
     .sort((a, b) => a - b);
@@ -46,7 +46,7 @@ function getRatingInfo(rating) {
     color: RATING_COLORS[current],
     progress: Math.max(0, Math.min(progress, 1)),
   };
-}
+};
 
 const getText = (value) => {
   if (typeof value === "string") {
