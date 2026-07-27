@@ -7,7 +7,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/oi-list/",
+  base: "/",
   plugins: [react()],
   build: {
     rollupOptions: {
