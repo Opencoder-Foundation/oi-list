@@ -30,3 +30,8 @@ export const CONFIRM_RESULT_URL = new URL(
   "/api/profile/confirm-result",
   ensureTrailingSlash(API_BASE_URL),
 ).toString();
+
+export const GET_RESULTS_URL = new URL(
+  "/api/profile/get-results",
+  ensureTrailingSlash(API_BASE_URL),
+).toString();

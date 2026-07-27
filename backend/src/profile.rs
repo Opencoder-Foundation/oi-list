@@ -407,3 +407,201 @@ pub async fn confirm_result(
     Ok(Json(serde_json::json!({"success": true})))
 
 }
+
+#[derive(Deserialize)]
+struct Person {
+    year: i32,
+    name: String,
+    rating: i32,
+}
+
+#[derive(Serialize)]
+struct RatingPoint {
+    year: i32,
+    rating: i32,
+}
+
+pub async fn get_results(
+    jar: CookieJar,
+    State(state): State<AppState>,
+) -> Result<Json<Vec<RatingPoint>>, impl IntoResponse> {
+
+    let session = match jar.get("session") {
+        Some(cookie) => cookie.value(),
+        None => {
+            return Err((
+                StatusCode::UNAUTHORIZED,
+                Json(serde_json::json!({
+                    "error": "Not logged in"
+                })),
+            ));
+        }
+    };
+
+    let user = sqlx::query!(
+        r#"
+        SELECT
+            result_year,
+            result_stage,
+            result_place
+        FROM users
+        WHERE id = (
+            SELECT user_id
+            FROM sessions
+            WHERE session_id = ?
+            AND expires_at > unixepoch()
+        )
+        "#,
+        session
+    )
+    .fetch_one(&state.pool)
+    .await
+    .map_err(|_| {
+        (
+            StatusCode::INTERNAL_SERVER_ERROR,
+            Json(serde_json::json!({
+                "error": "database error"
+            })),
+        )
+    })?;
+
+
+    let result_year: i32 = user.result_year
+        .unwrap()
+        .parse()
+        .unwrap();
+
+    let result_stage: i32 = user.result_stage
+        .unwrap()
+        .parse()
+        .unwrap();
+
+    let result_place: usize = user.result_place
+        .unwrap()
+        .parse()
+        .unwrap();
+
+
+    let path = format!(
+        "data/results/{}oi.csv",
+        year_to_oi(result_year)
+    );
+
+    let file = File::open(path)
+        .map_err(|_| {
+            (
+                StatusCode::NOT_FOUND,
+                Json(serde_json::json!({
+                    "error": "result file missing"
+                })),
+            )
+        })?;
+
+
+    let mut reader = ReaderBuilder::new()
+        .has_headers(true)
+        .from_reader(file);
+
+    
+    let headers = reader.headers().unwrap();
+
+    let stage_suffix = format!("_{}e", result_stage);
+
+    let score_columns: Vec<usize> = headers
+        .iter()
+        .enumerate()
+        .filter(|(_, name)| {
+            name.contains('_')
+                && name.ends_with(&stage_suffix)
+                && !name.starts_with("suma")
+        })
+        .map(|(i, _)| i)
+        .collect();
+
+    let mut ranking: Vec<(String, f64)> = Vec::new();
+
+    for record in reader.records() {
+        let record = match record {
+            Ok(r) => r,
+            Err(_) => continue,
+        };
+
+        let name = record
+            .get(0)
+            .unwrap_or("")
+            .trim()
+            .to_string();
+
+        if name.is_empty() || name == "- -" {
+            continue;
+        }
+
+        let mut total = 0.0;
+
+        for idx in &score_columns {
+            let value: f64 = record
+                .get(*idx)
+                .unwrap_or("0")
+                .replace(",", ".")
+                .parse()
+                .unwrap_or(0.0);
+
+            total += value;
+        }
+
+        ranking.push((name, total));
+    }
+
+    ranking.sort_by(|a, b| {
+        b.1.partial_cmp(&a.1)
+            .unwrap_or(std::cmp::Ordering::Equal)
+    });
+
+
+    if result_place > ranking.len() {
+        return Err((
+            StatusCode::BAD_REQUEST,
+            Json(serde_json::json!({
+                "error": "invalid place"
+            })),
+        ));
+    }
+
+
+    let user_name = ranking[result_place - 1]
+        .clone();
+
+    let file = File::open("data/people.json")
+        .map_err(|_| {
+            (
+                StatusCode::INTERNAL_SERVER_ERROR,
+                Json(serde_json::json!({
+                    "error": "people file missing"
+                })),
+            )
+        })?;
+
+
+    let people: Vec<Person> = serde_json::from_reader(file)
+        .map_err(|_| {
+            (
+                StatusCode::INTERNAL_SERVER_ERROR,
+                Json(serde_json::json!({
+                    "error": "invalid people json"
+                })),
+            )
+        })?;
+
+
+    let results = people
+        .into_iter()
+        .filter(|p| p.name == user_name.0)
+        .map(|p| RatingPoint {
+            year: p.year + 1993,
+            rating: p.rating,
+        })
+        .collect::<Vec<_>>();
+
+
+    Ok(Json(results))
+}

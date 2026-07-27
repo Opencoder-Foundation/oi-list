@@ -34,6 +34,7 @@ const RATING_BOUNDS = [
 const Profile = () => {
   const [user, setUser] = useState(null);
   const [oiModal, setOiModal] = useState(false);
+  const [ratings, setRatings] = useState([]);
 
 
   useEffect(() => {
@@ -67,13 +68,31 @@ const Profile = () => {
     return <div>Loading...</div>;
   }
 
-  const ratings = [
-    { year: "2022", rating: 900 },
-    { year: "2023", rating: 1600 },
-    { year: "2024", rating: 2500 },
-    { year: "2025", rating: 3400 },
-    { year: "2026", rating: 4200 },
-  ];
+  useEffect(() => {
+    const fetchRatings = async () => {
+      try {
+        const response = await fetch(
+          GET_RESULTS_URL,
+          {
+            credentials: "include",
+          }
+        );
+
+        if (!response.ok) {
+          throw new Error("Failed to load ratings");
+        }
+
+        const data = await response.json();
+
+        setRatings(data);
+
+      } catch (err) {
+        console.error(err);
+      }
+    };
+
+    fetchRatings();
+  }, []); 
   return (
     <main className="app">
       <section className="profile-card">
@@ -87,13 +106,13 @@ const Profile = () => {
             <h1>
               {user.username}
             </h1>
-            {/* <p className="real-name">
+            <p className="real-name">
               {
                 user.result
                   ? `${user.result.year} • etap ${user.result.stage} • miejsce ${user.result.place}`
                   : "Brak potwierdzonego wyniku"
               }
-            </p> */}
+            </p>
           </div>
         </div>
         {
