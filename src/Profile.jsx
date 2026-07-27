@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   LineChart,
   Line,
@@ -10,7 +10,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import "./Profile.css";
-import { FIND_RESULTS_URL, CONFIRM_RESULT_URL } from "./assetUrls";
+import { FIND_RESULTS_URL, CONFIRM_RESULT_URL, USER_URL } from "./assetUrls";
 const RATING_COLORS = {
   800: "#919191",
   2500: "#5bcfa2",
@@ -32,12 +32,37 @@ const RATING_BOUNDS = [
   { min: 7500, max: 16000, color: RATING_COLORS[16000] },
 ];
 const Profile = () => {
-  const user = {
-    username: "tejtex",
-    avatar: "https://cdn.discordapp.com/embed/avatars/0.png",
-    // null until verified
-    result: null,
-  };
+  const [user, setUser] = useState(null);
+
+
+  useEffect(() => {
+    const fetchProfile = async () => {
+      try {
+        const response = await fetch(
+          USER_URL,
+          {
+            credentials: "include",
+          }
+        );
+
+        if (!response.ok) {
+          throw new Error("Failed to load profile");
+        }
+
+        const data = await response.json();
+
+        setUser(data);
+
+      } catch (err) {
+        console.error(err);
+      }
+    };
+
+
+    fetchProfile();
+
+  }, []);
+
   const ratings = [
     { year: "2022", rating: 900 },
     { year: "2023", rating: 1600 },
@@ -51,7 +76,7 @@ const Profile = () => {
       <section className="profile-card">
         <div className="profile-header">
           <img
-            src={user.avatar}
+            src={`https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png` || "https://cdn.discordapp.com/embed/avatars/0.png"}
             alt={user.username}
             className="profile-avatar"
           />
@@ -59,13 +84,13 @@ const Profile = () => {
             <h1>
               {user.username}
             </h1>
-            <p className="real-name">
+            {/* <p className="real-name">
               {
                 user.result
                   ? `${user.result.year} • etap ${user.result.stage} • miejsce ${user.result.place}`
                   : "Brak potwierdzonego wyniku"
               }
-            </p>
+            </p> */}
           </div>
         </div>
         {
