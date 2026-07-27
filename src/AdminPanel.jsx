@@ -92,6 +92,7 @@ const AdminPanel = () => {
                       <img
                         src={getAvatarUrl(user)}
                         alt={`${user.username}'s avatar`}
+                        style={{ height: "10vh" }}
                         className="admin-user-avatar"
                       />
                     </td>
