@@ -1,11 +1,11 @@
 import "./App.css";
 import ListWidget from "./ListWidget";
-import { DEFAULT_RESULTS_URL, withBase } from "./assetUrls";
+import { PROBLEMS_URL, withBase } from "./assetUrls";
 
 const App = () => {
   const searchParams = new URLSearchParams(window.location.search);
   const isEmbedMode = searchParams.get("embed") === "1";
-  const dataUrlParam = searchParams.get("dataUrl") || DEFAULT_RESULTS_URL;
+  const dataUrlParam = searchParams.get("dataUrl") || PROBLEMS_URL;
 
   if (isEmbedMode) {
     return (
@@ -22,7 +22,7 @@ const App = () => {
         <img src={withBase("favicon.png")} alt="Logo OI" className="header-logo" />
       </header>
 
-      <ListWidget dataUrl={DEFAULT_RESULTS_URL} />
+      <ListWidget dataUrl={PROBLEMS_URL} />
 
       <footer className="app-footer">
         <div className="footer-section support-section">

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import "./ListWidget.css";
-import { DEFAULT_RESULTS_URL } from "./assetUrls";
+import { PROBLEMS_URL } from "./assetUrls";
 
 const SORT_OPTIONS = [
   { value: "rating-asc", label: "Rating (od najmniejszego)" },
@@ -103,7 +103,7 @@ const sortProblems = (a, b, sortBy) => {
   }
 };
 
-const ListWidget = ({ dataUrl = DEFAULT_RESULTS_URL, embedded = false }) => {
+const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
   const [problems, setProblems] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
