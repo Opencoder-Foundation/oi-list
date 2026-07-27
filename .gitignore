@@ -29,3 +29,11 @@ venv/
 env/
 __pycache__/
 *.py[cod]
+
+# rust stuff
+/target/
+/backend/target/
+**/*.rs.bk.env
+.env.local
+.env.*.local
+*.env

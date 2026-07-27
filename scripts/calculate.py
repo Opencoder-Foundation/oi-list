@@ -189,5 +189,5 @@ def adddata(items: list[dict]) -> list[dict]:
   
 data = adddata(res)
 
-with open("../public/results.json", "w") as f:
+with open("../backend/data/problems.json", "w") as f:
   json.dump(data, f, indent=2)
