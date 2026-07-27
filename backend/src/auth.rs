@@ -150,7 +150,10 @@ pub async fn user(
             users.id,
             users.discord_id,
             users.username,
-            users.avatar
+            users.avatar,
+            users.result_year,
+            users.result_stage,
+            users.result_place
         FROM sessions
         JOIN users ON users.id = sessions.user_id
         WHERE sessions.session_id = ?
@@ -168,7 +171,12 @@ pub async fn user(
                 "id": user.id,
                 "discord_id": user.discord_id.to_string(),
                 "username": user.username,
-                "avatar": user.avatar
+                "avatar": user.avatar,
+                "result": {
+                    "year": user.result_year,
+                    "stage": user.result_stage,
+                    "place": user.result_place
+                }
             })),
         ),
 
