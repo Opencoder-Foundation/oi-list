@@ -21,6 +21,11 @@ export const AUTH_URL = new URL(
   ensureTrailingSlash(API_BASE_URL),
 ).toString();
 
+export const USERS_URL = new URL(
+  "/api/users",
+  ensureTrailingSlash(API_BASE_URL),
+).toString();
+
 export const FIND_RESULTS_URL = new URL(
   "/api/profile/find-results",
   ensureTrailingSlash(API_BASE_URL),

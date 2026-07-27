@@ -1,3 +1,9 @@
+.user-widget-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .user-widget {
   display: flex;
   align-items: center;
@@ -23,5 +29,15 @@
   background: #5865f2;
   color: white;
   text-decoration: none;
+  font-weight: 600;
+}
+
+.admin-button {
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: #111827;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.8rem;
   font-weight: 600;
 }

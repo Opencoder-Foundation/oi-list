@@ -19,7 +19,8 @@ Wersja webowa działa jako normalna aplikacja React, a dodatkowo projekt buduje 
 - wyszukiwanie po kodzie lub nazwie zadania,
 - filtrowanie po etapie i edycji,
 - sortowanie po ratingu, edycji i nazwie,
-- przejście do źródła zadania (Szkopuł) po kliknięciu.
+- przejście do źródła zadania (Szkopuł) po kliknięciu,
+- panel administratora (`/admin`) dostępny tylko dla kont z uprawnieniami admina.
 
 ## Wsparcie i partnerzy
 

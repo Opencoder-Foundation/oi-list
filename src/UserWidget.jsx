@@ -7,7 +7,9 @@ const UserWidget = () => {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    fetch(USER_URL)
+    fetch(USER_URL, {
+      credentials: "include",
+    })
       .then(async (res) => {
         if (!res.ok) throw new Error("Not logged in");
         return res.json();
@@ -29,17 +31,24 @@ const UserWidget = () => {
 
   const avatarUrl = user.avatar
     ? `https://cdn.discordapp.com/avatars/${user.discord_id}/${user.avatar}.png`
-    : `https://cdn.discordapp.com/embed/avatars/0.png`;
+    : "https://cdn.discordapp.com/embed/avatars/0.png";
 
   return (
-    <a href="/profile" className="user-widget">
-      <img
-        src={avatarUrl}
-        alt={user.username}
-        className="user-avatar"
-      />
-      <span className="username">{user.username}</span>
-    </a>
+    <div className="user-widget-container">
+      {user.is_admin && (
+        <a href="/admin" className="admin-button">
+          Admin panel
+        </a>
+      )}
+      <a href="/profile" className="user-widget">
+        <img
+          src={avatarUrl}
+          alt={user.username}
+          className="user-avatar"
+        />
+        <span className="username">{user.username}</span>
+      </a>
+    </div>
   );
 };
 
