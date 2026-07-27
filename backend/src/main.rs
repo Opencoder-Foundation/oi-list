@@ -18,7 +18,7 @@ use users::list_users;
 use reqwest::StatusCode;
 use sqlx::SqlitePool;
 
-use crate::{auth::user, profile::{confirm_result, find_result}};
+use crate::{auth::user, profile::{confirm_result, find_result, get_results}};
 
 #[derive(Clone)]
 pub struct AppState {
@@ -85,6 +85,7 @@ async fn main() {
         .route("/users", get(list_users))
         .route("/profile/find-results", post(find_result))
         .route("/profile/confirm-result", post(confirm_result))
+        .route("/profile/get-results", post(get_results))
         .with_state(state);
 
     let cors = CorsLayer::new()
