@@ -9,7 +9,14 @@ tokio = { version = "1", features = ["full"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 jsonwebtoken = "9"
-dotenvy = "0.15"
 tower-http = { version = "0.6", features = ["cors"] }
 reqwest ={ version="0.13.4", features = ["form", "json"]}
 dotenv = "0.15.0"
+sqlx = { version = "0.9", features = [
+    "runtime-tokio",
+    "sqlite",
+    "macros"
+] }
+uuid = { version = "1", features = ["v4"] }
+chrono = "0.4.45"
+axum-extra = { version = "0.10", features = ["cookie"] }
