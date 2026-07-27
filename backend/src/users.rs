@@ -18,7 +18,7 @@ pub async fn list_users(
     let users = sqlx::query_as!(
         User,
         r#"
-        SELECT id, discord_id::text as discord_id, username, avatar, is_admin
+        SELECT id, CAST(discord_id AS TEXT) as discord_id, username, avatar, is_admin
         FROM users
         "#
     )
