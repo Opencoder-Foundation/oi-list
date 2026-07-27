@@ -52,7 +52,6 @@ const Profile = () => {
         const data = await response.json();
 
         setUser(data);
-        console.log(data);
 
       } catch (err) {
         console.error(err);
@@ -63,6 +62,9 @@ const Profile = () => {
     fetchProfile();
 
   }, []);
+  if (!user) {
+    return <div>Loading...</div>;
+  }
 
   const ratings = [
     { year: "2022", rating: 900 },
