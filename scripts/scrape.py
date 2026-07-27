@@ -4,7 +4,15 @@ import os
 from unidecode import unidecode
 
 from functools import reduce
+def normalize_name(name: str) -> str:
+    name = unidecode(str(name)).strip().lower()
 
+    parts = name.split()
+
+    if len(parts) > 2:
+        name = parts[0] + " " + parts[-1]
+
+    return name
 DROP = {"kl.", "Lp.", "wojewodztwo", "miejscowść", "miejsce", "klasa", "klaza", "nazwa szkoły", "miejscowość", "województwo", "imię", "nazwisko", "szkoła", "miasto", "miejscowość szkoły", "lp.", "l.p.", "lp", "Unnamed: 12", "nazwa"}
 def flatten_columns(cols):
     if not isinstance(cols, pd.MultiIndex):
@@ -22,10 +30,10 @@ def fetch_oi(num: int, etap: int, base: str) -> pd.DataFrame:
 
     if "imię" in res.columns:
         res = res[res["imię"].notna() & res["nazwisko"].notna()] 
-        res["imię i nazwisko"] = (res["imię"] + " " + res["nazwisko"]).apply(unidecode)
+        res["imię i nazwisko"] = (res["imię"] + " " + res["nazwisko"]).apply(normalize_name)
     else:
         res = res[res["imię i nazwisko"].notna()]
-        res["imię i nazwisko"] = res["imię i nazwisko"].apply(unidecode)
+        res["imię i nazwisko"] = res["imię i nazwisko"].apply(normalize_name)
     
 
     res.columns = [c.strip() for c in res.columns]

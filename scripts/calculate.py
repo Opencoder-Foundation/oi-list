@@ -40,11 +40,13 @@ def calculate_elo(input: list[list[float]]) -> tuple[np.ndarray, np.ndarray]:
         cb = np.zeros(m)
         for i in range(n):
             for j in range(m):
-                if np.isnan(s[i][j]):
-                    continue
                 diff = a[i] - b[j]
                 x = diff
                 p = sigmoid(x)
+                if np.isnan(s[i][j]):
+                    ba[i] -= p
+                    ca[i] += 1
+                    continue
                 err = p - s[i][j]
                 
                 ba[i] -= err
@@ -66,7 +68,7 @@ def calculate_elo(input: list[list[float]]) -> tuple[np.ndarray, np.ndarray]:
         
     return a, b
 
-def get_problems_elo(num: int, center: float | None = None, centerstd: float | None = None) -> tuple[dict[str, float], float, float]:
+def get_problems_elo(num: int, center: float | None = None, centerstd: float | None = None) -> tuple[dict[str, float], dict[str, float], float, float]:
     
 
     df = pd.read_csv(f"data/{num}oi.csv")
@@ -99,17 +101,43 @@ def get_problems_elo(num: int, center: float | None = None, centerstd: float | N
             continue
         res[str(num) + name] = max(800, int(4000 + 600 *b[i]))
         i += 1
-    return res, mean, std
+        
+    people = {}
+
+    for idx, row in df.iterrows():
+        people[row["imię i nazwisko"]] = max(
+            800,
+            int(4000 + 600 * a[idx])
+         )   
+    return res, people, mean, std
 
 
 # ============= CALCULATING ELO ===============
-res, anchor, anchor2 = get_problems_elo(33)
+res, people, anchor, anchor2 = get_problems_elo(33)
+
+people_res = []
+
+for name, rating in people.items():
+    people_res.append({
+        "year": 33,
+        "name": name,
+        "rating": rating
+    })
 
 for i in range(33):
     if os.path.exists(f"data/{i}oi.csv"):
         log.info(f"[calculating] {i}th OI")
-        cur, _, _ = get_problems_elo(i, anchor, anchor2)
+
+        cur, cur_people, _, _ = get_problems_elo(i, anchor, anchor2)
+
         res |= cur
+
+        for name, rating in cur_people.items():
+            people_res.append({
+                "year": i,
+                "name": name,
+                "rating": rating
+            })
         
 
 # ============= SORTING ===============
@@ -190,4 +218,11 @@ def adddata(items: list[dict]) -> list[dict]:
 data = adddata(res)
 
 with open("../backend/data/problems.json", "w") as f:
-  json.dump(data, f, indent=2)
+    json.dump(data, f, indent=2)
+with open("../backend/data/people.json", "w") as f:
+    json.dump(
+        people_res,
+        f,
+        indent=2,
+        ensure_ascii=False
+    )

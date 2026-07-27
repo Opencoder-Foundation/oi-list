@@ -39,3 +39,6 @@ __pycache__/
 *.env
 .sqlx
 *.db
+
+people.json
+scripts/data/**
