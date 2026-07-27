@@ -1,12 +1,16 @@
+use axum::{
+    extract::{Query, State},
+    http::HeaderMap,
+    response::{IntoResponse, Redirect},
+    Json,
+};
 use axum_extra::extract::CookieJar;
-use reqwest::{StatusCode, header};
-use serde::Deserialize;
-use axum::{Json, extract::{Query, State}, http::HeaderMap, response::{IntoResponse, Redirect}};
-use std::env;
 use chrono::Utc;
+use reqwest::{header, StatusCode};
+use serde::Deserialize;
+use std::env;
 
 use crate::{AppError, AppState};
-
 
 #[derive(Deserialize)]
 pub struct DiscordCallback {
@@ -20,82 +24,103 @@ struct DiscordUser {
     avatar: Option<String>,
 }
 
+#[derive(serde::Deserialize)]
+struct DiscordTokenResponse {
+    access_token: String,
+}
+
 pub async fn dc_auth() -> Redirect {
-    let url = format!("https://discord.com/oauth2/authorize/\
+    let url = format!(
+        "https://discord.com/oauth2/authorize\
         ?client_id={}\
         &response_type=code\
         &redirect_uri=https://zadania.oki.org.pl/api/auth/callback\
-        &scope=identify", env::var("CLIENT_ID").expect("imagine nie ustawić CLIENT_ID w .env. skill issue tbh"));
+        &scope=identify",
+        env::var("CLIENT_ID").expect("imagine nie ustawić CLIENT_ID w .env. skill issue tbh")
+    );
 
     Redirect::temporary(&url)
 }
 
 pub async fn dc_callback(
-    Query(params): Query<DiscordCallback>, 
-    State(state): State<AppState>) -> Result<impl IntoResponse, AppError> {
-
+    Query(params): Query<DiscordCallback>,
+    State(state): State<AppState>,
+) -> Result<impl IntoResponse, AppError> {
     let client = reqwest::Client::new();
 
     let response = client
         .post("https://discord.com/api/oauth2/token")
         .form(&[
-            ("client_id", &*env::var("CLIENT_ID").expect("imagine nie ustawić CLIENT_ID w .env. skill issue tbh")),
-            ("client_secret", &*env::var("CLIENT_SECRET").expect("imagine nie ustawić CLIENT_SECRET w .env. skill issue tbh")),
+            (
+                "client_id",
+                &*env::var("CLIENT_ID").expect("imagine nie ustawić CLIENT_ID w .env. skill issue tbh"),
+            ),
+            (
+                "client_secret",
+                &*env::var("CLIENT_SECRET").expect("imagine nie ustawić CLIENT_SECRET w .env. skill issue tbh"),
+            ),
             ("grant_type", "authorization_code"),
             ("code", &params.code),
-            (
-                "redirect_uri",
-                "https://zadania.oki.org.pl/api/auth/callback"
-            ),
+            ("redirect_uri", "https://zadania.oki.org.pl/api/auth/callback"),
         ])
         .send()
+        .await?
+        .error_for_status()?
+        .json::<DiscordTokenResponse>()
         .await?;
-
-    let token: serde_json::Value = response
-        .json()
-        .await?;
-
-    let access_token = token["access_token"]
-        .as_str()
-        .unwrap();
 
     let discord_user = client
         .get("https://discord.com/api/users/@me")
-        .bearer_auth(access_token)
+        .bearer_auth(&response.access_token)
         .send()
         .await?
+        .error_for_status()?
         .json::<DiscordUser>()
         .await?;
-    sqlx::query!(
-        r#"
-        INSERT INTO users (discord_id, username, avatar)
-        VALUES (?, ?, ?)
-        ON CONFLICT(discord_id)
-        DO UPDATE SET
-            username = excluded.username,
-            avatar = excluded.avatar
-        "#,
-        discord_user.id,
-        discord_user.username,
-        discord_user.avatar,
-    )
-    .execute(&state.pool)
-    .await?;
 
-    let user = sqlx::query!(
-        r#"
-        SELECT id
-        FROM users
-        WHERE discord_id = ?
-        "#,
+    let existing_user = sqlx::query!(
+        r#"SELECT id FROM users WHERE discord_id = ?"#,
         discord_user.id
     )
-    .fetch_one(&state.pool)
+    .fetch_optional(&state.pool)
     .await?;
 
+    let user_id = match existing_user {
+        Some(user) => {
+            sqlx::query!(
+                r#"
+                UPDATE users
+                SET username = ?, avatar = ?
+                WHERE id = ?
+                "#,
+                discord_user.username,
+                discord_user.avatar,
+                user.id
+            )
+            .execute(&state.pool)
+            .await?;
+
+            user.id
+        }
+        None => {
+            let res = sqlx::query!(
+                r#"
+                INSERT INTO users (discord_id, username, avatar)
+                VALUES (?, ?, ?)
+                "#,
+                discord_user.id,
+                discord_user.username,
+                discord_user.avatar
+            )
+            .execute(&state.pool)
+            .await?;
+
+            res.last_insert_rowid()
+        }
+    };
+
     let session_id = uuid::Uuid::new_v4().to_string();
-    let expires_at = Utc::now()
-        .timestamp() + (60 * 60 * 24 * 30);
+    let expires_at = Utc::now().timestamp() + (60 * 60 * 24 * 30);
 
     sqlx::query!(
         r#"
@@ -103,7 +128,7 @@ pub async fn dc_callback(
         VALUES (?, ?, ?)
         "#,
         session_id,
-        user.id,
+        user_id,
         expires_at,
     )
     .execute(&state.pool)
@@ -122,16 +147,10 @@ pub async fn dc_callback(
         .unwrap(),
     );
 
-    Ok((
-        headers,
-        Redirect::temporary("/")
-    ))
+    Ok((headers, Redirect::temporary("/")))
 }
 
-pub async fn user(
-    jar: CookieJar,
-    State(state): State<AppState>,
-) -> impl IntoResponse {
+pub async fn user(jar: CookieJar, State(state): State<AppState>) -> impl IntoResponse {
     let session = match jar.get("session") {
         Some(cookie) => cookie.value(),
         None => {
@@ -148,10 +167,10 @@ pub async fn user(
         r#"
         SELECT 
             users.id,
-            users.discord_id,
+            users.discord_id AS "discord_id: String",
             users.username,
             users.avatar,
-            users.is_admin,
+            users.is_admin AS "is_admin: bool",
             users.result_year,
             users.result_stage,
             users.result_place
@@ -163,7 +182,8 @@ pub async fn user(
         session
     )
     .fetch_optional(&state.pool)
-    .await {
+    .await
+    {
         Ok(user) => user,
         Err(_) => {
             return (
@@ -182,7 +202,7 @@ pub async fn user(
                     StatusCode::OK,
                     Json(serde_json::json!({
                         "id": user.id,
-                        "discord_id": user.discord_id.to_string(),
+                        "discord_id": user.discord_id,
                         "username": user.username,
                         "avatar": user.avatar,
                         "is_admin": user.is_admin,
@@ -198,7 +218,7 @@ pub async fn user(
                     StatusCode::OK,
                     Json(serde_json::json!({
                         "id": user.id,
-                        "discord_id": user.discord_id.to_string(),
+                        "discord_id": user.discord_id,
                         "username": user.username,
                         "avatar": user.avatar,
                         "is_admin": user.is_admin,
