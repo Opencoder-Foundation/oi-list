@@ -52,6 +52,7 @@ const Profile = () => {
         const data = await response.json();
 
         setUser(data);
+        console.log(data);
 
       } catch (err) {
         console.error(err);
@@ -76,7 +77,7 @@ const Profile = () => {
       <section className="profile-card">
         <div className="profile-header">
           <img
-            src={`https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png` || "https://cdn.discordapp.com/embed/avatars/0.png"}
+            src={`https://cdn.discordapp.com/avatars/${user.discord_id}/${user.avatar}.png` || "https://cdn.discordapp.com/embed/avatars/0.png"}
             alt={user.username}
             className="profile-avatar"
           />
