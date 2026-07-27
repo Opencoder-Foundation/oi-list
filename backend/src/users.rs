@@ -6,7 +6,7 @@ use crate::{AppError, AppState};
 #[derive(Serialize)]
 pub struct User {
     pub id: i64,
-    pub discord_id: i64,
+    pub discord_id: String,
     pub username: String,
     pub avatar: Option<String>,
     pub is_admin: bool,
@@ -18,7 +18,7 @@ pub async fn list_users(
     let users = sqlx::query_as!(
         User,
         r#"
-        SELECT id, username, avatar, is_admin, discord_id
+        SELECT id, discord_id::text as discord_id, username, avatar, is_admin
         FROM users
         "#
     )
