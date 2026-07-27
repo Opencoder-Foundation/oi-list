@@ -26,8 +26,14 @@ html, body {
 
 .app-header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .app-header h1 {

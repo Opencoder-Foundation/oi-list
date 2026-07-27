@@ -1,6 +1,7 @@
 import "./App.css";
 import ListWidget from "./ListWidget";
 import { PROBLEMS_URL, withBase } from "./assetUrls";
+import UserWidget from "./UserWidget";
 
 const App = () => {
   const searchParams = new URLSearchParams(window.location.search);
@@ -18,8 +19,16 @@ const App = () => {
   return (
     <main className="app">
       <header className="app-header">
-        <h1>Lista zadań z OI</h1>
-        <img src={withBase("favicon.png")} alt="Logo OI" className="header-logo" />
+        <div className="header-title">
+          <h1>Lista zadań z OI</h1>
+          <img
+            src={withBase("favicon.png")}
+            alt="Logo OI"
+            className="header-logo"
+          />
+        </div>
+
+        <UserWidget />
       </header>
 
       <ListWidget dataUrl={PROBLEMS_URL} />

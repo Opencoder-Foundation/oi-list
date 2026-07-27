@@ -1,0 +1,27 @@
+.user-widget {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.user-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username {
+  font-weight: 500;
+}
+
+.login-button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: #5865f2;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
