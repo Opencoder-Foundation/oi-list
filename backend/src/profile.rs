@@ -49,7 +49,7 @@ pub async fn find_result(
         }
     };
 
-    if year < 2004 {
+    if year < 11 || year > 33 {
         return Err(Json(serde_json::json!({
             "error": "invalid year"
         })));
@@ -63,7 +63,7 @@ pub async fn find_result(
 
     let path = format!(
         "data/results/{}oi.csv",
-        year_to_oi(year as i32)
+        year
     );
 
     let file = match File::open(&path) {
@@ -263,7 +263,7 @@ pub async fn confirm_result(
     }
     let path = format!(
         "data/results/{}oi.csv",
-        year_to_oi(year as i32)
+        year
     );
 
     let file = match File::open(&path) {

@@ -301,7 +301,7 @@ const OIResultModal = ({ close }) => {
           </div>
           <input
             className="token-input"
-            placeholder="Rok (np. 2025)"
+            placeholder="Edycja (np. 33)"
             value={year}
             onChange={(e) => setYear(e.target.value)}
           />
@@ -328,7 +328,7 @@ const OIResultModal = ({ close }) => {
           <h2>Czy to Twój wynik?</h2>
           <p>
             Jeśli rozpoznajesz swój fragment rankingu,
-            potwierdź poniżej. Rok: {year}, etap: {stage}.
+            potwierdź poniżej. Edycja: {year}, etap: {stage}.
           </p>
           <div className="oi-ranking-preview">
             <table>
