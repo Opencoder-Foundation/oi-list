@@ -30,7 +30,7 @@ def calculate_elo(input: list[list[float]]) -> tuple[np.ndarray, np.ndarray]:
     s /= 100
     
     sigmoid = lambda x: 1 / (1 + np.exp(-x))
-    reg = 0.1
+    reg = 0.02
     for epoch in range(100):
         K = 10 * (0.98 ** epoch)
         ba = np.zeros(n)
@@ -99,6 +99,7 @@ def get_problems_elo(num: int, center: float | None = None, centerstd: float | N
     for name in df.columns:
         if name in ["imię i nazwisko", "suma1", "suma2", "suma3"]:
             continue
+        print(name, np.nanmean(input.T[i]))
         res[str(num) + name] = max(800, int(4000 + 600 *b[i]))
         i += 1
         

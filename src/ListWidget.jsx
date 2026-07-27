@@ -12,13 +12,13 @@ const SORT_OPTIONS = [
 
 const RATING_COLORS = {
   800: "#919191",
-  1600: "#5bcfa2",
-  2600: "#6de2e8",
-  3200: "#775cd1",
-  4000: "#ffd56b",
-  5000: "#fcae65",
-  6000: "#ed9a93",
-  8001: "#ffffff",
+  2500: "#5bcfa2",
+  3500: "#6de2e8",
+  4500: "#775cd1",
+  5500: "#ffd56b",
+  6000: "#fcae65",
+  7500: "#ed9a93",
+  14101: "#ffffff",
 };
 
 const getRatingInfo = (rating) => {
