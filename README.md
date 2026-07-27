@@ -21,9 +21,11 @@ Wersja webowa działa jako normalna aplikacja React, a dodatkowo projekt buduje 
 - sortowanie po ratingu, edycji i nazwie,
 - przejście do źródła zadania (Szkopuł) po kliknięciu.
 
-## Wsparcie
+## Wsparcie i partnerzy
 
 Projekt jest wspierany przez **OKI (Olimpijskie Koło Informatyczne)**.
+
+Wielkie dzięki dla **OKI** za pomoc w rozwoju projektu, udostępnienie subdomeny oraz zapewnienie zasobów do jego działania.
 
 [![OKI](./public/oki-logo.png)](https://oki.org.pl/)
 
