@@ -165,20 +165,34 @@ pub async fn user(
     .unwrap();
 
     match user {
-        Some(user) => (
-            StatusCode::OK,
-            Json(serde_json::json!({
-                "id": user.id,
-                "discord_id": user.discord_id.to_string(),
-                "username": user.username,
-                "avatar": user.avatar,
-                "result": {
-                    "year": user.result_year,
-                    "stage": user.result_stage,
-                    "place": user.result_place
-                }
-            })),
-        ),
+        Some(user) =>{ 
+            if user.result_year.is_some() { 
+                (
+                    StatusCode::OK,
+                    Json(serde_json::json!({
+                        "id": user.id,
+                        "discord_id": user.discord_id.to_string(),
+                        "username": user.username,
+                        "avatar": user.avatar,
+                        "result": {
+                            "year": user.result_year,
+                            "stage": user.result_stage,
+                            "place": user.result_place
+                        }
+                    })),
+                )
+            } else {
+                (
+                    StatusCode::OK,
+                    Json(serde_json::json!({
+                        "id": user.id,
+                        "discord_id": user.discord_id.to_string(),
+                        "username": user.username,
+                        "avatar": user.avatar
+                    })),
+                )
+            }
+        }
 
         None => (
             StatusCode::UNAUTHORIZED,
