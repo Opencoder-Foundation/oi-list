@@ -492,7 +492,7 @@ pub async fn get_results(
             (
                 StatusCode::NOT_FOUND,
                 Json(serde_json::json!({
-                    "error": "result file missing"
+                    "error": format!("result file missing {}", result_year)
                 })),
             )
         })?;
