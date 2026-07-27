@@ -135,7 +135,7 @@ const Profile = () => {
                       y1={bound.min}
                       y2={bound.max}
                       fill={bound.color}
-                      fillOpacity={1.}
+                      fillOpacity={0.1}
                     />
                   ))
                 }
