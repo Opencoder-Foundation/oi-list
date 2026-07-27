@@ -10,7 +10,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import "./Profile.css";
-import { FIND_RESULTS_URL, CONFIRM_RESULT_URL, USER_URL } from "./assetUrls";
+import { FIND_RESULTS_URL, CONFIRM_RESULT_URL, USER_URL, GET_RESULTS_URL } from "./assetUrls";
 const RATING_COLORS = {
   800: "#919191",
   2500: "#5bcfa2",
