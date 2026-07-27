@@ -20,3 +20,4 @@ sqlx = { version = "0.9", features = [
 uuid = { version = "1", features = ["v4"] }
 chrono = "0.4.45"
 axum-extra = { version = "0.10", features = ["cookie"] }
+csv = "1.3"

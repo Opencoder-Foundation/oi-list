@@ -168,7 +168,7 @@ pub async fn user(
                 "id": user.id,
                 "discord_id": user.discord_id.to_string(),
                 "username": user.username,
-                "avatar": user.avatar,
+                "avatar": user.avatar
             })),
         ),
 
