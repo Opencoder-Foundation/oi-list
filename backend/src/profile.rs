@@ -97,6 +97,7 @@ pub async fn find_result(
             name.contains('_')
                 && name.ends_with(&stage_suffix)
                 && !name.starts_with("suma")
+                && !name.contains('*')
         })
         .map(|(i, _)| i)
         .collect();
@@ -293,6 +294,7 @@ pub async fn confirm_result(
             name.contains('_')
                 && name.ends_with(&stage_suffix)
                 && !name.starts_with("suma")
+                && !name.contains('*')
         })
         .map(|(i, _)| i)
         .collect();
@@ -514,6 +516,7 @@ pub async fn get_results(
             name.contains('_')
                 && name.ends_with(&stage_suffix)
                 && !name.starts_with("suma")
+                && !name.contains('*')
         })
         .map(|(i, _)| i)
         .collect();
