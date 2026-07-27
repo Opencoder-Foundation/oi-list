@@ -32,7 +32,7 @@ const UserWidget = () => {
     : `https://cdn.discordapp.com/embed/avatars/0.png`;
 
   return (
-    <a href="/" className="user-widget">
+    <a href="/profile" className="user-widget">
       <img
         src={avatarUrl}
         alt={user.username}

@@ -1,0 +1,111 @@
+.profile-card {
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 12px;
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+}
+
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+
+.profile-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.profile-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+
+.real-name {
+  color: #6b7280;
+  margin-top: 0.4rem;
+}
+
+
+.name-button {
+  background: #1a1f2c;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+
+.name-button:hover {
+  opacity: 0.85;
+}
+
+
+.rating-card {
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+
+.rating-card h2 {
+  margin-top: 0;
+}
+
+
+.modal-background {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modal {
+  width: min(500px, calc(100% - 2rem));
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  padding: 2rem;
+}
+
+
+.modal input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 1rem;
+  padding: .75rem;
+  font-family: inherit;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+
+.modal-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+
+.modal-actions button {
+  padding: .6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #f3f4f6;
+  font-family: inherit;
+}
