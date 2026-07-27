@@ -87,11 +87,13 @@ def get_problems_elo(num: int, center: float | None = None, centerstd: float | N
     std = a.std()
 
     b = (b - mean) / std
+    a = (a - mean) / std
     if centerstd == None:
         centerstd = std
     if center == None:
         center = mean
     b = b * centerstd + center
+    a = a * centerstd + center
     
     
     i = 0
