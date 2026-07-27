@@ -593,7 +593,7 @@ pub async fn get_results(
         })?;
 
 
-    let results = people
+    let mut results = people
         .into_iter()
         .filter(|p| p.name == user_name.0)
         .map(|p| RatingPoint {
