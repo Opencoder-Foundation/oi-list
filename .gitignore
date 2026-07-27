@@ -37,5 +37,5 @@ __pycache__/
 .env.local
 .env.*.local
 *.env
-
-database.db
+.sqlx
+*.db
