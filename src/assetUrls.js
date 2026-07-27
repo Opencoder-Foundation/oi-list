@@ -10,3 +10,13 @@ export const PROBLEMS_URL = new URL(
   "api/problems",
   ensureTrailingSlash(API_BASE_URL),
 ).toString();
+
+export const USER_URL = new URL(
+  "/api/user",
+  ensureTrailingSlash(API_BASE_URL),
+).toString();
+
+export const AUTH_URL = new URL(
+  "/api/auth",
+  ensureTrailingSlash(API_BASE_URL),
+).toString();

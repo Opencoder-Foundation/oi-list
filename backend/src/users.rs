@@ -4,19 +4,21 @@ use serde::Serialize;
 use crate::{AppError, AppState};
 
 #[derive(Serialize)]
-pub struct UserSummary {
+pub struct User {
     pub id: i64,
+    pub discord_id: i64,
     pub username: String,
     pub avatar: Option<String>,
+    pub is_admin: bool,
 }
 
 pub async fn list_users(
     State(state): State<AppState>,
-) -> Result<Json<Vec<UserSummary>>, AppError> {
+) -> Result<Json<Vec<User>>, AppError> {
     let users = sqlx::query_as!(
-        UserSummary,
+        User,
         r#"
-        SELECT id, username, avatar
+        SELECT id, username, avatar, is_admin, discord_id
         FROM users
         "#
     )

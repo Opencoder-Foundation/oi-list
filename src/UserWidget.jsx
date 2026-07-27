@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import "./UserWidget.css";
+import { USER_URL, AUTH_URL } from "./assetUrls";
 
 const UserWidget = () => {
   const [user, setUser] = useState(null);
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    fetch("/api/user")
+    fetch(USER_URL)
       .then(async (res) => {
         if (!res.ok) throw new Error("Not logged in");
         return res.json();
@@ -20,7 +21,7 @@ const UserWidget = () => {
 
   if (!user) {
     return (
-      <a href="/api/auth" className="login-button">
+      <a href={AUTH_URL} className="login-button">
         Login
       </a>
     );
