@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import "./ListWidget.css";
-import { DEFAULT_RESULTS_URL } from "./assetUrls";
+import { PROBLEMS_URL } from "./assetUrls";
 
 const SORT_OPTIONS = [
   { value: "rating-asc", label: "Rating (od najmniejszego)" },
@@ -11,14 +11,14 @@ const SORT_OPTIONS = [
 ];
 
 const RATING_COLORS = {
-  800:  "#919191",
+  800: "#919191",
   1600: "#5bcfa2",
   2600: "#6de2e8",
   3200: "#775cd1",
   4000: "#ffd56b",
   5000: "#fcae65",
   6000: "#ed9a93",
-  8001: "#ffffff"
+  8001: "#ffffff",
 };
 
 const getRatingInfo = (rating) => {
@@ -38,9 +38,7 @@ const getRatingInfo = (rating) => {
     }
   }
 
-  const progress = next
-    ? (rating - current) / (next - current)
-    : 1;
+  const progress = next ? (rating - current) / (next - current) : 1;
 
   return {
     color: RATING_COLORS[current],
@@ -103,7 +101,7 @@ const sortProblems = (a, b, sortBy) => {
   }
 };
 
-const ListWidget = ({ dataUrl = DEFAULT_RESULTS_URL, embedded = false }) => {
+const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
   const [problems, setProblems] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -238,7 +236,7 @@ const ListWidget = ({ dataUrl = DEFAULT_RESULTS_URL, embedded = false }) => {
                   <span className="oi-list-item__name">{problem.name}</span>
                   <div className="oi-list-item__rating">
                     <span style={{ color: color }}>{problem.rating}</span>
-                     <div
+                    <div
                       className="oi-list-rating-circle"
                       style={{
                         "--fill": `${progress * 100}%`,
@@ -253,6 +251,28 @@ const ListWidget = ({ dataUrl = DEFAULT_RESULTS_URL, embedded = false }) => {
                   <code>{problem.code || "N/A"}</code>
                   <span>etap {problem.stage || "?"}</span>
                   <span>edycja {problem.year || "?"}</span>
+                  {problem.code?.endsWith("*") ? (
+                    <span title="Zadanie z sesji próbnej. Zadania z sesji próbnej są opcjonalne i w większości konkursów nie wliczają się do głównego rankingu, przez co ich rating na tej stronie może być zawyżony.">
+                      próbne
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="icon icon-tabler icon-tabler-info-circle"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                        <path d="M12 9h.01" />
+                        <path d="M11 12h1v4h1" />
+                      </svg>
+                    </span>
+                  ) : null}
                 </span>
                 {problem.url ? (
                   <svg

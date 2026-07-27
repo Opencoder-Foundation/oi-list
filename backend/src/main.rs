@@ -1,4 +1,7 @@
-use axum::{Router, response::{IntoResponse, Response}, routing::get};
+use axum::{
+    Router, http::{HeaderValue, Method, header::CONTENT_TYPE}, response::{IntoResponse, Response}, routing::get,
+};
+use tower_http::cors::CorsLayer;
 
 mod health;
 mod problems;
@@ -77,10 +80,19 @@ async fn main() {
         .route("/user", get(user))
         .with_state(state);
 
-    let app = Router::new().nest("/api", api_routes);
+    let cors = CorsLayer::new()
+        .allow_methods([Method::GET, Method::OPTIONS])
+        .allow_headers([CONTENT_TYPE])
+        .allow_origin([
+            HeaderValue::from_static("http://localhost:5173"),
+            HeaderValue::from_static("http://127.0.0.1:5173"),
+            HeaderValue::from_static("https://zadania.oki.org.pl"),
+        ]);
 
-    let listener = tokio::net::TcpListener::bind("0.0.0.0:3000").await.unwrap();
-    println!("Successfully started the backend at 0.0.0.0:3000");
+    let app = Router::new().nest("/api", api_routes).layer(cors);
+
+    let listener = tokio::net::TcpListener::bind("127.0.0.1:3000").await.unwrap();
+    println!("Successfully started the backend at 127.0.0.1:3000");
 
     axum::serve(listener, app).await.unwrap();
 }
