@@ -19,17 +19,19 @@ const RATING_COLORS = {
   5500: "#ffd56b",
   6000: "#fcae65",
   7500: "#ed9a93",
-  16000: "#ffffff",
+  15801: "#ffffff",
 };
+
 const RATING_BOUNDS = [
   { min: 0, max: 800, color: RATING_COLORS[800] },
-  { min: 800, max: 2500, color: RATING_COLORS[2500] },
-  { min: 2500, max: 3500, color: RATING_COLORS[3500] },
-  { min: 3500, max: 4500, color: RATING_COLORS[4500] },
-  { min: 4500, max: 5500, color: RATING_COLORS[5500] },
-  { min: 5500, max: 6000, color: RATING_COLORS[6000] },
-  { min: 6000, max: 7500, color: RATING_COLORS[7500] },
-  { min: 7500, max: 16000, color: RATING_COLORS[16000] },
+  { min: 800, max: 2500, color: RATING_COLORS[800] },
+  { min: 2500, max: 3500, color: RATING_COLORS[2500] },
+  { min: 3500, max: 4500, color: RATING_COLORS[3500] },
+  { min: 4500, max: 5500, color: RATING_COLORS[4500] },
+  { min: 5500, max: 6000, color: RATING_COLORS[5500] },
+  { min: 6000, max: 7500, color: RATING_COLORS[6000] },
+  { min: 7500, max: 15801, color: RATING_COLORS[7500] },
+  { min: 15801, max: 20000, color: RATING_COLORS[15801] },
 ];
 const Profile = () => {
   const [user, setUser] = useState(null);
