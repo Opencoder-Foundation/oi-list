@@ -18,7 +18,7 @@ const RATING_COLORS = {
   5500: "#ffd56b",
   6000: "#fcae65",
   7500: "#ed9a93",
-  14101: "#ffffff",
+  15801: "#ffffff",
 };
 
 const getRatingInfo = (rating) => {

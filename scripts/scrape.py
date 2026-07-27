@@ -87,3 +87,4 @@ for i in range(11, 34):
     df = fetch_year(i, "https://oi.edu.pl/l/{num}oi_{etap}etap_wyniki")
     print(df.columns)
     df.to_csv(f"data/{i}oi.csv", index=False)
+    df.to_csv(f"../backend/data/results/{i}oi.csv", index=False)
