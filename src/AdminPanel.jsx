@@ -48,6 +48,18 @@ const AdminPanel = () => {
     loadAdminData();
   }, []);
 
+  const getAvatarUrl = (user) => {
+    if (user.avatar) {
+      return `https://cdn.discordapp.com/avatars/${user.discord_id}/${user.avatar}.png`;
+    }
+
+    const defaultAvatarIndex = user.discord_id
+      ? (BigInt(user.discord_id) >> 22n) % 6n
+      : 0;
+
+    return `https://cdn.discordapp.com/embed/avatars/${defaultAvatarIndex}.png`;
+  };
+
   return (
     <main className="app">
       <section className="admin-card">
@@ -66,6 +78,7 @@ const AdminPanel = () => {
               <thead>
                 <tr>
                   <th>ID</th>
+                  <th>Awatar</th>
                   <th>Discord ID</th>
                   <th>Nazwa użytkownika</th>
                   <th>Rola</th>
@@ -75,6 +88,13 @@ const AdminPanel = () => {
                 {users.map((user) => (
                   <tr key={user.id}>
                     <td>{user.id}</td>
+                    <td>
+                      <img
+                        src={getAvatarUrl(user)}
+                        alt={`${user.username}'s avatar`}
+                        className="admin-user-avatar"
+                      />
+                    </td>
                     <td>{user.discord_id}</td>
                     <td>{user.username}</td>
                     <td>{user.is_admin ? "Admin" : "Użytkownik"}</td>
