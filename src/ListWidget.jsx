@@ -10,6 +10,44 @@ const SORT_OPTIONS = [
   { value: "name-asc", label: "Nazwa (A-Z)" },
 ];
 
+const RATING_COLORS = {
+  800:  "#919191",
+  1600: "#5bcfa2",
+  2600: "#6de2e8",
+  3200: "#775cd1",
+  4000: "#ffd56b",
+  5000: "#fcae65",
+  6000: "#ed9a93",
+  8001: "#ffffff"
+};
+
+function getRatingInfo(rating) {
+  const thresholds = Object.keys(RATING_COLORS)
+    .map(Number)
+    .sort((a, b) => a - b);
+
+  let current = thresholds[0];
+  let next = null;
+
+  for (let i = 0; i < thresholds.length; i++) {
+    if (rating >= thresholds[i]) {
+      current = thresholds[i];
+      next = thresholds[i + 1] ?? null;
+    } else {
+      break;
+    }
+  }
+
+  const progress = next
+    ? (rating - current) / (next - current)
+    : 1;
+
+  return {
+    color: RATING_COLORS[current],
+    progress: Math.max(0, Math.min(progress, 1)),
+  };
+}
+
 const getText = (value) => {
   if (typeof value === "string") {
     return value;
@@ -192,14 +230,29 @@ const ListWidget = ({ dataUrl = DEFAULT_RESULTS_URL, embedded = false }) => {
       {!loading && !error ? (
         <div className="oi-list-results">
           {visibleProblems.map((problem) => {
+            const { color, progress } = getRatingInfo(problem.rating);
+
             const content = (
               <>
-                <span className="oi-list-item__name">{problem.name}</span>
+                <div className="oi-list-item__header">
+                  <span className="oi-list-item__name">{problem.name}</span>
+                  <div className="oi-list-item__rating">
+                    <span style={{ color: color }}>{problem.rating}</span>
+                     <div
+                      className="oi-list-rating-circle"
+                      style={{
+                        "--fill": `${progress * 100}%`,
+                        "--color": color,
+                      }}
+                    >
+                      <div className="oi-list-rating-circle__fill" />
+                    </div>
+                  </div>
+                </div>
                 <span className="oi-list-item__tags">
                   <code>{problem.code || "N/A"}</code>
                   <span>etap {problem.stage || "?"}</span>
                   <span>edycja {problem.year || "?"}</span>
-                  <span>rating {problem.rating || 0}</span>
                 </span>
                 {problem.url ? (
                   <svg
