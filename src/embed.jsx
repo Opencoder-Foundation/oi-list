@@ -1,7 +1,7 @@
 import { createRoot } from "react-dom/client";
 import ListWidget from "./ListWidget";
 import widgetStyles from "./ListWidget.css?inline";
-import { DEFAULT_RESULTS_URL } from "./assetUrls";
+import { PROBLEMS_URL } from "./assetUrls";
 
 const ELEMENT_NAME = "oi-list-widget";
 
@@ -19,7 +19,7 @@ class OIListWidgetElement extends HTMLElement {
 
     this._root = createRoot(mountNode);
     this._root.render(
-      <ListWidget dataUrl={this.getAttribute("data-url") || DEFAULT_RESULTS_URL} embedded />,
+      <ListWidget dataUrl={this.getAttribute("data-url") || PROBLEMS_URL} embedded />,
     );
   };
 
@@ -40,7 +40,7 @@ const mount = (target, options = {}) => {
     throw new Error("OIListWidget.mount(target, options) requires a DOM element target.");
   }
   const root = createRoot(target);
-  root.render(<ListWidget dataUrl={options.dataUrl || DEFAULT_RESULTS_URL} embedded />);
+  root.render(<ListWidget dataUrl={options.dataUrl || PROBLEMS_URL} embedded />);
   return () => {
     root.unmount();
   };
