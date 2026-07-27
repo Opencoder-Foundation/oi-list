@@ -1,5 +1,5 @@
 use axum_extra::extract::CookieJar;
-use reqwest::header;
+use reqwest::{StatusCode, header};
 use serde::Deserialize;
 use axum::{Json, extract::{Query, State}, http::HeaderMap, response::{IntoResponse, Redirect}};
 use std::env;
@@ -136,9 +136,12 @@ pub async fn user(
     let session = match jar.get("session") {
         Some(cookie) => cookie.value(),
         None => {
-            return Json(serde_json::json!({
-                "error": "Not logged in"
-            }));
+            return (
+                StatusCode::UNAUTHORIZED,
+                Json(serde_json::json!({
+                    "error": "Not logged in"
+                })),
+            );
         }
     };
 
@@ -160,15 +163,21 @@ pub async fn user(
     .unwrap();
 
     match user {
-        Some(user) => Json(serde_json::json!({
-            "id": user.id,
-            "discord_id": user.discord_id.to_string(),
-            "username": user.username,
-            "avatar": user.avatar,
-        })),
+        Some(user) => (
+            StatusCode::OK,
+            Json(serde_json::json!({
+                "id": user.id,
+                "discord_id": user.discord_id.to_string(),
+                "username": user.username,
+                "avatar": user.avatar,
+            })),
+        ),
 
-        None => Json(serde_json::json!({
-            "error": "Invalid session"
-        })),
+        None => (
+            StatusCode::UNAUTHORIZED,
+            Json(serde_json::json!({
+                "error": "Invalid session"
+            })),
+        ),
     }
 }
