@@ -602,6 +602,7 @@ pub async fn get_results(
         })
         .collect::<Vec<_>>();
 
+    results.sort_unstable_by_key(|x| x.year);
 
     Ok(Json(results))
 }
