@@ -416,7 +416,7 @@ struct Person {
 }
 
 #[derive(Serialize)]
-struct RatingPoint {
+pub struct RatingPoint {
     year: i32,
     rating: i32,
 }
