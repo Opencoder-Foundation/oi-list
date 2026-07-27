@@ -6,10 +6,12 @@ use tower_http::cors::CorsLayer;
 mod health;
 mod problems;
 mod auth;
+mod users;
 
 use health::health_check;
 use problems::get_problems;
 use auth::{dc_auth, dc_callback};
+use users::list_users;
 
 use reqwest::StatusCode;
 use sqlx::SqlitePool;
@@ -78,6 +80,7 @@ async fn main() {
         .route("/auth", get(dc_auth))
         .route("/auth/callback", get(dc_callback))
         .route("/user", get(user))
+        .route("/users", get(list_users))
         .with_state(state);
 
     let cors = CorsLayer::new()
