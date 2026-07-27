@@ -1,4 +1,3 @@
-use serde_json::{json, Value};
 use axum::{Json, extract::State};
 use serde::Serialize;
 
