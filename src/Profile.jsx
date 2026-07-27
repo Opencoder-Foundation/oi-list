@@ -33,6 +33,7 @@ const RATING_BOUNDS = [
 ];
 const Profile = () => {
   const [user, setUser] = useState(null);
+  const [oiModal, setOiModal] = useState(false);
 
 
   useEffect(() => {
@@ -73,7 +74,6 @@ const Profile = () => {
     { year: "2025", rating: 3400 },
     { year: "2026", rating: 4200 },
   ];
-  const [oiModal, setOiModal] = useState(false);
   return (
     <main className="app">
       <section className="profile-card">
