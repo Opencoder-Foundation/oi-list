@@ -64,9 +64,7 @@ const Profile = () => {
     fetchProfile();
 
   }, []);
-  if (!user) {
-    return <div>Loading...</div>;
-  }
+  
 
   useEffect(() => {
     const fetchRatings = async () => {
@@ -92,7 +90,10 @@ const Profile = () => {
     };
 
     fetchRatings();
-  }, []); 
+  }, []);
+  if (!user) {
+    return <div>Loading...</div>;
+  } 
   return (
     <main className="app">
       <section className="profile-card">
