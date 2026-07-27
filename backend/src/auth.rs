@@ -20,7 +20,6 @@ struct DiscordUser {
     avatar: Option<String>,
 }
 
-
 pub async fn dc_auth() -> Redirect {
     let url = format!("https://discord.com/oauth2/authorize/\
         ?client_id={}\
