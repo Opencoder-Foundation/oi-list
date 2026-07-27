@@ -183,8 +183,8 @@ def adddata(items: list[dict]) -> list[dict]:
     index = scrape_index()
     for it in items:
         info = index.get((it["year"], it["stage"], it["code"].rstrip("*")))
-        it["name"] = info["name"] if info else HARDCODED[it["code"]]
-        it["url"]  = info["url"]  if info else HARDCODED[it["code"]]
+        it["name"] = info["name"] if info else HARDCODED[it["code"]]["name"]
+        it["url"]  = info["url"]  if info else HARDCODED[it["code"]]["url"]
     return items
   
 data = adddata(res)
