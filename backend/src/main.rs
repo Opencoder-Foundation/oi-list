@@ -1,5 +1,5 @@
 use axum::{
-    Router, http::{HeaderValue, Method, header::CONTENT_TYPE}, response::{IntoResponse, Response}, routing::{get, post},
+    Router, http::{HeaderValue, Method, header::CONTENT_TYPE}, response::{IntoResponse, Response}, routing::{delete, get, post},
 };
 use tower_http::cors::CorsLayer;
 
@@ -18,7 +18,7 @@ use users::list_users;
 use reqwest::StatusCode;
 use sqlx::SqlitePool;
 
-use crate::{auth::user, profile::{confirm_result, find_result, get_results}};
+use crate::{auth::user, profile::{confirm_result, find_result, get_results}, users::delete_user_data};
 
 #[derive(Clone)]
 pub struct AppState {
@@ -86,6 +86,7 @@ async fn main() {
         .route("/profile/find-results", post(find_result))
         .route("/profile/confirm-result", post(confirm_result))
         .route("/profile/get-results", get(get_results))
+        .route("/user/delete-user-data", delete(delete_user_data))
         .with_state(state);
 
     let cors = CorsLayer::new()

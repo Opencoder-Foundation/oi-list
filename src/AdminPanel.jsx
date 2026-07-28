@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { USER_URL, USERS_URL } from "./assetUrls";
+import { USER_URL, USERS_URL, DELETE_USER_DATA_URL } from "./assetUrls";
 import "./AdminPanel.css";
 
 const AdminPanel = () => {
@@ -33,7 +33,9 @@ const AdminPanel = () => {
         const usersData = await usersResponse.json();
 
         if (!usersResponse.ok) {
-          throw new Error(usersData.error || "Nie udało się pobrać listy użytkowników.");
+          throw new Error(
+            usersData.error || "Nie udało się pobrać listy użytkowników."
+          );
         }
 
         setUsers(usersData);
@@ -47,6 +49,47 @@ const AdminPanel = () => {
 
     loadAdminData();
   }, []);
+
+  const handleDeleteUserData = async (userId) => {
+    if (!window.confirm("Na pewno usunąć dane tego użytkownika?")) {
+      return;
+    }
+
+    try {
+      const response = await fetch(DELETE_USER_DATA_URL, {
+        method: "DELETE",
+        credentials: "include",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          user_id: userId,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || "Nie udało się usunąć danych.");
+      }
+
+      setUsers((prevUsers) =>
+        prevUsers.map((user) =>
+          user.id === userId
+            ? {
+                ...user,
+                result_stage: null,
+                result_year: null,
+                result_place: null,
+              }
+            : user
+        )
+      );
+    } catch (err) {
+      console.error(err);
+      alert(err.message || "Wystąpił błąd.");
+    }
+  };
 
   const getAvatarUrl = (user) => {
     if (user.avatar) {
@@ -65,7 +108,9 @@ const AdminPanel = () => {
       <section className="admin-card">
         <div className="admin-header">
           <h1>Panel administratora</h1>
-          <a href="/" className="admin-back-link">Powrót</a>
+          <a href="/" className="admin-back-link">
+            Powrót
+          </a>
         </div>
 
         {loading ? (
@@ -82,6 +127,7 @@ const AdminPanel = () => {
                   <th>Discord ID</th>
                   <th>Nazwa użytkownika</th>
                   <th>Rola</th>
+                  <th>Akcje</th>
                 </tr>
               </thead>
               <tbody>
@@ -99,6 +145,19 @@ const AdminPanel = () => {
                     <td>{user.discord_id}</td>
                     <td>{user.username}</td>
                     <td>{user.is_admin ? "Admin" : "Użytkownik"}</td>
+                    <td>
+                      <button
+                        disabled={user.result_year == null}
+                        onClick={() => handleDeleteUserData(user.id)}
+                        className={
+                          user.result_year == null
+                            ? "admin-delete-btn disabled"
+                            : "admin-delete-btn"
+                        }
+                      >
+                        Usuń dane
+                      </button>
+                    </td>
                   </tr>
                 ))}
               </tbody>

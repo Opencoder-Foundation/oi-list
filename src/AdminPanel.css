@@ -57,3 +57,25 @@
   letter-spacing: 0.04em;
   color: #6b7280;
 }
+
+.admin-delete-btn {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.admin-delete-btn:hover:not(:disabled) {
+  background-color: #b71c1c;
+}
+
+.admin-delete-btn:disabled,
+.admin-delete-btn.disabled {
+  background-color: #9e9e9e;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
