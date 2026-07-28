@@ -128,6 +128,7 @@ const AdminPanel = () => {
                   <th>Nazwa użytkownika</th>
                   <th>Rola</th>
                   <th>Akcje</th>
+                  <th>Wyniki</th>
                 </tr>
               </thead>
               <tbody>
@@ -158,6 +159,7 @@ const AdminPanel = () => {
                         Usuń dane
                       </button>
                     </td>
+                    <td>{user.result_year ? `${user.result_year} • etap ${user.result_stage} • miejsce ${user.result_place}`: "Brak potwierdzonego wyniku"}</td>
                   </tr>
                 ))}
               </tbody>
