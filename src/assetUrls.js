@@ -42,6 +42,6 @@ export const GET_RESULTS_URL = new URL(
 ).toString();
 
 export const DELETE_USER_DATA_URL = new URL(
-  "/user/delete-user-data",
+  "/api/user/delete-user-data",
   ensureTrailingSlash(API_BASE_URL),
 ).toString();
