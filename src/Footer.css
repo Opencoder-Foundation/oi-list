@@ -1,0 +1,93 @@
+.app-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 24px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.footer-label {
+  font-weight: 500;
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+.partner-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.partner-logo {
+  height: 24px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.repo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: #212529;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.github-icon {
+  flex-shrink: 0;
+}
+
+.authors-list {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.author-badge {
+  color: #454c52;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.handle {
+  color: #0d6efd;
+  font-weight: 400;
+}
+
+.separator {
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+.footer-divider {
+  width: 1px;
+  height: 20px;
+  background-color: #dee2e6;
+  flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .app-footer {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footer-divider {
+    display: none;
+  }
+}
