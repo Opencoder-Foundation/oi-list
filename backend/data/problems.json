@@ -5,7 +5,8 @@
     "year": 28,
     "rating": 15800,
     "name": "Surowa zima",
-    "url": "https://szkopul.edu.pl/problemset/problem/QCCQf92wAoWAOoJ3tHoypvp3/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/QCCQf92wAoWAOoJ3tHoypvp3/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi28_3_sur/"
   },
   {
     "code": "lus",
@@ -13,7 +14,8 @@
     "year": 12,
     "rating": 11300,
     "name": "Zadanie Lustrzana pu\u0142apka",
-    "url": "https://szkopul.edu.pl/problemset/problem/fNjmmASbl-0BUyNIqwXSwbyn/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/fNjmmASbl-0BUyNIqwXSwbyn/site/",
+    "omowienie_url": null
   },
   {
     "code": "jas",
@@ -21,7 +23,8 @@
     "year": 11,
     "rating": 9900,
     "name": "Zadanie Jaskinia",
-    "url": "https://szkopul.edu.pl/problemset/problem/CVyUUiyIE5hrdfmSYvON_5Np/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/CVyUUiyIE5hrdfmSYvON_5Np/site/",
+    "omowienie_url": null
   },
   {
     "code": "slo",
@@ -29,7 +32,8 @@
     "year": 16,
     "rating": 9900,
     "name": "Zadanie S\u0142owa",
-    "url": "https://szkopul.edu.pl/problemset/problem/2_ADV6xog8RC2Gk3RVQaGQGI/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/2_ADV6xog8RC2Gk3RVQaGQGI/site/",
+    "omowienie_url": null
   },
   {
     "code": "dwa",
@@ -37,7 +41,8 @@
     "year": 12,
     "rating": 9500,
     "name": "Zadanie Dwa przyj\u0119cia",
-    "url": "https://szkopul.edu.pl/problemset/problem/VTgYcRFl4Fj0Z1o-SqFyaaD1/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/VTgYcRFl4Fj0Z1o-SqFyaaD1/site/",
+    "omowienie_url": null
   },
   {
     "code": "kag",
@@ -45,7 +50,8 @@
     "year": 11,
     "rating": 9400,
     "name": "Zadanie Kaglony",
-    "url": "https://szkopul.edu.pl/problemset/problem/mjS3vRIqO5DliMOK5FBq6Nn6/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/mjS3vRIqO5DliMOK5FBq6Nn6/site/",
+    "omowienie_url": null
   },
   {
     "code": "egz",
@@ -53,7 +59,8 @@
     "year": 14,
     "rating": 9400,
     "name": "Egzamin na prawo jazdy",
-    "url": "https://szkopul.edu.pl/problemset/problem/nLSrpyeJ1JnFGbBORYVVavIQ/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/nLSrpyeJ1JnFGbBORYVVavIQ/site/",
+    "omowienie_url": null
   },
   {
     "code": "mak",
@@ -61,7 +68,8 @@
     "year": 11,
     "rating": 9400,
     "name": "Zadanie Maksymalne rz\u0119dy permutacji",
-    "url": "https://szkopul.edu.pl/problemset/problem/yGPiTBXT10gXduxMfkfZ93ix/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/yGPiTBXT10gXduxMfkfZ93ix/site/",
+    "omowienie_url": null
   },
   {
     "code": "wyr",
@@ -69,7 +77,8 @@
     "year": 19,
     "rating": 9200,
     "name": "Zadanie Wyr\u00f3wnywanie terenu",
-    "url": "https://szkopul.edu.pl/problemset/problem/ba-ep4dx0P4_GYxLz15iJVVm/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/ba-ep4dx0P4_GYxLz15iJVVm/site/",
+    "omowienie_url": null
   },
   {
     "code": "kod",
@@ -77,7 +86,8 @@
     "year": 16,
     "rating": 8700,
     "name": "Zadanie Kod",
-    "url": "https://szkopul.edu.pl/problemset/problem/hAWG6xh9ehn2gjGUvkJ6qJmv/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/hAWG6xh9ehn2gjGUvkJ6qJmv/site/",
+    "omowienie_url": null
   },
   {
     "code": "myj",
@@ -85,7 +95,8 @@
     "year": 22,
     "rating": 8700,
     "name": "Zadanie Myjnie",
-    "url": "https://szkopul.edu.pl/problemset/problem/kYVp05sX8lzHWNwn93xjcYwH/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/kYVp05sX8lzHWNwn93xjcYwH/site/",
+    "omowienie_url": null
   },
   {
     "code": "lat",
@@ -93,7 +104,8 @@
     "year": 17,
     "rating": 8700,
     "name": "Zadanie Latarnia",
-    "url": "https://szkopul.edu.pl/problemset/problem/EncjSFKUGONaUWytbsYk6cSz/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/EncjSFKUGONaUWytbsYk6cSz/site/",
+    "omowienie_url": null
   },
   {
     "code": "jed",
@@ -101,7 +113,8 @@
     "year": 17,
     "rating": 8700,
     "name": "Zadanie Jedynki",
-    "url": "https://szkopul.edu.pl/problemset/problem/SYv6VGnZ_7dhrf9WwAJgWBk_/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/SYv6VGnZ_7dhrf9WwAJgWBk_/site/",
+    "omowienie_url": null
   },
   {
     "code": "wsc",
@@ -109,7 +122,8 @@
     "year": 11,
     "rating": 8600,
     "name": "Zadanie Wsch\u00f3d-Zach\u00f3d",
-    "url": "https://szkopul.edu.pl/problemset/problem/-Y8_7SoJ1a_l2Z5fBEgT71Fw/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/-Y8_7SoJ1a_l2Z5fBEgT71Fw/site/",
+    "omowienie_url": null
   },
   {
     "code": "zga*",
@@ -117,7 +131,8 @@
     "year": 11,
     "rating": 8500,
     "name": "Zgadywanka",
-    "url": "https://szkopul.edu.pl/problemset/problem/OxEZy63ZXslDLW5aPw6XSch2/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/OxEZy63ZXslDLW5aPw6XSch2/site/",
+    "omowienie_url": null
   },
   {
     "code": "pal",
@@ -125,7 +140,8 @@
     "year": 13,
     "rating": 8500,
     "name": "Palindromy",
-    "url": "https://szkopul.edu.pl/problemset/problem/HZe8i5clz3sEyDRgoC0sYTaH/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/HZe8i5clz3sEyDRgoC0sYTaH/site/",
+    "omowienie_url": null
   },
   {
     "code": "gob",
@@ -133,7 +149,8 @@
     "year": 20,
     "rating": 8400,
     "name": "Zadanie Gobeliny",
-    "url": "https://szkopul.edu.pl/problemset/problem/ET8hwff-zMJ9sm1GsnKlRl3i/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/ET8hwff-zMJ9sm1GsnKlRl3i/site/",
+    "omowienie_url": null
   },
   {
     "code": "lab",
@@ -141,7 +158,8 @@
     "year": 20,
     "rating": 8400,
     "name": "Labirynt",
-    "url": "https://szkopul.edu.pl/problemset/problem/TE77UNYEUxsFcrRxYRPc99na/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/TE77UNYEUxsFcrRxYRPc99na/site/",
+    "omowienie_url": null
   },
   {
     "code": "zyr",
@@ -149,7 +167,8 @@
     "year": 31,
     "rating": 8300,
     "name": "\u017byrandol",
-    "url": "https://szkopul.edu.pl/problemset/problem/AWwhm-sG6VDE2LwvWMCNS-fB/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/AWwhm-sG6VDE2LwvWMCNS-fB/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_3_zyr/"
   },
   {
     "code": "pol",
@@ -157,7 +176,8 @@
     "year": 20,
     "rating": 8100,
     "name": "Zadanie Polaryzacja",
-    "url": "https://szkopul.edu.pl/problemset/problem/vG3DC9--8cjl4sPNwjBj9ag6/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/vG3DC9--8cjl4sPNwjBj9ag6/site/",
+    "omowienie_url": null
   },
   {
     "code": "tor",
@@ -165,7 +185,8 @@
     "year": 30,
     "rating": 8000,
     "name": "Tort",
-    "url": "https://szkopul.edu.pl/problemset/problem/Rvfg8T1IHzs1k_B5X36_lVRO/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Rvfg8T1IHzs1k_B5X36_lVRO/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi30_3_tor/"
   },
   {
     "code": "akc",
@@ -173,7 +194,8 @@
     "year": 12,
     "rating": 8000,
     "name": "Zadanie Akcja komandos\u00f3w",
-    "url": "https://szkopul.edu.pl/problemset/problem/Cyqv1x7xJRdcwj24GKoOZyl3/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Cyqv1x7xJRdcwj24GKoOZyl3/site/",
+    "omowienie_url": null
   },
   {
     "code": "rze",
@@ -181,7 +203,8 @@
     "year": 29,
     "rating": 8000,
     "name": "Rzeki",
-    "url": "https://szkopul.edu.pl/problemset/problem/KxrjYJ-gIqnT7k6iL3aF-g3t/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/KxrjYJ-gIqnT7k6iL3aF-g3t/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_3_rze/"
   },
   {
     "code": "dys",
@@ -189,7 +212,8 @@
     "year": 33,
     "rating": 8000,
     "name": "Dyscyplina",
-    "url": "https://szkopul.edu.pl/problemset/problem/i1DZIWhPW7P03dKICkwxIB56/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/i1DZIWhPW7P03dKICkwxIB56/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_3_dys/"
   },
   {
     "code": "okr",
@@ -197,7 +221,8 @@
     "year": 18,
     "rating": 7900,
     "name": "Zadanie Okresowo\u015b\u0107",
-    "url": "https://szkopul.edu.pl/problemset/problem/FoRguPpW1-czheh8UD_LniGy/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/FoRguPpW1-czheh8UD_LniGy/site/",
+    "omowienie_url": null
   },
   {
     "code": "mos",
@@ -205,7 +230,8 @@
     "year": 17,
     "rating": 7900,
     "name": "Zadanie Mosty",
-    "url": "https://szkopul.edu.pl/problemset/problem/BKM4bb6_C3OZsScdRxzaed8N/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/BKM4bb6_C3OZsScdRxzaed8N/site/",
+    "omowienie_url": null
   },
   {
     "code": "ska",
@@ -213,7 +239,8 @@
     "year": 14,
     "rating": 7800,
     "name": "Zadanie Skalniak",
-    "url": "https://szkopul.edu.pl/problemset/problem/s5ECsFKlMHti0g29uVkdKlQw/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/s5ECsFKlMHti0g29uVkdKlQw/site/",
+    "omowienie_url": null
   },
   {
     "code": "zli",
@@ -221,7 +248,8 @@
     "year": 33,
     "rating": 7800,
     "name": "Zliczanie Z",
-    "url": "https://szkopul.edu.pl/problemset/problem/1M2UtUN-WqIVZu5YBXvVvrJw/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/1M2UtUN-WqIVZu5YBXvVvrJw/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_3_zli/"
   },
   {
     "code": "kry",
@@ -229,7 +257,8 @@
     "year": 13,
     "rating": 7800,
     "name": "Zadanie Kryszta\u0142y",
-    "url": "https://szkopul.edu.pl/problemset/problem/yR-PeT6cqju4_0heF5rfDbdJ/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/yR-PeT6cqju4_0heF5rfDbdJ/site/",
+    "omowienie_url": null
   },
   {
     "code": "wys",
@@ -237,7 +266,8 @@
     "year": 16,
     "rating": 7800,
     "name": "Zadanie Wyspy",
-    "url": "https://szkopul.edu.pl/problemset/problem/wPNHEHvCW-eLTl0dHA35gXfH/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/wPNHEHvCW-eLTl0dHA35gXfH/site/",
+    "omowienie_url": null
   },
   {
     "code": "mis",
@@ -245,7 +275,8 @@
     "year": 11,
     "rating": 7800,
     "name": "Misie-Patysie",
-    "url": "https://szkopul.edu.pl/problemset/problem/8oUmi6G8bsCV8a3A6vhlV11O/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/8oUmi6G8bsCV8a3A6vhlV11O/site/",
+    "omowienie_url": null
   },
   {
     "code": "nww",
@@ -253,7 +284,8 @@
     "year": 30,
     "rating": 7800,
     "name": "NWW",
-    "url": "https://szkopul.edu.pl/problemset/problem/N_oYus0VcBjsFD0qH-AEBw_h/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/N_oYus0VcBjsFD0qH-AEBw_h/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi30_3_nww/"
   },
   {
     "code": "ins",
@@ -261,7 +293,8 @@
     "year": 20,
     "rating": 7800,
     "name": "Zadanie Inspektor",
-    "url": "https://szkopul.edu.pl/problemset/problem/gU6QAKBXCu73bdEK3pc4m9u1/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/gU6QAKBXCu73bdEK3pc4m9u1/site/",
+    "omowienie_url": null
   },
   {
     "code": "wys",
@@ -269,7 +302,8 @@
     "year": 11,
     "rating": 7700,
     "name": "Zadanie Wyspy",
-    "url": "https://szkopul.edu.pl/problemset/problem/wPNHEHvCW-eLTl0dHA35gXfH/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/wPNHEHvCW-eLTl0dHA35gXfH/site/",
+    "omowienie_url": null
   },
   {
     "code": "red",
@@ -277,7 +311,8 @@
     "year": 32,
     "rating": 7700,
     "name": "Redukcja po\u0142\u0105cze\u0144",
-    "url": "https://szkopul.edu.pl/problemset/problem/8nZ0jURcTr-O3V0ASzQJOCpy/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/8nZ0jURcTr-O3V0ASzQJOCpy/site/",
+    "omowienie_url": null
   },
   {
     "code": "pro",
@@ -285,7 +320,8 @@
     "year": 18,
     "rating": 7700,
     "name": "Zadanie Konkurs programistyczny",
-    "url": "https://szkopul.edu.pl/problemset/problem/V5GPagFaNYlHkVBoXtHbbAxX/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/V5GPagFaNYlHkVBoXtHbbAxX/site/",
+    "omowienie_url": null
   },
   {
     "code": "sej*",
@@ -293,7 +329,8 @@
     "year": 18,
     "rating": 7700,
     "name": "Zadanie Sejf",
-    "url": "https://szkopul.edu.pl/problemset/problem/do4gu8HfvR9IPBcbemF9ygKT/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/do4gu8HfvR9IPBcbemF9ygKT/site/",
+    "omowienie_url": null
   },
   {
     "code": "lic",
@@ -301,7 +338,8 @@
     "year": 33,
     "rating": 7600,
     "name": "Licytacje",
-    "url": "https://szkopul.edu.pl/problemset/problem/OnOWgAFz2077iJuTKJvbNOCx/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/OnOWgAFz2077iJuTKJvbNOCx/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_3_lic/"
   },
   {
     "code": "pos",
@@ -309,7 +347,8 @@
     "year": 16,
     "rating": 7600,
     "name": "Poszukiwania",
-    "url": "https://szkopul.edu.pl/problemset/problem/IA0ujQ8R_JJmiyM9GAdxxfun/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/IA0ujQ8R_JJmiyM9GAdxxfun/site/",
+    "omowienie_url": null
   },
   {
     "code": "wag",
@@ -317,7 +356,8 @@
     "year": 14,
     "rating": 7600,
     "name": "Zadanie Waga czw\u00f3rkowa",
-    "url": "https://szkopul.edu.pl/problemset/problem/yAp_TKw6g0VUWE2TJfzia9y0/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/yAp_TKw6g0VUWE2TJfzia9y0/site/",
+    "omowienie_url": null
   },
   {
     "code": "pra",
@@ -325,7 +365,8 @@
     "year": 12,
     "rating": 7600,
     "name": "Zadanie Prawoskr\u0119tny wielb\u0142\u0105d",
-    "url": "https://szkopul.edu.pl/problemset/problem/Ycgy3PbuMUIf8Cz2RdFpRCe4/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Ycgy3PbuMUIf8Cz2RdFpRCe4/site/",
+    "omowienie_url": null
   },
   {
     "code": "wyk",
@@ -333,7 +374,8 @@
     "year": 18,
     "rating": 7600,
     "name": "Zadanie Wykres",
-    "url": "https://szkopul.edu.pl/problemset/problem/B_vttDAkEdLGRjWYO2JvR0Sr/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/B_vttDAkEdLGRjWYO2JvR0Sr/site/",
+    "omowienie_url": null
   },
   {
     "code": "klo",
@@ -341,7 +383,8 @@
     "year": 14,
     "rating": 7500,
     "name": "Klocki",
-    "url": "https://szkopul.edu.pl/problemset/problem/dzRn8XS_ypGMFV-bqZLgBBB5/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/dzRn8XS_ypGMFV-bqZLgBBB5/site/",
+    "omowienie_url": null
   },
   {
     "code": "ste",
@@ -349,7 +392,8 @@
     "year": 33,
     "rating": 7500,
     "name": "Steganografia",
-    "url": "https://szkopul.edu.pl/problemset/problem/Vc3EYISNd8DRaR6CC1g_4Dhy/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Vc3EYISNd8DRaR6CC1g_4Dhy/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_3_ste/"
   },
   {
     "code": "per",
@@ -357,7 +401,8 @@
     "year": 15,
     "rating": 7500,
     "name": "Zadanie Permutacja",
-    "url": "https://szkopul.edu.pl/problemset/problem/YQSokeBN7xK7z8KccTxjfeDk/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/YQSokeBN7xK7z8KccTxjfeDk/site/",
+    "omowienie_url": null
   },
   {
     "code": "kol*",
@@ -365,7 +410,8 @@
     "year": 14,
     "rating": 7500,
     "name": "Zadanie Koleje",
-    "url": "https://szkopul.edu.pl/problemset/problem/tNexGGGfl9rXi0IJkMjeA-SM/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/tNexGGGfl9rXi0IJkMjeA-SM/site/",
+    "omowienie_url": null
   },
   {
     "code": "tur",
@@ -373,7 +419,8 @@
     "year": 21,
     "rating": 7500,
     "name": "Turystyka",
-    "url": "https://szkopul.edu.pl/problemset/problem/QGvPmh3HPUW0aZHn6EZuV-l1/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/QGvPmh3HPUW0aZHn6EZuV-l1/site/",
+    "omowienie_url": null
   },
   {
     "code": "zos",
@@ -381,7 +428,8 @@
     "year": 13,
     "rating": 7500,
     "name": "Zadanie Zosia",
-    "url": "https://szkopul.edu.pl/problemset/problem/Igfr_XfXWhPW-td_1TuZvWm1/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Igfr_XfXWhPW-td_1TuZvWm1/site/",
+    "omowienie_url": null
   },
   {
     "code": "imp",
@@ -389,7 +437,8 @@
     "year": 32,
     "rating": 7400,
     "name": "Impreza",
-    "url": "https://szkopul.edu.pl/problemset/problem/e4VK0jOigVlfMWCyC6VMvNjG/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/e4VK0jOigVlfMWCyC6VMvNjG/site/",
+    "omowienie_url": null
   },
   {
     "code": "tab",
@@ -397,7 +446,8 @@
     "year": 22,
     "rating": 7400,
     "name": "Zadanie Tablice kierunkowe",
-    "url": "https://szkopul.edu.pl/problemset/problem/4roJ2TqCXhLN6ftK2jiWKlO9/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/4roJ2TqCXhLN6ftK2jiWKlO9/site/",
+    "omowienie_url": null
   },
   {
     "code": "ork",
@@ -405,7 +455,8 @@
     "year": 13,
     "rating": 7400,
     "name": "Zadanie Orka",
-    "url": "https://szkopul.edu.pl/problemset/problem/KLuOAAmU_h7SoX2qtgmAwXV2/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/KLuOAAmU_h7SoX2qtgmAwXV2/site/",
+    "omowienie_url": null
   },
   {
     "code": "met",
@@ -413,7 +464,8 @@
     "year": 18,
     "rating": 7400,
     "name": "Zadanie Meteory",
-    "url": "https://szkopul.edu.pl/problemset/problem/czzVm7v3I58TnPHzBgWiyELT/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/czzVm7v3I58TnPHzBgWiyELT/site/",
+    "omowienie_url": null
   },
   {
     "code": "lam",
@@ -421,7 +473,8 @@
     "year": 21,
     "rating": 7300,
     "name": "Zadanie Lampy s\u0142oneczne",
-    "url": "https://szkopul.edu.pl/problemset/problem/GBNhbXwWhoCD5GHjNFAm_pOJ/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/GBNhbXwWhoCD5GHjNFAm_pOJ/site/",
+    "omowienie_url": null
   },
   {
     "code": "ogr",
@@ -429,7 +482,8 @@
     "year": 25,
     "rating": 7300,
     "name": "Ogrodzenie",
-    "url": "https://szkopul.edu.pl/problemset/problem/guoc36QCEe4q47qruYB7HBV-/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/guoc36QCEe4q47qruYB7HBV-/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_3_ogr/"
   },
   {
     "code": "sie",
@@ -437,7 +491,8 @@
     "year": 30,
     "rating": 7300,
     "name": "Siec spolecznosciowa",
-    "url": "https://szkopul.edu.pl/problemset/problem/WXee5tUX6rqsi-SHbap30_oV/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/WXee5tUX6rqsi-SHbap30_oV/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi30_3_sie/"
   },
   {
     "code": "imp",
@@ -445,7 +500,8 @@
     "year": 18,
     "rating": 7200,
     "name": "Zadanie Impreza",
-    "url": "https://szkopul.edu.pl/problemset/problem/PCtteC6gKwc2ZikW8nUZzfyh/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/PCtteC6gKwc2ZikW8nUZzfyh/site/",
+    "omowienie_url": null
   },
   {
     "code": "lok",
@@ -453,7 +509,8 @@
     "year": 32,
     "rating": 7200,
     "name": "Lokacja miasta",
-    "url": "https://szkopul.edu.pl/problemset/problem/kmlK5IbCdIU-irH7fH0sNurg/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/kmlK5IbCdIU-irH7fH0sNurg/site/",
+    "omowienie_url": null
   },
   {
     "code": "buk",
@@ -461,7 +518,8 @@
     "year": 31,
     "rating": 7200,
     "name": "Bukmacher",
-    "url": "https://szkopul.edu.pl/problemset/problem/4fSL9gNn5xhmKxy8YtF8pA9i/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/4fSL9gNn5xhmKxy8YtF8pA9i/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_3_buk/"
   },
   {
     "code": "lam*",
@@ -469,7 +527,8 @@
     "year": 15,
     "rating": 7200,
     "name": "Zadanie Lampki",
-    "url": "https://szkopul.edu.pl/problemset/problem/SGVBRKdEJIMlqRk0S_saThBw/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/SGVBRKdEJIMlqRk0S_saThBw/site/",
+    "omowienie_url": null
   },
   {
     "code": "sta*",
@@ -477,7 +536,8 @@
     "year": 31,
     "rating": 7200,
     "name": "Stacje benzynowe",
-    "url": "https://szkopul.edu.pl/problemset/problem/w81PZBQWXQLxw58J7yQ2qGfw/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/w81PZBQWXQLxw58J7yQ2qGfw/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_3_sta/"
   },
   {
     "code": "sch",
@@ -485,7 +545,8 @@
     "year": 32,
     "rating": 7200,
     "name": "Schody",
-    "url": "https://szkopul.edu.pl/problemset/problem/ZssB17GDoiGqYttYNAaEIoOh/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/ZssB17GDoiGqYttYNAaEIoOh/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi32_2_sch/"
   },
   {
     "code": "met",
@@ -493,7 +554,8 @@
     "year": 29,
     "rating": 7100,
     "name": "Meteory",
-    "url": "https://szkopul.edu.pl/problemset/problem/k6tz-HdwVKUeP7p9RMpRE6RO/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/k6tz-HdwVKUeP7p9RMpRE6RO/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_3_met/"
   },
   {
     "code": "kup",
@@ -501,7 +563,8 @@
     "year": 15,
     "rating": 7100,
     "name": "Zadanie Kupno gruntu",
-    "url": "https://szkopul.edu.pl/problemset/problem/KUCDVoRoWc5kQbNZPUrY5eYO/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/KUCDVoRoWc5kQbNZPUrY5eYO/site/",
+    "omowienie_url": null
   },
   {
     "code": "wys*",
@@ -509,7 +572,8 @@
     "year": 16,
     "rating": 7100,
     "name": "Wyspy na tr\u00f3jk\u0105tnej sieci",
-    "url": "https://szkopul.edu.pl/problemset/problem/KrDYc6Wu8OK_pwfh9EKVkrr7/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/KrDYc6Wu8OK_pwfh9EKVkrr7/site/",
+    "omowienie_url": null
   },
   {
     "code": "szu",
@@ -517,7 +581,8 @@
     "year": 32,
     "rating": 7100,
     "name": "Szum",
-    "url": "https://szkopul.edu.pl/problemset/problem/d59fuJ6NUoX5JP0yKtgT8hlI/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/d59fuJ6NUoX5JP0yKtgT8hlI/site/",
+    "omowienie_url": null
   },
   {
     "code": "ogr*",
@@ -525,7 +590,8 @@
     "year": 32,
     "rating": 7100,
     "name": "Ogrodzenie",
-    "url": "https://szkopul.edu.pl/problemset/problem/V4Dd0K6T4K8AB9Nq7tQQEYTm/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/V4Dd0K6T4K8AB9Nq7tQQEYTm/site/",
+    "omowienie_url": null
   },
   {
     "code": "lis",
@@ -533,7 +599,8 @@
     "year": 13,
     "rating": 7000,
     "name": "Zadanie Listonosz",
-    "url": "https://szkopul.edu.pl/problemset/problem/nsSLrY6UH0E6VMOb3k5kOAtO/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/nsSLrY6UH0E6VMOb3k5kOAtO/site/",
+    "omowienie_url": null
   },
   {
     "code": "lap",
@@ -541,7 +608,8 @@
     "year": 30,
     "rating": 7000,
     "name": "Laptopy",
-    "url": "https://szkopul.edu.pl/problemset/problem/L1i83aGCD9YRuZbt0NZqw6g3/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/L1i83aGCD9YRuZbt0NZqw6g3/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi30_3_lap/"
   },
   {
     "code": "bez",
@@ -549,7 +617,8 @@
     "year": 19,
     "rating": 7000,
     "name": "Bezpiecze\u0144stwo minimalistyczne",
-    "url": "https://szkopul.edu.pl/problemset/problem/aSbIC_LB4H-CGMYPEVue5jFw/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/aSbIC_LB4H-CGMYPEVue5jFw/site/",
+    "omowienie_url": null
   },
   {
     "code": "uci",
@@ -557,7 +626,8 @@
     "year": 15,
     "rating": 7000,
     "name": "Zadanie Ucieczka",
-    "url": "https://szkopul.edu.pl/problemset/problem/l3nnsGcqPF6oba0wEKb07Ca0/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/l3nnsGcqPF6oba0wEKb07Ca0/site/",
+    "omowienie_url": null
   },
   {
     "code": "prz",
@@ -565,7 +635,8 @@
     "year": 16,
     "rating": 7000,
     "name": "Przechadzka Bajtusia",
-    "url": "https://szkopul.edu.pl/problemset/problem/IYh7QVxUYwFMci3pSbYuCgA7/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/IYh7QVxUYwFMci3pSbYuCgA7/site/",
+    "omowienie_url": null
   },
   {
     "code": "est",
@@ -573,7 +644,8 @@
     "year": 13,
     "rating": 7000,
     "name": "Zadanie Estetyczny tekst",
-    "url": "https://szkopul.edu.pl/problemset/problem/WPdj4dv7QzWPuqWA9FJi55k5/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/WPdj4dv7QzWPuqWA9FJi55k5/site/",
+    "omowienie_url": null
   },
   {
     "code": "kom",
@@ -581,7 +653,8 @@
     "year": 28,
     "rating": 7000,
     "name": "Komunikacja mi\u0119dzyplanetarna",
-    "url": "https://szkopul.edu.pl/problemset/problem/43LcdhShos7i99wnVNtQYUUK/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/43LcdhShos7i99wnVNtQYUUK/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi28_3_kom/"
   },
   {
     "code": "tro",
@@ -589,7 +662,8 @@
     "year": 15,
     "rating": 6900,
     "name": "Zadanie Tr\u00f3jk\u0105ty",
-    "url": "https://szkopul.edu.pl/problemset/problem/oFbVh8iOGlqNYUUueTt5V9N4/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/oFbVh8iOGlqNYUUueTt5V9N4/site/",
+    "omowienie_url": null
   },
   {
     "code": "dzi*",
@@ -597,7 +671,8 @@
     "year": 12,
     "rating": 6900,
     "name": "Zadanie Dziuple",
-    "url": "https://szkopul.edu.pl/problemset/problem/atihJqrcNoLaL1fJoBZF1UA9/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/atihJqrcNoLaL1fJoBZF1UA9/site/",
+    "omowienie_url": null
   },
   {
     "code": "wyc",
@@ -605,7 +680,8 @@
     "year": 22,
     "rating": 6900,
     "name": "Zadanie Wycieczki",
-    "url": "https://szkopul.edu.pl/problemset/problem/zKf5Ua8okcS0jngsrTgKVM9L/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/zKf5Ua8okcS0jngsrTgKVM9L/site/",
+    "omowienie_url": null
   },
   {
     "code": "lyz",
@@ -613,7 +689,8 @@
     "year": 16,
     "rating": 6900,
     "name": "Zadanie \u0141y\u017cwy",
-    "url": "https://szkopul.edu.pl/problemset/problem/kadKFW3YScAMW8o20u0BctQh/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/kadKFW3YScAMW8o20u0BctQh/site/",
+    "omowienie_url": null
   },
   {
     "code": "roz",
@@ -621,7 +698,8 @@
     "year": 24,
     "rating": 6900,
     "name": "Rozdro\u017ca parzysto\u015bci",
-    "url": "https://szkopul.edu.pl/problemset/problem/-7cqC3RrH4e-Ar7DWy4GKzLv/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/-7cqC3RrH4e-Ar7DWy4GKzLv/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi24_3_roz/"
   },
   {
     "code": "wys",
@@ -629,7 +707,8 @@
     "year": 31,
     "rating": 6900,
     "name": "Wy\u015bcig kolarski",
-    "url": "https://szkopul.edu.pl/problemset/problem/vi23594m9-57bDiIC-M_ydYe/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/vi23594m9-57bDiIC-M_ydYe/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_3_wys/"
   },
   {
     "code": "fes",
@@ -637,7 +716,8 @@
     "year": 19,
     "rating": 6900,
     "name": "Zadanie Festyn",
-    "url": "https://szkopul.edu.pl/problemset/problem/Uj68uHfSzX4ZTxnFUWq7zN5E/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Uj68uHfSzX4ZTxnFUWq7zN5E/site/",
+    "omowienie_url": null
   },
   {
     "code": "gaz",
@@ -645,7 +725,8 @@
     "year": 14,
     "rating": 6900,
     "name": "Zadanie Gazoci\u0105gi",
-    "url": "https://szkopul.edu.pl/problemset/problem/dPgIN7IwQ8JfKdyk3zTpUMiu/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/dPgIN7IwQ8JfKdyk3zTpUMiu/site/",
+    "omowienie_url": null
   },
   {
     "code": "wie",
@@ -653,7 +734,8 @@
     "year": 27,
     "rating": 6800,
     "name": "Wielki Upadek",
-    "url": "https://szkopul.edu.pl/problemset/problem/1asri4nHTSmINAOKJ-iUZf6f/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/1asri4nHTSmINAOKJ-iUZf6f/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi27_2_wie/"
   },
   {
     "code": "pen",
@@ -661,7 +743,8 @@
     "year": 19,
     "rating": 6800,
     "name": "Zadanie Pensje",
-    "url": "https://szkopul.edu.pl/problemset/problem/4nwnYqhu2gE6dB5aJUCiltnu/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/4nwnYqhu2gE6dB5aJUCiltnu/site/",
+    "omowienie_url": null
   },
   {
     "code": "nie",
@@ -669,7 +752,8 @@
     "year": 23,
     "rating": 6800,
     "name": "Niebanalne podr\u00f3\u017ce",
-    "url": "https://szkopul.edu.pl/problemset/problem/YY6-3ua-C1rt7q-97laWc0UP/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/YY6-3ua-C1rt7q-97laWc0UP/site/",
+    "omowienie_url": null
   },
   {
     "code": "mis",
@@ -677,7 +761,8 @@
     "year": 13,
     "rating": 6800,
     "name": "Zadanie Misie",
-    "url": "https://szkopul.edu.pl/problemset/problem/rjT2toimgFwJAHEb_-Lm75qm/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/rjT2toimgFwJAHEb_-Lm75qm/site/",
+    "omowienie_url": null
   },
   {
     "code": "per",
@@ -685,7 +770,8 @@
     "year": 31,
     "rating": 6800,
     "name": "Permutacje",
-    "url": "https://szkopul.edu.pl/problemset/problem/wMZ62WnmaHQL6UekhsCgrJWs/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/wMZ62WnmaHQL6UekhsCgrJWs/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_3_per/"
   },
   {
     "code": "ska",
@@ -693,7 +779,8 @@
     "year": 31,
     "rating": 6800,
     "name": "Skarb",
-    "url": "https://szkopul.edu.pl/problemset/problem/m4pT3jPq5bbo8jKks590ur2l/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/m4pT3jPq5bbo8jKks590ur2l/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_3_ska/"
   },
   {
     "code": "owc",
@@ -701,7 +788,8 @@
     "year": 17,
     "rating": 6800,
     "name": "Zadanie Owce",
-    "url": "https://szkopul.edu.pl/problemset/problem/ZJVIyol5_xl_W3I8dFikC_5F/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/ZJVIyol5_xl_W3I8dFikC_5F/site/",
+    "omowienie_url": null
   },
   {
     "code": "dyn*",
@@ -709,7 +797,8 @@
     "year": 18,
     "rating": 6800,
     "name": "Zadanie Dynamit",
-    "url": "https://szkopul.edu.pl/problemset/problem/JaAJ5t9WezcTv8GcwGAqAW_6/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/JaAJ5t9WezcTv8GcwGAqAW_6/site/",
+    "omowienie_url": null
   },
   {
     "code": "szp",
@@ -717,7 +806,8 @@
     "year": 32,
     "rating": 6800,
     "name": "Szpiedzy",
-    "url": "https://szkopul.edu.pl/problemset/problem/4Gg0Z5las1xGQuKdkm77Kzvh/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/4Gg0Z5las1xGQuKdkm77Kzvh/site/",
+    "omowienie_url": null
   },
   {
     "code": "mon*",
@@ -725,7 +815,8 @@
     "year": 17,
     "rating": 6700,
     "name": "Zadanie Monotoniczno\u015b\u0107",
-    "url": "https://szkopul.edu.pl/problemset/problem/VKZkUdyICxgRgJFZ7qxob8JX/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/VKZkUdyICxgRgJFZ7qxob8JX/site/",
+    "omowienie_url": null
   },
   {
     "code": "pan",
@@ -733,7 +824,8 @@
     "year": 21,
     "rating": 6700,
     "name": "Zadanie Panele s\u0142oneczne",
-    "url": "https://szkopul.edu.pl/problemset/problem/hzKdkq0maus68ExIKeHyERTJ/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/hzKdkq0maus68ExIKeHyERTJ/site/",
+    "omowienie_url": null
   },
   {
     "code": "ins",
@@ -741,7 +833,8 @@
     "year": 18,
     "rating": 6700,
     "name": "Zadanie Inspekcja",
-    "url": "https://szkopul.edu.pl/problemset/problem/bLHHUzy1-byoiJSbilgpI6Dc/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/bLHHUzy1-byoiJSbilgpI6Dc/site/",
+    "omowienie_url": null
   },
   {
     "code": "zal",
@@ -749,7 +842,8 @@
     "year": 21,
     "rating": 6700,
     "name": "Zadanie Za\u0142adunek",
-    "url": "https://szkopul.edu.pl/problemset/problem/tbAODT0mS1ZwmNfteVw6W8JZ/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/tbAODT0mS1ZwmNfteVw6W8JZ/site/",
+    "omowienie_url": null
   },
   {
     "code": "mod",
@@ -757,7 +851,8 @@
     "year": 22,
     "rating": 6700,
     "name": "Zadanie Modernizacja autostrady",
-    "url": "https://szkopul.edu.pl/problemset/problem/z0rincXf7fi157ycO_Sl0bCb/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/z0rincXf7fi157ycO_Sl0bCb/site/",
+    "omowienie_url": null
   },
   {
     "code": "pre",
@@ -765,7 +860,8 @@
     "year": 19,
     "rating": 6700,
     "name": "Zadanie Prefiksufiks",
-    "url": "https://szkopul.edu.pl/problemset/problem/oFbHZH1QYy8yYlyN9AezBIZb/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/oFbHZH1QYy8yYlyN9AezBIZb/site/",
+    "omowienie_url": null
   },
   {
     "code": "rem",
@@ -773,7 +869,8 @@
     "year": 26,
     "rating": 6700,
     "name": "Remont",
-    "url": "https://szkopul.edu.pl/problemset/problem/xNjwUvwdHQoQTFBrmyG8vD1O/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/xNjwUvwdHQoQTFBrmyG8vD1O/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi26_3_rem/"
   },
   {
     "code": "squ*",
@@ -781,7 +878,8 @@
     "year": 19,
     "rating": 6700,
     "name": "Zadanie Squarki",
-    "url": "https://szkopul.edu.pl/problemset/problem/SuCISzzpTLd_Zi8dH9fwZRVD/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/SuCISzzpTLd_Zi8dH9fwZRVD/site/",
+    "omowienie_url": null
   },
   {
     "code": "ryc",
@@ -789,7 +887,8 @@
     "year": 31,
     "rating": 6700,
     "name": "Rycerz",
-    "url": "https://szkopul.edu.pl/problemset/problem/8ysq4JJXJ8Ol08M8cn36UmkM/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/8ysq4JJXJ8Ol08M8cn36UmkM/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_2_ryc/"
   },
   {
     "code": "klu",
@@ -797,7 +896,8 @@
     "year": 23,
     "rating": 6700,
     "name": "Klubowicze",
-    "url": "https://szkopul.edu.pl/problemset/problem/3Kqkgeapr-W-MBprNjUDGICL/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/3Kqkgeapr-W-MBprNjUDGICL/site/",
+    "omowienie_url": null
   },
   {
     "code": "zap",
@@ -805,7 +905,8 @@
     "year": 24,
     "rating": 6600,
     "name": "Zapiekanki",
-    "url": "https://szkopul.edu.pl/problemset/problem/w-dbshXVyRol4LIT9jeP-bNn/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/w-dbshXVyRol4LIT9jeP-bNn/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi24_3_zap/"
   },
   {
     "code": "pod",
@@ -813,7 +914,8 @@
     "year": 15,
     "rating": 6600,
     "name": "Zadanie Podzia\u0142 kr\u00f3lestwa",
-    "url": "https://szkopul.edu.pl/problemset/problem/a-E26wgLFqHZJv98qc9jQe2E/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/a-E26wgLFqHZJv98qc9jQe2E/site/",
+    "omowienie_url": null
   },
   {
     "code": "las",
@@ -821,7 +923,8 @@
     "year": 20,
     "rating": 6600,
     "name": "Laser",
-    "url": "https://szkopul.edu.pl/problemset/problem/50NNSYZSygWhYhYv77iwZYP7/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/50NNSYZSygWhYhYv77iwZYP7/site/",
+    "omowienie_url": null
   },
   {
     "code": "par",
@@ -829,7 +932,8 @@
     "year": 30,
     "rating": 6600,
     "name": "Park linowy",
-    "url": "https://szkopul.edu.pl/problemset/problem/cjFRBobRWAkz8vO_c9ocKF3c/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/cjFRBobRWAkz8vO_c9ocKF3c/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi30_3_par/"
   },
   {
     "code": "tur",
@@ -837,7 +941,8 @@
     "year": 25,
     "rating": 6600,
     "name": "Turniej tr\u00f3jinformatyczny",
-    "url": "https://szkopul.edu.pl/problemset/problem/URPMk7vthz60i1J3MT3XbIIO/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/URPMk7vthz60i1J3MT3XbIIO/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_3_tur/"
   },
   {
     "code": "doo",
@@ -845,7 +950,8 @@
     "year": 21,
     "rating": 6500,
     "name": "Zadanie Dooko\u0142a \u015bwiata",
-    "url": "https://szkopul.edu.pl/problemset/problem/hogW-qBD1uDPGDS4jTohYMwc/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/hogW-qBD1uDPGDS4jTohYMwc/site/",
+    "omowienie_url": null
   },
   {
     "code": "ukr*",
@@ -853,7 +959,8 @@
     "year": 33,
     "rating": 6500,
     "name": "Ukryte drzewo",
-    "url": "https://szkopul.edu.pl/problemset/problem/_RHi9wOdNMRwWpB0piclsoL0/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/_RHi9wOdNMRwWpB0piclsoL0/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_3_ukr/"
   },
   {
     "code": "gra",
@@ -861,7 +968,8 @@
     "year": 11,
     "rating": 6500,
     "name": "Zadanie Gra",
-    "url": "https://szkopul.edu.pl/problemset/problem/n-nVHgHyiFCIDsAF_bhQbERH/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/n-nVHgHyiFCIDsAF_bhQbERH/site/",
+    "omowienie_url": null
   },
   {
     "code": "hyd",
@@ -869,7 +977,8 @@
     "year": 23,
     "rating": 6500,
     "name": "Hydrorozgrywka",
-    "url": "https://szkopul.edu.pl/problemset/problem/y9HM1ctDU8V8xLMRUYACDIRs/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/y9HM1ctDU8V8xLMRUYACDIRs/site/",
+    "omowienie_url": null
   },
   {
     "code": "orn",
@@ -877,7 +986,8 @@
     "year": 26,
     "rating": 6500,
     "name": "Ornitolog",
-    "url": "https://szkopul.edu.pl/problemset/problem/3QSA66sDeX0fi-Ry_gX1WXhy/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/3QSA66sDeX0fi-Ry_gX1WXhy/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi26_3_orn/"
   },
   {
     "code": "odw",
@@ -885,7 +995,8 @@
     "year": 14,
     "rating": 6500,
     "name": "Zadanie Odwa\u017cniki",
-    "url": "https://szkopul.edu.pl/problemset/problem/h_QPStxSmfEHuL2h_I5Qpa29/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/h_QPStxSmfEHuL2h_I5Qpa29/site/",
+    "omowienie_url": null
   },
   {
     "code": "waz",
@@ -893,7 +1004,8 @@
     "year": 21,
     "rating": 6500,
     "name": "Zadanie W\u0105\u017c",
-    "url": "https://szkopul.edu.pl/problemset/problem/QAgI7JLH5V0TTGSBW9hCjGPz/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/QAgI7JLH5V0TTGSBW9hCjGPz/site/",
+    "omowienie_url": null
   },
   {
     "code": "tou",
@@ -901,7 +1013,8 @@
     "year": 19,
     "rating": 6500,
     "name": "Zadanie Tour de Bajtocja",
-    "url": "https://szkopul.edu.pl/problemset/problem/RAWtcawtbUaBmPDAW0que_s9/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/RAWtcawtbUaBmPDAW0que_s9/site/",
+    "omowienie_url": null
   },
   {
     "code": "pus",
@@ -909,7 +1022,8 @@
     "year": 22,
     "rating": 6500,
     "name": "Zadanie Pustynia",
-    "url": "https://szkopul.edu.pl/problemset/problem/_PLjXEFyR0XMBQ-kZ1k_GgHE/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/_PLjXEFyR0XMBQ-kZ1k_GgHE/site/",
+    "omowienie_url": null
   },
   {
     "code": "wie*",
@@ -917,7 +1031,8 @@
     "year": 16,
     "rating": 6400,
     "name": "Zadanie Wied\u017amak",
-    "url": "https://szkopul.edu.pl/problemset/problem/LpgPj1kMBd1aIsADYqkUQf2U/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/LpgPj1kMBd1aIsADYqkUQf2U/site/",
+    "omowienie_url": null
   },
   {
     "code": "mos*",
@@ -925,7 +1040,8 @@
     "year": 11,
     "rating": 6400,
     "name": "Zadanie Most",
-    "url": "https://szkopul.edu.pl/problemset/problem/QOI_596ZIIk4CbamVRXVvbAI/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/QOI_596ZIIk4CbamVRXVvbAI/site/",
+    "omowienie_url": null
   },
   {
     "code": "pow",
@@ -933,7 +1049,8 @@
     "year": 14,
     "rating": 6400,
     "name": "Zadanie Pow\u00f3d\u017a",
-    "url": "https://szkopul.edu.pl/problemset/problem/YRNDuAjf8bbh4zv40WLnreDO/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/YRNDuAjf8bbh4zv40WLnreDO/site/",
+    "omowienie_url": null
   },
   {
     "code": "czw",
@@ -941,7 +1058,8 @@
     "year": 27,
     "rating": 6400,
     "name": "Drzewo czw\u00f3rkowe",
-    "url": "https://szkopul.edu.pl/problemset/problem/GcP-wwgKv1HiCzuFRKE6n7-U/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/GcP-wwgKv1HiCzuFRKE6n7-U/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi27_2_czw/"
   },
   {
     "code": "pat",
@@ -949,7 +1067,8 @@
     "year": 18,
     "rating": 6400,
     "name": "Zadanie Patyczki",
-    "url": "https://szkopul.edu.pl/problemset/problem/iqmKYlJL1Oz_sPCgi1BLqKRx/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/iqmKYlJL1Oz_sPCgi1BLqKRx/site/",
+    "omowienie_url": null
   },
   {
     "code": "tru",
@@ -957,7 +1076,8 @@
     "year": 27,
     "rating": 6400,
     "name": "Trudny dylemat przedszkolanina",
-    "url": "https://szkopul.edu.pl/problemset/problem/iJJmCcYiYpjxJP682ai0jToE/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/iJJmCcYiYpjxJP682ai0jToE/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi27_2_tru/"
   },
   {
     "code": "kos",
@@ -965,7 +1085,8 @@
     "year": 12,
     "rating": 6400,
     "name": "Zadanie Ko\u015bci",
-    "url": "https://szkopul.edu.pl/problemset/problem/8OrJo8TOlY9pynt7Tr9jMzzW/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/8OrJo8TOlY9pynt7Tr9jMzzW/site/",
+    "omowienie_url": null
   },
   {
     "code": "age",
@@ -973,7 +1094,8 @@
     "year": 29,
     "rating": 6300,
     "name": "Agenci",
-    "url": "https://szkopul.edu.pl/problemset/problem/weKRWGa1NgLNHT1WLDo5ohuH/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/weKRWGa1NgLNHT1WLDo5ohuH/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_2_age/"
   },
   {
     "code": "dwu",
@@ -981,7 +1103,8 @@
     "year": 12,
     "rating": 6300,
     "name": "Zadanie Dwuszereg",
-    "url": "https://szkopul.edu.pl/problemset/problem/TcT3eHfPGmUV2NmvzqyvVn9e/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/TcT3eHfPGmUV2NmvzqyvVn9e/site/",
+    "omowienie_url": null
   },
   {
     "code": "wie",
@@ -989,7 +1112,8 @@
     "year": 25,
     "rating": 6300,
     "name": "Wielomian",
-    "url": "https://szkopul.edu.pl/problemset/problem/9JvSAnyf5d1FlPAEXEdUAtCz/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/9JvSAnyf5d1FlPAEXEdUAtCz/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_3_wie/"
   },
   {
     "code": "naw",
@@ -997,7 +1121,8 @@
     "year": 28,
     "rating": 6300,
     "name": "Nawiasowania",
-    "url": "https://szkopul.edu.pl/problemset/problem/YmEnXY44jxuLdZPFrhWOfOQi/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/YmEnXY44jxuLdZPFrhWOfOQi/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi28_3_naw/"
   },
   {
     "code": "dlu",
@@ -1005,7 +1130,8 @@
     "year": 26,
     "rating": 6300,
     "name": "D\u0142ugie podr\u00f3\u017ce",
-    "url": "https://szkopul.edu.pl/problemset/problem/QHh99tBu4p9FMsFohv4da7S7/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/QHh99tBu4p9FMsFohv4da7S7/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi26_3_dlu/"
   },
   {
     "code": "ark",
@@ -1013,7 +1139,8 @@
     "year": 23,
     "rating": 6300,
     "name": "Arkanoid",
-    "url": "https://szkopul.edu.pl/problemset/problem/O730xgZEVynTWBmscBinhMbD/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/O730xgZEVynTWBmscBinhMbD/site/",
+    "omowienie_url": null
   },
   {
     "code": "kur",
@@ -1021,7 +1148,8 @@
     "year": 22,
     "rating": 6300,
     "name": "Zadanie Kurs szybkiego czytania",
-    "url": "https://szkopul.edu.pl/problemset/problem/vX48bEW0i5IRszoCOP_f78Dc/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/vX48bEW0i5IRszoCOP_f78Dc/site/",
+    "omowienie_url": null
   },
   {
     "code": "sza",
@@ -1029,7 +1157,8 @@
     "year": 29,
     "rating": 6300,
     "name": "Szablon 2",
-    "url": "https://szkopul.edu.pl/problemset/problem/4GJfmOVwv_koH74nf7IV3lr9/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/4GJfmOVwv_koH74nf7IV3lr9/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_3_sza/"
   },
   {
     "code": "kuc",
@@ -1037,7 +1166,8 @@
     "year": 24,
     "rating": 6300,
     "name": "Kucharz",
-    "url": "https://szkopul.edu.pl/problemset/problem/9NFtPM59qGWa7wdn570ifuP0/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/9NFtPM59qGWa7wdn570ifuP0/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi24_3_kuc/"
   },
   {
     "code": "imp*",
@@ -1045,7 +1175,8 @@
     "year": 29,
     "rating": 6300,
     "name": "Impreza krasnali 2",
-    "url": "https://szkopul.edu.pl/problemset/problem/2ZKQK-DbGaGSH4NAOY36o93L/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/2ZKQK-DbGaGSH4NAOY36o93L/site/",
+    "omowienie_url": null
   },
   {
     "code": "gdz",
@@ -1053,7 +1184,8 @@
     "year": 20,
     "rating": 6200,
     "name": "Gdzie jest jedynka?",
-    "url": "https://szkopul.edu.pl/problemset/problem/2TMZ0x-MC86QBBwLrqDfUVVd/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/2TMZ0x-MC86QBBwLrqDfUVVd/site/",
+    "omowienie_url": null
   },
   {
     "code": "ddl",
@@ -1061,7 +1193,8 @@
     "year": 25,
     "rating": 6200,
     "name": "Dwa d\u0142ugie lizaki",
-    "url": "https://szkopul.edu.pl/problemset/problem/Kmofhbw9cTx06gSZg-C5MiBU/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Kmofhbw9cTx06gSZg-C5MiBU/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_3_ddl/"
   },
   {
     "code": "rot",
@@ -1069,7 +1202,8 @@
     "year": 18,
     "rating": 6200,
     "name": "Rotacje na drzewie",
-    "url": "https://szkopul.edu.pl/problemset/problem/OELzSaMp2K7WAgCzcYYaKI1b/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/OELzSaMp2K7WAgCzcYYaKI1b/site/",
+    "omowienie_url": null
   },
   {
     "code": "tab",
@@ -1077,7 +1211,8 @@
     "year": 16,
     "rating": 6200,
     "name": "Zadanie Tablice",
-    "url": "https://szkopul.edu.pl/problemset/problem/_i0PmDyArk7mCW0eUJJzEVOA/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/_i0PmDyArk7mCW0eUJJzEVOA/site/",
+    "omowienie_url": null
   },
   {
     "code": "tom",
@@ -1085,7 +1220,8 @@
     "year": 25,
     "rating": 6200,
     "name": "Tomik poezji",
-    "url": "https://szkopul.edu.pl/problemset/problem/Hhip15j-8Ro2dOb_4oB98C-G/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Hhip15j-8Ro2dOb_4oB98C-G/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_2_tom/"
   },
   {
     "code": "tak",
@@ -1093,7 +1229,8 @@
     "year": 25,
     "rating": 6200,
     "name": "Taks\u00f3wki",
-    "url": "https://szkopul.edu.pl/problemset/problem/pxbqUTPy3IuPDul9FdT2_Sth/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/pxbqUTPy3IuPDul9FdT2_Sth/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_3_tak/"
   },
   {
     "code": "hur",
@@ -1101,7 +1238,8 @@
     "year": 19,
     "rating": 6200,
     "name": "Zadanie Hurtownia",
-    "url": "https://szkopul.edu.pl/problemset/problem/hbT9J8hl2Xw1zWGJBsXN9aic/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/hbT9J8hl2Xw1zWGJBsXN9aic/site/",
+    "omowienie_url": null
   },
   {
     "code": "drw",
@@ -1109,7 +1247,8 @@
     "year": 30,
     "rating": 6200,
     "name": "Drwale",
-    "url": "https://szkopul.edu.pl/problemset/problem/fh8k3DcWsZB3OwD8rSLJw7SQ/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/fh8k3DcWsZB3OwD8rSLJw7SQ/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi30_2_drw/"
   },
   {
     "code": "zja",
@@ -1117,7 +1256,8 @@
     "year": 26,
     "rating": 6200,
     "name": "Zjazd obie\u017cy\u015bwiat\u00f3w",
-    "url": "https://szkopul.edu.pl/problemset/problem/bS_effBgQtuS7NXJA_dn7Ogm/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/bS_effBgQtuS7NXJA_dn7Ogm/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi26_3_zja/"
   },
   {
     "code": "piw",
@@ -1125,7 +1265,8 @@
     "year": 32,
     "rating": 6100,
     "name": "Przyjaciele i wrogowie",
-    "url": "https://szkopul.edu.pl/problemset/problem/SSCZFOeuhe8_DNgsgFo9moDz/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/SSCZFOeuhe8_DNgsgFo9moDz/site/",
+    "omowienie_url": null
   },
   {
     "code": "wca",
@@ -1133,7 +1274,8 @@
     "year": 23,
     "rating": 6100,
     "name": "Wcale nie Nim",
-    "url": "https://szkopul.edu.pl/problemset/problem/M5CruI5eCu8elnNFHuiXBrvV/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/M5CruI5eCu8elnNFHuiXBrvV/site/",
+    "omowienie_url": null
   },
   {
     "code": "spo",
@@ -1141,7 +1283,8 @@
     "year": 33,
     "rating": 6100,
     "name": "Spotkanie na Bajhattanie",
-    "url": "https://szkopul.edu.pl/problemset/problem/Nj5KslMblkAfffMZtJPVBjxl/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Nj5KslMblkAfffMZtJPVBjxl/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_2_spo/"
   },
   {
     "code": "piz*",
@@ -1149,7 +1292,8 @@
     "year": 24,
     "rating": 6100,
     "name": "Dostawca pizzy",
-    "url": "https://szkopul.edu.pl/problemset/problem/q_HBwDECevrQ2iQh1wT6ssx2/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/q_HBwDECevrQ2iQh1wT6ssx2/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi24_3_piz/"
   },
   {
     "code": "odw*",
@@ -1157,7 +1301,8 @@
     "year": 22,
     "rating": 6100,
     "name": "Zadanie Odwiedziny",
-    "url": "https://szkopul.edu.pl/problemset/problem/Mlar--JvS1gThazr04pNorHN/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Mlar--JvS1gThazr04pNorHN/site/",
+    "omowienie_url": null
   },
   {
     "code": "gra",
@@ -1165,7 +1310,8 @@
     "year": 26,
     "rating": 6100,
     "name": "Gra w dzielniki",
-    "url": "https://szkopul.edu.pl/problemset/problem/k4iPPyQbhkKRE3kLi6zjUbWz/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/k4iPPyQbhkKRE3kLi6zjUbWz/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi26_3_gra/"
   },
   {
     "code": "kon",
@@ -1173,7 +1319,8 @@
     "year": 29,
     "rating": 6100,
     "name": "Konkurs ta\u0144ca towarzyskiego",
-    "url": "https://szkopul.edu.pl/problemset/problem/TEuljz3gsotYQRUKdlEZZr1G/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/TEuljz3gsotYQRUKdlEZZr1G/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_2_kon/"
   },
   {
     "code": "oce",
@@ -1181,7 +1328,8 @@
     "year": 24,
     "rating": 6100,
     "name": "Oceny",
-    "url": "https://szkopul.edu.pl/problemset/problem/0KG8REkSLNnY5sVkm7Aei_R7/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/0KG8REkSLNnY5sVkm7Aei_R7/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi24_3_oce/"
   },
   {
     "code": "tel",
@@ -1189,7 +1337,8 @@
     "year": 17,
     "rating": 6100,
     "name": "Zadanie Teleporty",
-    "url": "https://szkopul.edu.pl/problemset/problem/unYhfsxoVEsb1O89HLtzjWc5/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/unYhfsxoVEsb1O89HLtzjWc5/site/",
+    "omowienie_url": null
   },
   {
     "code": "drz",
@@ -1197,7 +1346,8 @@
     "year": 32,
     "rating": 6100,
     "name": "Drzewo genealogiczne",
-    "url": "https://szkopul.edu.pl/problemset/problem/0I18dLrp40xsAiQ-qMLmX-jP/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/0I18dLrp40xsAiQ-qMLmX-jP/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi32_2_drz/"
   },
   {
     "code": "poc",
@@ -1205,7 +1355,8 @@
     "year": 15,
     "rating": 6100,
     "name": "Zadanie Poci\u0105gi",
-    "url": "https://szkopul.edu.pl/problemset/problem/_aNlLfqZBTY6FRf2_IGScTLn/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/_aNlLfqZBTY6FRf2_IGScTLn/site/",
+    "omowienie_url": null
   },
   {
     "code": "pos",
@@ -1213,7 +1364,8 @@
     "year": 23,
     "rating": 6100,
     "name": "Pos\u0142aniec",
-    "url": "https://szkopul.edu.pl/problemset/problem/Mk-9GNDtSal6h_8T4n9Ezq9M/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Mk-9GNDtSal6h_8T4n9Ezq9M/site/",
+    "omowienie_url": null
   },
   {
     "code": "aut",
@@ -1221,7 +1373,8 @@
     "year": 12,
     "rating": 6100,
     "name": "Zadanie Autobus",
-    "url": "https://szkopul.edu.pl/problemset/problem/YBrY12KT6hTbgYrqwXhH3soW/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/YBrY12KT6hTbgYrqwXhH3soW/site/",
+    "omowienie_url": null
   },
   {
     "code": "rzb",
@@ -1229,7 +1382,8 @@
     "year": 33,
     "rating": 6100,
     "name": "Rozbudowa",
-    "url": "https://szkopul.edu.pl/problemset/problem/nNRmLjU-KBuT9rVjbu8Hl8js/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/nNRmLjU-KBuT9rVjbu8Hl8js/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_3_rzb/"
   },
   {
     "code": "sza",
@@ -1237,7 +1391,8 @@
     "year": 28,
     "rating": 6000,
     "name": "Szablon Bajtogrodu",
-    "url": "https://szkopul.edu.pl/problemset/problem/y-mTVYClxMJcgMhUnHaUqPPq/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/y-mTVYClxMJcgMhUnHaUqPPq/site/",
+    "omowienie_url": null
   },
   {
     "code": "wyb",
@@ -1245,7 +1400,8 @@
     "year": 29,
     "rating": 6000,
     "name": "Wybredny Bajtazar",
-    "url": "https://szkopul.edu.pl/problemset/problem/n986eRgmdL0DsqT2Hn5aFDRs/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/n986eRgmdL0DsqT2Hn5aFDRs/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_3_wyb/"
   },
   {
     "code": "met",
@@ -1253,7 +1409,8 @@
     "year": 13,
     "rating": 6000,
     "name": "Zadanie Metro",
-    "url": "https://szkopul.edu.pl/problemset/problem/iho4pUEITa4G4NJDKU1-8z8g/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/iho4pUEITa4G4NJDKU1-8z8g/site/",
+    "omowienie_url": null
   },
   {
     "code": "far*",
@@ -1261,7 +1418,8 @@
     "year": 21,
     "rating": 6000,
     "name": "Zadanie FarmerCraft",
-    "url": "https://szkopul.edu.pl/problemset/problem/vxIJvdKsTWZup9JYnSgRZPT3/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/vxIJvdKsTWZup9JYnSgRZPT3/site/",
+    "omowienie_url": null
   },
   {
     "code": "tet",
@@ -1269,7 +1427,8 @@
     "year": 14,
     "rating": 6000,
     "name": "Zadanie Tetris Attack",
-    "url": "https://szkopul.edu.pl/problemset/problem/noPY-IL0vsAi2TiXF-v2f5Br/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/noPY-IL0vsAi2TiXF-v2f5Br/site/",
+    "omowienie_url": null
   },
   {
     "code": "blo*",
@@ -1277,7 +1436,8 @@
     "year": 15,
     "rating": 6000,
     "name": "Zadanie Blokada",
-    "url": "https://szkopul.edu.pl/problemset/problem/JkT6CwdepjCQnJ9c6CwxHolZ/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/JkT6CwdepjCQnJ9c6CwxHolZ/site/",
+    "omowienie_url": null
   },
   {
     "code": "prz",
@@ -1285,7 +1445,8 @@
     "year": 16,
     "rating": 5900,
     "name": "Zadanie Przyspieszenie algorytmu",
-    "url": "https://szkopul.edu.pl/problemset/problem/7eeXpvQc5tZR6a1tnFr48dy_/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/7eeXpvQc5tZR6a1tnFr48dy_/site/",
+    "omowienie_url": null
   },
   {
     "code": "lic",
@@ -1293,7 +1454,8 @@
     "year": 19,
     "rating": 5900,
     "name": "Licytacja",
-    "url": "https://szkopul.edu.pl/problemset/problem/deIZtcberd8cAXH64zlIq0wC/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/deIZtcberd8cAXH64zlIq0wC/site/",
+    "omowienie_url": null
   },
   {
     "code": "sko",
@@ -1301,7 +1463,8 @@
     "year": 30,
     "rating": 5900,
     "name": "Skoczek",
-    "url": "https://szkopul.edu.pl/problemset/problem/-QD3vIxFVPowQFPWpfD8AWS7/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/-QD3vIxFVPowQFPWpfD8AWS7/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi30_3_sko/"
   },
   {
     "code": "sta",
@@ -1309,7 +1472,8 @@
     "year": 15,
     "rating": 5900,
     "name": "Zadanie Stacja",
-    "url": "https://szkopul.edu.pl/problemset/problem/7Pd1uIyue3oHambW1v-ADJDN/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/7Pd1uIyue3oHambW1v-ADJDN/site/",
+    "omowienie_url": null
   },
   {
     "code": "sup",
@@ -1317,7 +1481,8 @@
     "year": 21,
     "rating": 5900,
     "name": "Zadanie Superkomputer",
-    "url": "https://szkopul.edu.pl/problemset/problem/e9vyycMN_DMDnRVsNpTUcH5K/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/e9vyycMN_DMDnRVsNpTUcH5K/site/",
+    "omowienie_url": null
   },
   {
     "code": "cia",
@@ -1325,7 +1490,8 @@
     "year": 31,
     "rating": 5900,
     "name": "Ci\u0105g binarny",
-    "url": "https://szkopul.edu.pl/problemset/problem/q6f5K7O79TpYR7yuZVrQpy_d/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/q6f5K7O79TpYR7yuZVrQpy_d/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_2_cia/"
   },
   {
     "code": "gra*",
@@ -1333,7 +1499,8 @@
     "year": 20,
     "rating": 5900,
     "name": "Zadanie Gra Tower Defense",
-    "url": "https://szkopul.edu.pl/problemset/problem/OuZMUi4nBcPXMIOr10Z-JGsG/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/OuZMUi4nBcPXMIOr10Z-JGsG/site/",
+    "omowienie_url": null
   },
   {
     "code": "raj",
@@ -1341,7 +1508,8 @@
     "year": 21,
     "rating": 5900,
     "name": "Zadanie Rajd",
-    "url": "https://szkopul.edu.pl/problemset/problem/orur2kPvWQR0LzMXXoP6pCat/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/orur2kPvWQR0LzMXXoP6pCat/site/",
+    "omowienie_url": null
   },
   {
     "code": "kon",
@@ -1349,7 +1517,8 @@
     "year": 25,
     "rating": 5900,
     "name": "Konduktor",
-    "url": "https://szkopul.edu.pl/problemset/problem/lbADmW7d353d0F0iw4kXTjsl/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/lbADmW7d353d0F0iw4kXTjsl/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_2_kon/"
   },
   {
     "code": "tur",
@@ -1357,7 +1526,8 @@
     "year": 11,
     "rating": 5900,
     "name": "Zadanie Turniej",
-    "url": "https://szkopul.edu.pl/problemset/problem/ri4yM2hhYsgA4mo79cLwyLg9/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/ri4yM2hhYsgA4mo79cLwyLg9/site/",
+    "omowienie_url": null
   },
   {
     "code": "sza",
@@ -1365,7 +1535,8 @@
     "year": 12,
     "rating": 5900,
     "name": "Zadanie Szablon",
-    "url": "https://szkopul.edu.pl/problemset/problem/a3IarwgOdubufXQ89OsQz3v_/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/a3IarwgOdubufXQ89OsQz3v_/site/",
+    "omowienie_url": null
   },
   {
     "code": "trz*",
@@ -1373,7 +1544,8 @@
     "year": 25,
     "rating": 5900,
     "name": "Trzy wie\u017ce 2",
-    "url": "https://szkopul.edu.pl/problemset/problem/VAWioeFeAgo2s3xeUQAd_amg/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/VAWioeFeAgo2s3xeUQAd_amg/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_3_trz/"
   },
   {
     "code": "wsp",
@@ -1381,7 +1553,8 @@
     "year": 30,
     "rating": 5900,
     "name": "Wspinaczka",
-    "url": "https://szkopul.edu.pl/problemset/problem/dqDbPTjXtS9KK9xXHD4qAiie/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/dqDbPTjXtS9KK9xXHD4qAiie/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi30_2_wsp/"
   },
   {
     "code": "wag",
@@ -1389,7 +1562,8 @@
     "year": 29,
     "rating": 5900,
     "name": "Waga",
-    "url": "https://szkopul.edu.pl/problemset/problem/dd4KmATYng1s8UbSvaXmqlHX/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/dd4KmATYng1s8UbSvaXmqlHX/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_3_wag/"
   },
   {
     "code": "dwa*",
@@ -1397,7 +1571,8 @@
     "year": 25,
     "rating": 5900,
     "name": "Dwa pionki",
-    "url": "https://szkopul.edu.pl/problemset/problem/vl-wrtcyzmOumStUcnXGiQTm/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/vl-wrtcyzmOumStUcnXGiQTm/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_3_dwa/"
   },
   {
     "code": "kol",
@@ -1405,7 +1580,8 @@
     "year": 22,
     "rating": 5800,
     "name": "Kolekcjoner Bajtemon\u00f3w",
-    "url": "https://szkopul.edu.pl/problemset/problem/i_8o_TvZ2QA9MWo4h1PglK0H/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/i_8o_TvZ2QA9MWo4h1PglK0H/site/",
+    "omowienie_url": null
   },
   {
     "code": "sza",
@@ -1413,7 +1589,8 @@
     "year": 19,
     "rating": 5800,
     "name": "Zadanie Szatnia",
-    "url": "https://szkopul.edu.pl/problemset/problem/E_UP8if3dQ6IUlFNsD1CQOdy/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/E_UP8if3dQ6IUlFNsD1CQOdy/site/",
+    "omowienie_url": null
   },
   {
     "code": "okr",
@@ -1421,7 +1598,8 @@
     "year": 19,
     "rating": 5800,
     "name": "Zadanie Okropny wiersz",
-    "url": "https://szkopul.edu.pl/problemset/problem/h9erYqBkPcC8KtSvLhMzhgjw/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/h9erYqBkPcC8KtSvLhMzhgjw/site/",
+    "omowienie_url": null
   },
   {
     "code": "kom",
@@ -1429,7 +1607,8 @@
     "year": 25,
     "rating": 5800,
     "name": "Liczby kompletne",
-    "url": "https://szkopul.edu.pl/problemset/problem/GfNdWdsmfgHxoByl0ETuZW9c/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/GfNdWdsmfgHxoByl0ETuZW9c/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_3_kom/"
   },
   {
     "code": "zab",
@@ -1437,7 +1616,8 @@
     "year": 17,
     "rating": 5800,
     "name": "Zadanie \u017babka",
-    "url": "https://szkopul.edu.pl/problemset/problem/VdGoo4AEt68ZDztfDsJ34iiP/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/VdGoo4AEt68ZDztfDsJ34iiP/site/",
+    "omowienie_url": null
   },
   {
     "code": "pil",
@@ -1445,7 +1625,8 @@
     "year": 17,
     "rating": 5800,
     "name": "Zadanie Piloci",
-    "url": "https://szkopul.edu.pl/problemset/problem/4ZH1h7Wr18Yb7B0L7ym_Km0L/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/4ZH1h7Wr18Yb7B0L7ym_Km0L/site/",
+    "omowienie_url": null
   },
   {
     "code": "glo",
@@ -1453,7 +1634,8 @@
     "year": 29,
     "rating": 5800,
     "name": "G\u0142osowanie",
-    "url": "https://szkopul.edu.pl/problemset/problem/BM4yZ7Mo9yZtUdXxVdZAkAjs/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/BM4yZ7Mo9yZtUdXxVdZAkAjs/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_3_glo/"
   },
   {
     "code": "cyk",
@@ -1461,7 +1643,8 @@
     "year": 26,
     "rating": 5800,
     "name": "Przesuni\u0119cie cykliczne",
-    "url": "https://szkopul.edu.pl/problemset/problem/e86SVYtB-4G3yVTFi2unCZWa/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/e86SVYtB-4G3yVTFi2unCZWa/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi26_2_cyk/"
   },
   {
     "code": "cho",
@@ -1469,7 +1652,8 @@
     "year": 17,
     "rating": 5700,
     "name": "Zadanie Chomiki",
-    "url": "https://szkopul.edu.pl/problemset/problem/mLv0a_y18C5vj5J6jFK2gbwr/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/mLv0a_y18C5vj5J6jFK2gbwr/site/",
+    "omowienie_url": null
   },
   {
     "code": "prz",
@@ -1477,7 +1661,8 @@
     "year": 27,
     "rating": 5700,
     "name": "Przedszkole",
-    "url": "https://szkopul.edu.pl/problemset/problem/owcaRjm1cAGxst32bd_-elx6/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/owcaRjm1cAGxst32bd_-elx6/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi27_1_prz/"
   },
   {
     "code": "dro",
@@ -1485,7 +1670,8 @@
     "year": 28,
     "rating": 5700,
     "name": "Droga do domu",
-    "url": "https://szkopul.edu.pl/problemset/problem/ZfS_tobZ_7xdR6D5s6Tegur3/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/ZfS_tobZ_7xdR6D5s6Tegur3/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi28_3_dro/"
   },
   {
     "code": "bbb",
@@ -1493,7 +1679,8 @@
     "year": 15,
     "rating": 5700,
     "name": "Zadanie BBB",
-    "url": "https://szkopul.edu.pl/problemset/problem/GaSxd7JWqK-Ukr7EDxAaJLAg/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/GaSxd7JWqK-Ukr7EDxAaJLAg/site/",
+    "omowienie_url": null
   },
   {
     "code": "les",
@@ -1501,7 +1688,8 @@
     "year": 28,
     "rating": 5700,
     "name": "Les Biterables",
-    "url": "https://szkopul.edu.pl/problemset/problem/Lpz563_ATiESIrNZxiT5bwIx/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Lpz563_ATiESIrNZxiT5bwIx/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi28_3_les/"
   },
   {
     "code": "prz*",
@@ -1509,7 +1697,8 @@
     "year": 25,
     "rating": 5700,
     "name": "Przelewy",
-    "url": "https://szkopul.edu.pl/problemset/problem/o4N9I1hFMnpCUm0sjmIEYx_2/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/o4N9I1hFMnpCUm0sjmIEYx_2/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_2_prz/"
   },
   {
     "code": "sum",
@@ -1517,7 +1706,8 @@
     "year": 24,
     "rating": 5700,
     "name": "Suma cyfr",
-    "url": "https://szkopul.edu.pl/problemset/problem/Ng815bt4Fko9lj2-l7eVl3Aw/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Ng815bt4Fko9lj2-l7eVl3Aw/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi24_2_sum/"
   },
   {
     "code": "lot*",
@@ -1525,7 +1715,8 @@
     "year": 12,
     "rating": 5700,
     "name": "Zadanie Lot na Marsa",
-    "url": "https://szkopul.edu.pl/problemset/problem/Pkrgm_f8O21tkD-WlEFd1VB5/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Pkrgm_f8O21tkD-WlEFd1VB5/site/",
+    "omowienie_url": null
   },
   {
     "code": "smi",
@@ -1533,7 +1724,8 @@
     "year": 18,
     "rating": 5700,
     "name": "\u015amieci",
-    "url": "https://szkopul.edu.pl/problemset/problem/_xzIYb_M_gtd4Vz7x_nvrRE6/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/_xzIYb_M_gtd4Vz7x_nvrRE6/site/",
+    "omowienie_url": null
   },
   {
     "code": "arm*",
@@ -1541,7 +1733,8 @@
     "year": 29,
     "rating": 5700,
     "name": "Armia klon\u00f3w",
-    "url": "https://szkopul.edu.pl/problemset/problem/gxeCvLD1xW1t-Y33bbC0n3wZ/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/gxeCvLD1xW1t-Y33bbC0n3wZ/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_2_arm/"
   },
   {
     "code": "szn",
@@ -1549,7 +1742,8 @@
     "year": 11,
     "rating": 5600,
     "name": "Zadanie Sznurki",
-    "url": "https://szkopul.edu.pl/problemset/problem/NErcM2BwzuaZlcj9bIMblIXf/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/NErcM2BwzuaZlcj9bIMblIXf/site/",
+    "omowienie_url": null
   },
   {
     "code": "wak*",
@@ -1557,7 +1751,8 @@
     "year": 27,
     "rating": 5600,
     "name": "Wakacje Bajtazara",
-    "url": "https://szkopul.edu.pl/problemset/problem/pXcijJbDyC_jRAjkoxBH9sCO/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/pXcijJbDyC_jRAjkoxBH9sCO/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi27_2_wak/"
   },
   {
     "code": "zaj",
@@ -1565,7 +1760,8 @@
     "year": 23,
     "rating": 5600,
     "name": "Zaj\u0105kni\u0119cia",
-    "url": "https://szkopul.edu.pl/problemset/problem/Orc2Z7ti1xLaUUQDT1a6RGR5/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Orc2Z7ti1xLaUUQDT1a6RGR5/site/",
+    "omowienie_url": null
   },
   {
     "code": "wir*",
@@ -1573,7 +1769,8 @@
     "year": 30,
     "rating": 5600,
     "name": "Wirus",
-    "url": "https://szkopul.edu.pl/problemset/problem/c9kbLOJVLHiQDcmiNo8Pa4w6/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/c9kbLOJVLHiQDcmiNo8Pa4w6/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi30_2_wir/"
   },
   {
     "code": "des",
@@ -1581,7 +1778,8 @@
     "year": 33,
     "rating": 5600,
     "name": "Deszcze meteor\u00f3w",
-    "url": "https://szkopul.edu.pl/problemset/problem/a0qKqyZmbnu2gCu_P8LSmKtV/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/a0qKqyZmbnu2gCu_P8LSmKtV/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_3_des/"
   },
   {
     "code": "pod",
@@ -1589,7 +1787,8 @@
     "year": 22,
     "rating": 5600,
     "name": "Zadanie Podzia\u0142 naszyjnika",
-    "url": "https://szkopul.edu.pl/problemset/problem/SbvfueoDtZe2DQFHrywTIakc/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/SbvfueoDtZe2DQFHrywTIakc/site/",
+    "omowienie_url": null
   },
   {
     "code": "wyj",
@@ -1597,7 +1796,8 @@
     "year": 31,
     "rating": 5600,
     "name": "Wyj\u015bcia ewakuacyjne",
-    "url": "https://szkopul.edu.pl/problemset/problem/89019WebQziwBUs7fTVV_lrA/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/89019WebQziwBUs7fTVV_lrA/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_3_wyj/"
   },
   {
     "code": "sss*",
@@ -1605,7 +1805,8 @@
     "year": 32,
     "rating": 5600,
     "name": "Sekretna siatka szpiegowska",
-    "url": "https://szkopul.edu.pl/problemset/problem/M5EPzVfvAKwnN31w8f50oiQ9/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/M5EPzVfvAKwnN31w8f50oiQ9/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi32_2_sss/"
   },
   {
     "code": "cza",
@@ -1613,7 +1814,8 @@
     "year": 22,
     "rating": 5600,
     "name": "Zadanie Czarnoksi\u0119\u017cnicy okr\u0105g\u0142ego sto\u0142u",
-    "url": "https://szkopul.edu.pl/problemset/problem/fuTBSUcQ2U9sVPYJUDI4JwIe/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/fuTBSUcQ2U9sVPYJUDI4JwIe/site/",
+    "omowienie_url": null
   },
   {
     "code": "kol",
@@ -1621,7 +1823,8 @@
     "year": 26,
     "rating": 5600,
     "name": "Kolacje",
-    "url": "https://szkopul.edu.pl/problemset/problem/CACYTyPO4YJxyZzNumr0zr5e/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/CACYTyPO4YJxyZzNumr0zr5e/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi26_2_kol/"
   },
   {
     "code": "por",
@@ -1629,7 +1832,8 @@
     "year": 32,
     "rating": 5600,
     "name": "Porz\u0105dki",
-    "url": "https://szkopul.edu.pl/problemset/problem/QKm1pMst03HaHH8jB3defHTE/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/QKm1pMst03HaHH8jB3defHTE/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi32_2_por/"
   },
   {
     "code": "zam",
@@ -1637,7 +1841,8 @@
     "year": 24,
     "rating": 5500,
     "name": "Zamek",
-    "url": "https://szkopul.edu.pl/problemset/problem/7Lmwi_qxvuplTPlhRuci1UBt/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/7Lmwi_qxvuplTPlhRuci1UBt/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi24_2_zam/"
   },
   {
     "code": "met*",
@@ -1645,7 +1850,8 @@
     "year": 26,
     "rating": 5500,
     "name": "Metro",
-    "url": "https://szkopul.edu.pl/problemset/problem/hxMnCQMERV9OY1QwAdEXxQFy/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/hxMnCQMERV9OY1QwAdEXxQFy/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi26_3_met/"
   },
   {
     "code": "atr",
@@ -1653,7 +1859,8 @@
     "year": 14,
     "rating": 5500,
     "name": "Zadanie Atrakcje turystyczne",
-    "url": "https://szkopul.edu.pl/problemset/problem/TxxUBl3G5gr0q4jFuWQah3tr/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/TxxUBl3G5gr0q4jFuWQah3tr/site/",
+    "omowienie_url": null
   },
   {
     "code": "mro",
@@ -1661,7 +1868,8 @@
     "year": 21,
     "rating": 5500,
     "name": "Zadanie Mrowisko",
-    "url": "https://szkopul.edu.pl/problemset/problem/J5f8YHtUsaMdtOdfx0QoHKe0/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/J5f8YHtUsaMdtOdfx0QoHKe0/site/",
+    "omowienie_url": null
   },
   {
     "code": "rpk",
@@ -1669,7 +1877,8 @@
     "year": 33,
     "rating": 5500,
     "name": "Rozwi\u0105zanie pokojowe",
-    "url": "https://szkopul.edu.pl/problemset/problem/WeC3HofRF1EkrFRGviKlB2az/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/WeC3HofRF1EkrFRGviKlB2az/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_1_rpk/"
   },
   {
     "code": "swi*",
@@ -1677,7 +1886,8 @@
     "year": 23,
     "rating": 5400,
     "name": "\u015awi\u0105teczny \u0142a\u0144cuch",
-    "url": "https://szkopul.edu.pl/problemset/problem/cSa80AKpjHR8FlWE4BCpLGT3/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/cSa80AKpjHR8FlWE4BCpLGT3/site/",
+    "omowienie_url": null
   },
   {
     "code": "pra",
@@ -1685,7 +1895,8 @@
     "year": 23,
     "rating": 5400,
     "name": "Pracowity Ja\u015b",
-    "url": "https://szkopul.edu.pl/problemset/problem/_cVmDXXn2TjF0dF1rW6eazA0/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/_cVmDXXn2TjF0dF1rW6eazA0/site/",
+    "omowienie_url": null
   },
   {
     "code": "prz",
@@ -1693,7 +1904,8 @@
     "year": 11,
     "rating": 5400,
     "name": "Zadanie Przeprawa",
-    "url": "https://szkopul.edu.pl/problemset/problem/cl0MovxJD54oTjw1ZcyMPO95/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/cl0MovxJD54oTjw1ZcyMPO95/site/",
+    "omowienie_url": null
   },
   {
     "code": "gra",
@@ -1701,7 +1913,8 @@
     "year": 30,
     "rating": 5400,
     "name": "Gra w kolorowanie",
-    "url": "https://szkopul.edu.pl/problemset/problem/BefzQSkyOOBhuycp8gvD8XdG/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/BefzQSkyOOBhuycp8gvD8XdG/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi30_2_gra/"
   },
   {
     "code": "dro",
@@ -1709,7 +1922,8 @@
     "year": 23,
     "rating": 5400,
     "name": "Drogi zmiennokierunkowe",
-    "url": "https://szkopul.edu.pl/problemset/problem/9TaxfuNdAv2FPpQ6PeB-vlti/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/9TaxfuNdAv2FPpQ6PeB-vlti/site/",
+    "omowienie_url": null
   },
   {
     "code": "zdj",
@@ -1717,7 +1931,8 @@
     "year": 28,
     "rating": 5400,
     "name": "Zdj\u0119cia krasnali",
-    "url": "https://szkopul.edu.pl/problemset/problem/GfCNwxdYubiS1Nlnb_h7VkJW/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/GfCNwxdYubiS1Nlnb_h7VkJW/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi28_2_zdj/"
   },
   {
     "code": "log*",
@@ -1725,7 +1940,8 @@
     "year": 22,
     "rating": 5400,
     "name": "Zadanie Logistyka",
-    "url": "https://szkopul.edu.pl/problemset/problem/ShrCwRqlzMKLBb269GkVbWg_/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/ShrCwRqlzMKLBb269GkVbWg_/site/",
+    "omowienie_url": null
   },
   {
     "code": "naj",
@@ -1733,7 +1949,8 @@
     "year": 13,
     "rating": 5400,
     "name": "Zadanie Najazd",
-    "url": "https://szkopul.edu.pl/problemset/problem/ifGPlMtR2muaLl-03rmGj6T8/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/ifGPlMtR2muaLl-03rmGj6T8/site/",
+    "omowienie_url": null
   },
   {
     "code": "tet",
@@ -1741,7 +1958,8 @@
     "year": 13,
     "rating": 5400,
     "name": "Zadanie Tetris 3D",
-    "url": "https://szkopul.edu.pl/problemset/problem/D9aSwiadvncF890pdhV7jwrg/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/D9aSwiadvncF890pdhV7jwrg/site/",
+    "omowienie_url": null
   },
   {
     "code": "bom",
@@ -1749,7 +1967,8 @@
     "year": 29,
     "rating": 5400,
     "name": "Bomberman",
-    "url": "https://szkopul.edu.pl/problemset/problem/MfTrGDTrlrVX21vwwhgsjaLv/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/MfTrGDTrlrVX21vwwhgsjaLv/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_2_bom/"
   },
   {
     "code": "pod",
@@ -1757,7 +1976,8 @@
     "year": 26,
     "rating": 5400,
     "name": "Podci\u0105gi",
-    "url": "https://szkopul.edu.pl/problemset/problem/6YZi3T3LFlZYgr3oZ5iUOrRc/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/6YZi3T3LFlZYgr3oZ5iUOrRc/site/",
+    "omowienie_url": null
   },
   {
     "code": "wys",
@@ -1765,7 +1985,8 @@
     "year": 26,
     "rating": 5400,
     "name": "Wy\u015bcigi",
-    "url": "https://szkopul.edu.pl/problemset/problem/S8phA644ooC9arh6FhXzvbiH/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/S8phA644ooC9arh6FhXzvbiH/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi26_3_wys/"
   },
   {
     "code": "wag",
@@ -1773,7 +1994,8 @@
     "year": 30,
     "rating": 5400,
     "name": "Wagony",
-    "url": "https://szkopul.edu.pl/problemset/problem/UtJx9fM6UT2oxXFenSPjiz5C/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/UtJx9fM6UT2oxXFenSPjiz5C/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi30_2_wag/"
   },
   {
     "code": "gra",
@@ -1781,7 +2003,8 @@
     "year": 17,
     "rating": 5300,
     "name": "Zadanie Gra w minima",
-    "url": "https://szkopul.edu.pl/problemset/problem/zGq2aLbEYfP96wuSl8SSYSGs/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/zGq2aLbEYfP96wuSl8SSYSGs/site/",
+    "omowienie_url": null
   },
   {
     "code": "mid",
@@ -1789,7 +2012,8 @@
     "year": 24,
     "rating": 5300,
     "name": "Midas",
-    "url": "https://szkopul.edu.pl/problemset/problem/wrTmzO9-dzEbLtsRUCdMV2_W/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/wrTmzO9-dzEbLtsRUCdMV2_W/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi24_3_mid/"
   },
   {
     "code": "ple",
@@ -1797,7 +2021,8 @@
     "year": 28,
     "rating": 5300,
     "name": "Pakowanie plecaka",
-    "url": "https://szkopul.edu.pl/problemset/problem/LRxIzCCc5Nn4UvWV514zro4a/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/LRxIzCCc5Nn4UvWV514zro4a/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi28_2_ple/"
   },
   {
     "code": "sum",
@@ -1805,7 +2030,8 @@
     "year": 28,
     "rating": 5300,
     "name": "Suma liczb pierwszych",
-    "url": "https://szkopul.edu.pl/problemset/problem/8brtPux-IyytS6rOoOR1cJTL/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/8brtPux-IyytS6rOoOR1cJTL/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi28_3_sum/"
   },
   {
     "code": "kol*",
@@ -1813,7 +2039,8 @@
     "year": 28,
     "rating": 5300,
     "name": "Kolekcjoner Bajtemon\u00f3w 2",
-    "url": "https://szkopul.edu.pl/problemset/problem/yI8VISW680r7ktJAPvA5QPkl/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/yI8VISW680r7ktJAPvA5QPkl/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi28_3_kol/"
   },
   {
     "code": "trz",
@@ -1821,7 +2048,8 @@
     "year": 22,
     "rating": 5300,
     "name": "Zadanie Trzy Wie\u017ce",
-    "url": "https://szkopul.edu.pl/problemset/problem/Grfouq9u3g_TYktFXO2sNjCU/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Grfouq9u3g_TYktFXO2sNjCU/site/",
+    "omowienie_url": null
   },
   {
     "code": "kon*",
@@ -1829,7 +2057,8 @@
     "year": 33,
     "rating": 5300,
     "name": "Kontrwywiad",
-    "url": "https://szkopul.edu.pl/problemset/problem/IdNBiHtkms48GdnUVsFb51Xz/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/IdNBiHtkms48GdnUVsFb51Xz/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_2_kon/"
   },
   {
     "code": "zyw",
@@ -1837,7 +2066,8 @@
     "year": 23,
     "rating": 5300,
     "name": "\u017bywop\u0142ot",
-    "url": "https://szkopul.edu.pl/problemset/problem/dABzva_j1-BvzKMsyxkuRoue/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/dABzva_j1-BvzKMsyxkuRoue/site/",
+    "omowienie_url": null
   },
   {
     "code": "wil",
@@ -1845,7 +2075,8 @@
     "year": 22,
     "rating": 5200,
     "name": "Zadanie Wilcze do\u0142y",
-    "url": "https://szkopul.edu.pl/problemset/problem/07Q0fFk7fU2TmGr6wpPeDCZj/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/07Q0fFk7fU2TmGr6wpPeDCZj/site/",
+    "omowienie_url": null
   },
   {
     "code": "lan",
@@ -1853,7 +2084,8 @@
     "year": 20,
     "rating": 5200,
     "name": "Zadanie \u0141a\u0144cuch kolorowy",
-    "url": "https://szkopul.edu.pl/problemset/problem/MAWN1VdLdXO29VvrVYuYxQyw/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/MAWN1VdLdXO29VvrVYuYxQyw/site/",
+    "omowienie_url": null
   },
   {
     "code": "tel*",
@@ -1861,7 +2093,8 @@
     "year": 31,
     "rating": 5200,
     "name": "Telefony",
-    "url": "https://szkopul.edu.pl/problemset/problem/sKQFffb5Tfi4po8H_iA7dJtI/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/sKQFffb5Tfi4po8H_iA7dJtI/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_2_tel/"
   },
   {
     "code": "kar*",
@@ -1869,7 +2102,8 @@
     "year": 21,
     "rating": 5200,
     "name": "Zadanie Karty",
-    "url": "https://szkopul.edu.pl/problemset/problem/EHW4BOJee7VD-R9MaDAokZ6O/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/EHW4BOJee7VD-R9MaDAokZ6O/site/",
+    "omowienie_url": null
   },
   {
     "code": "kol",
@@ -1877,7 +2111,8 @@
     "year": 17,
     "rating": 5200,
     "name": "Kolej",
-    "url": "https://szkopul.edu.pl/problemset/problem/TJVrS_hRC8W5Q6ZBW6mETAIm/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/TJVrS_hRC8W5Q6ZBW6mETAIm/site/",
+    "omowienie_url": null
   },
   {
     "code": "kon",
@@ -1885,7 +2120,8 @@
     "year": 16,
     "rating": 5100,
     "name": "Zadanie Konduktor",
-    "url": "https://szkopul.edu.pl/problemset/problem/PSqCh5o1-Gyl1WaQSGXjxkZN/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/PSqCh5o1-Gyl1WaQSGXjxkZN/site/",
+    "omowienie_url": null
   },
   {
     "code": "roz*",
@@ -1893,7 +2129,8 @@
     "year": 26,
     "rating": 5100,
     "name": "Rozliczenia",
-    "url": "https://szkopul.edu.pl/problemset/problem/7feyJYY7uz_g6iGLS_QPwJVG/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/7feyJYY7uz_g6iGLS_QPwJVG/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi26_2_roz/"
   },
   {
     "code": "pro*",
@@ -1901,7 +2138,8 @@
     "year": 28,
     "rating": 5100,
     "name": "Projekt planszy",
-    "url": "https://szkopul.edu.pl/problemset/problem/tFYVKjavLmyczkxMH7WFewXe/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/tFYVKjavLmyczkxMH7WFewXe/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi28_2_pro/"
   },
   {
     "code": "baj",
@@ -1909,7 +2147,8 @@
     "year": 20,
     "rating": 5100,
     "name": "Zadanie Bajtokomputer",
-    "url": "https://szkopul.edu.pl/problemset/problem/3GXkVUEnWNZRn2C2VpX2uKmq/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/3GXkVUEnWNZRn2C2VpX2uKmq/site/",
+    "omowienie_url": null
   },
   {
     "code": "zaw*",
@@ -1917,7 +2156,8 @@
     "year": 24,
     "rating": 5100,
     "name": "Zawody sportowe",
-    "url": "https://szkopul.edu.pl/problemset/problem/fYzoFHo_2JRG4FQSt5UPRpn5/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/fYzoFHo_2JRG4FQSt5UPRpn5/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi24_2_zaw/"
   },
   {
     "code": "row*",
@@ -1925,7 +2165,8 @@
     "year": 23,
     "rating": 5000,
     "name": "R\u00f3wnowa\u017cne programy",
-    "url": "https://szkopul.edu.pl/problemset/problem/SlqBmJqSmy7cVbTMEIVt3kyp/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/SlqBmJqSmy7cVbTMEIVt3kyp/site/",
+    "omowienie_url": null
   },
   {
     "code": "meg",
@@ -1933,7 +2174,8 @@
     "year": 14,
     "rating": 5000,
     "name": "Zadanie Megalopolis",
-    "url": "https://szkopul.edu.pl/problemset/problem/R6kgLB2Xz3fsLFYKA-4P9fzp/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/R6kgLB2Xz3fsLFYKA-4P9fzp/site/",
+    "omowienie_url": null
   },
   {
     "code": "str",
@@ -1941,7 +2183,8 @@
     "year": 16,
     "rating": 5000,
     "name": "Zadanie Stra\u017c po\u017carna",
-    "url": "https://szkopul.edu.pl/problemset/problem/OmAdBMdlHd5hRiajniHTQ_ay/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/OmAdBMdlHd5hRiajniHTQ_ay/site/",
+    "omowienie_url": null
   },
   {
     "code": "kon",
@@ -1949,7 +2192,8 @@
     "year": 20,
     "rating": 4900,
     "name": "Konewka",
-    "url": "https://szkopul.edu.pl/problemset/problem/_QmEe3QujrdvoUaXdnKGIc2I/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/_QmEe3QujrdvoUaXdnKGIc2I/site/",
+    "omowienie_url": null
   },
   {
     "code": "dwu",
@@ -1957,7 +2201,8 @@
     "year": 33,
     "rating": 4900,
     "name": "Dwukolorowe drzewo",
-    "url": "https://szkopul.edu.pl/problemset/problem/8AZqLg3upOMpqfRyarndoGwY/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/8AZqLg3upOMpqfRyarndoGwY/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_2_dwu/"
   },
   {
     "code": "klo",
@@ -1965,7 +2210,8 @@
     "year": 17,
     "rating": 4900,
     "name": "Zadanie Klocki",
-    "url": "https://szkopul.edu.pl/problemset/problem/wo13yRw8_nKGgEjCxpM_DlK_/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/wo13yRw8_nKGgEjCxpM_DlK_/site/",
+    "omowienie_url": null
   },
   {
     "code": "bra",
@@ -1973,7 +2219,8 @@
     "year": 11,
     "rating": 4900,
     "name": "Zadanie Bramki",
-    "url": "https://szkopul.edu.pl/problemset/problem/bfCV-HV_B0k8ol9sHwtwRRFV/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/bfCV-HV_B0k8ol9sHwtwRRFV/site/",
+    "omowienie_url": null
   },
   {
     "code": "gan",
@@ -1981,7 +2228,8 @@
     "year": 28,
     "rating": 4900,
     "name": "Gang Biciak\u00f3w",
-    "url": "https://szkopul.edu.pl/problemset/problem/v7LhQdIK3z6mWSVH4I7F266w/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/v7LhQdIK3z6mWSVH4I7F266w/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi28_1_gan/"
   },
   {
     "code": "luk",
@@ -1989,7 +2237,8 @@
     "year": 20,
     "rating": 4900,
     "name": "Zadanie \u0141uk triumfalny",
-    "url": "https://szkopul.edu.pl/problemset/problem/jgCcEjQu3kdpM4BmxA6GujfX/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/jgCcEjQu3kdpM4BmxA6GujfX/site/",
+    "omowienie_url": null
   },
   {
     "code": "pla",
@@ -1997,7 +2246,8 @@
     "year": 28,
     "rating": 4900,
     "name": "Pla\u017cowicze",
-    "url": "https://szkopul.edu.pl/problemset/problem/mSKiDD4jrokeNO__pazg6BaF/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/mSKiDD4jrokeNO__pazg6BaF/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi28_2_pla/"
   },
   {
     "code": "sum",
@@ -2005,7 +2255,8 @@
     "year": 12,
     "rating": 4900,
     "name": "Zadanie Sumy Fibonacciego",
-    "url": "https://szkopul.edu.pl/problemset/problem/_GoRDDGH89PXymI3w4xr0WeV/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/_GoRDDGH89PXymI3w4xr0WeV/site/",
+    "omowienie_url": null
   },
   {
     "code": "wyk",
@@ -2013,7 +2264,8 @@
     "year": 33,
     "rating": 4800,
     "name": "Wykaz dr\u00f3g",
-    "url": "https://szkopul.edu.pl/problemset/problem/gXVOzwn9b8K6dXwGJMDCbqX_/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/gXVOzwn9b8K6dXwGJMDCbqX_/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_2_wyk/"
   },
   {
     "code": "rob",
@@ -2021,7 +2273,8 @@
     "year": 15,
     "rating": 4800,
     "name": "Zadanie Robinson",
-    "url": "https://szkopul.edu.pl/problemset/problem/hVPYFmpMCIzEkFTlhhIjXh8x/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/hVPYFmpMCIzEkFTlhhIjXh8x/site/",
+    "omowienie_url": null
   },
   {
     "code": "nim",
@@ -2029,7 +2282,8 @@
     "year": 23,
     "rating": 4800,
     "name": "Nim z utrudnieniem",
-    "url": "https://szkopul.edu.pl/problemset/problem/X6IwPa2H9FSd3Ly6bYp5t8Vu/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/X6IwPa2H9FSd3Ly6bYp5t8Vu/site/",
+    "omowienie_url": null
   },
   {
     "code": "roz",
@@ -2037,7 +2291,8 @@
     "year": 18,
     "rating": 4800,
     "name": "R\u00f3\u017cnica",
-    "url": "https://szkopul.edu.pl/problemset/problem/ElDZtvfzCl9Sj2lC1sAKG0dU/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/ElDZtvfzCl9Sj2lC1sAKG0dU/site/",
+    "omowienie_url": null
   },
   {
     "code": "nad",
@@ -2045,7 +2300,8 @@
     "year": 23,
     "rating": 4800,
     "name": "Nadajniki",
-    "url": "https://szkopul.edu.pl/problemset/problem/sKmyIHBMNi9EV3WO6GQ4xoFt/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/sKmyIHBMNi9EV3WO6GQ4xoFt/site/",
+    "omowienie_url": null
   },
   {
     "code": "maf",
@@ -2053,7 +2309,8 @@
     "year": 15,
     "rating": 4700,
     "name": "Zadanie Mafia",
-    "url": "https://szkopul.edu.pl/problemset/problem/l_GoAC3y67fth8byuOouzIsu/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/l_GoAC3y67fth8byuOouzIsu/site/",
+    "omowienie_url": null
   },
   {
     "code": "ana",
@@ -2061,7 +2318,8 @@
     "year": 32,
     "rating": 4700,
     "name": "Podzia\u0142 na anagramy",
-    "url": "https://szkopul.edu.pl/problemset/problem/147B4xwesQFef6eQCa0daM_t/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/147B4xwesQFef6eQCa0daM_t/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi32_2_ana/"
   },
   {
     "code": "naj",
@@ -2069,7 +2327,8 @@
     "year": 17,
     "rating": 4700,
     "name": "Zadanie Najdzielniejszy dzielnik",
-    "url": "https://szkopul.edu.pl/problemset/problem/9G-lSeJl2QmOnKQprRR4ZJZv/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/9G-lSeJl2QmOnKQprRR4ZJZv/site/",
+    "omowienie_url": null
   },
   {
     "code": "par",
@@ -2077,7 +2336,8 @@
     "year": 23,
     "rating": 4600,
     "name": "Parada",
-    "url": "https://szkopul.edu.pl/problemset/problem/1QaUWE_ePAmitZjgAszOVD1U/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/1QaUWE_ePAmitZjgAszOVD1U/site/",
+    "omowienie_url": null
   },
   {
     "code": "tel",
@@ -2085,7 +2345,8 @@
     "year": 25,
     "rating": 4600,
     "name": "Przeka\u017aniki telekomunikacyjne",
-    "url": "https://szkopul.edu.pl/problemset/problem/GmAagCBetbskP0qiKlgVd-6A/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/GmAagCBetbskP0qiKlgVd-6A/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_2_tel/"
   },
   {
     "code": "cen",
@@ -2093,7 +2354,8 @@
     "year": 20,
     "rating": 4600,
     "name": "Zadanie Cennik",
-    "url": "https://szkopul.edu.pl/problemset/problem/VhUz-fNNGqUZBRoF9lNSvXTH/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/VhUz-fNNGqUZBRoF9lNSvXTH/site/",
+    "omowienie_url": null
   },
   {
     "code": "tem",
@@ -2101,7 +2363,8 @@
     "year": 18,
     "rating": 4600,
     "name": "Temperatura",
-    "url": "https://szkopul.edu.pl/problemset/problem/6sGsrkO-SrmtogJ7u3RIOj3f/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/6sGsrkO-SrmtogJ7u3RIOj3f/site/",
+    "omowienie_url": null
   },
   {
     "code": "gas",
@@ -2109,7 +2372,8 @@
     "year": 16,
     "rating": 4600,
     "name": "Zadanie Ga\u015bnice",
-    "url": "https://szkopul.edu.pl/problemset/problem/b6w9exQhg7_bIqOTUqj3cTGk/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/b6w9exQhg7_bIqOTUqj3cTGk/site/",
+    "omowienie_url": null
   },
   {
     "code": "stu",
@@ -2117,7 +2381,8 @@
     "year": 19,
     "rating": 4500,
     "name": "Zadanie Studnia",
-    "url": "https://szkopul.edu.pl/problemset/problem/3oC6jWN7HZAUhEGLlHdF_ci2/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/3oC6jWN7HZAUhEGLlHdF_ci2/site/",
+    "omowienie_url": null
   },
   {
     "code": "drz",
@@ -2125,7 +2390,8 @@
     "year": 14,
     "rating": 4500,
     "name": "Drzewa",
-    "url": "https://szkopul.edu.pl/problemset/problem/Tct-kFAFTSZv6u50PBByDUcd/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Tct-kFAFTSZv6u50PBByDUcd/site/",
+    "omowienie_url": null
   },
   {
     "code": "mor",
@@ -2133,7 +2399,8 @@
     "year": 20,
     "rating": 4500,
     "name": "Zadanie Morskie opowie\u015bci",
-    "url": "https://szkopul.edu.pl/problemset/problem/CfSEK4ACOcAPaAfX29Fp7Tud/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/CfSEK4ACOcAPaAfX29Fp7Tud/site/",
+    "omowienie_url": null
   },
   {
     "code": "arc",
@@ -2141,7 +2408,8 @@
     "year": 16,
     "rating": 4500,
     "name": "Architekci",
-    "url": "https://szkopul.edu.pl/problemset/problem/UUJOY-zNg3myEsDzzBmvdMKT/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/UUJOY-zNg3myEsDzzBmvdMKT/site/",
+    "omowienie_url": null
   },
   {
     "code": "ant*",
@@ -2149,7 +2417,8 @@
     "year": 17,
     "rating": 4500,
     "name": "Zadanie Antysymetria",
-    "url": "https://szkopul.edu.pl/problemset/problem/kBgruExq9qEwLJY2oQIAFnnj/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/kBgruExq9qEwLJY2oQIAFnnj/site/",
+    "omowienie_url": null
   },
   {
     "code": "zab",
@@ -2157,7 +2426,8 @@
     "year": 13,
     "rating": 4400,
     "name": "Zadanie \u017baby",
-    "url": "https://szkopul.edu.pl/problemset/problem/5hnEhBuzeaq8gh75EO6JLoaw/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/5hnEhBuzeaq8gh75EO6JLoaw/site/",
+    "omowienie_url": null
   },
   {
     "code": "kon",
@@ -2165,7 +2435,8 @@
     "year": 24,
     "rating": 4400,
     "name": "Kontenery",
-    "url": "https://szkopul.edu.pl/problemset/problem/oNnWY6ZuzzhvG-jCmijiXkIk/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/oNnWY6ZuzzhvG-jCmijiXkIk/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi24_2_kon/"
   },
   {
     "code": "zap",
@@ -2173,7 +2444,8 @@
     "year": 14,
     "rating": 4300,
     "name": "Zadanie Zapytania",
-    "url": "https://szkopul.edu.pl/problemset/problem/jupOcVgvt8AHXiplqTsZiitW/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/jupOcVgvt8AHXiplqTsZiitW/site/",
+    "omowienie_url": null
   },
   {
     "code": "sat",
@@ -2181,7 +2453,8 @@
     "year": 31,
     "rating": 4300,
     "name": "Satelity",
-    "url": "https://szkopul.edu.pl/problemset/problem/kYW97ajRnzxJTEiwcPC-zbmV/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/kYW97ajRnzxJTEiwcPC-zbmV/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_1_sat/"
   },
   {
     "code": "szk",
@@ -2189,7 +2462,8 @@
     "year": 15,
     "rating": 4300,
     "name": "Szklana pu\u0142apka",
-    "url": "https://szkopul.edu.pl/problemset/problem/G3047yb3rTWSSUUbu_r8Wutu/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/G3047yb3rTWSSUUbu_r8Wutu/site/",
+    "omowienie_url": null
   },
   {
     "code": "bon",
@@ -2197,7 +2471,8 @@
     "year": 19,
     "rating": 4300,
     "name": "Zadanie Bony",
-    "url": "https://szkopul.edu.pl/problemset/problem/Y2sHfxzqdwT7qKzabT0fzmlB/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Y2sHfxzqdwT7qKzabT0fzmlB/site/",
+    "omowienie_url": null
   },
   {
     "code": "lic",
@@ -2205,7 +2480,8 @@
     "year": 31,
     "rating": 4300,
     "name": "Liczniki",
-    "url": "https://szkopul.edu.pl/problemset/problem/9Xg3SiF9DZ-Xn65OWbu9B42J/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/9Xg3SiF9DZ-Xn65OWbu9B42J/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_2_lic/"
   },
   {
     "code": "prz",
@@ -2213,7 +2489,8 @@
     "year": 21,
     "rating": 4300,
     "name": "Zadanie Przest\u0119pcy",
-    "url": "https://szkopul.edu.pl/problemset/problem/bobLSP2Wo3SQjakifBIQhXlq/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/bobLSP2Wo3SQjakifBIQhXlq/site/",
+    "omowienie_url": null
   },
   {
     "code": "kor",
@@ -2221,7 +2498,8 @@
     "year": 23,
     "rating": 4300,
     "name": "Korale",
-    "url": "https://szkopul.edu.pl/problemset/problem/z8Vva6nazo2Cy3CF67kT6IWe/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/z8Vva6nazo2Cy3CF67kT6IWe/site/",
+    "omowienie_url": null
   },
   {
     "code": "mul",
@@ -2229,7 +2507,8 @@
     "year": 20,
     "rating": 4300,
     "name": "Zadanie Multidrink",
-    "url": "https://szkopul.edu.pl/problemset/problem/qTyTcqB4JV8uG6paGHvWQ4j7/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/qTyTcqB4JV8uG6paGHvWQ4j7/site/",
+    "omowienie_url": null
   },
   {
     "code": "pta",
@@ -2237,7 +2516,8 @@
     "year": 21,
     "rating": 4200,
     "name": "Zadanie Ptaszek",
-    "url": "https://szkopul.edu.pl/problemset/problem/A3QYXKEiRLgKerciOwA_lbCD/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/A3QYXKEiRLgKerciOwA_lbCD/site/",
+    "omowienie_url": null
   },
   {
     "code": "pun",
@@ -2245,7 +2525,8 @@
     "year": 12,
     "rating": 4200,
     "name": "Zadanie Punkty",
-    "url": "https://szkopul.edu.pl/problemset/problem/wndbYci1lmy9chZeakAMM85N/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/wndbYci1lmy9chZeakAMM85N/site/",
+    "omowienie_url": null
   },
   {
     "code": "zbo",
@@ -2253,7 +2534,8 @@
     "year": 30,
     "rating": 4200,
     "name": "Zbo\u017ce",
-    "url": "https://szkopul.edu.pl/problemset/problem/mTIclw457_QBtRPC4pG2tgg7/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/mTIclw457_QBtRPC4pG2tgg7/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi30_1_zbo/"
   },
   {
     "code": "gwi",
@@ -2261,7 +2543,8 @@
     "year": 26,
     "rating": 4200,
     "name": "Gwiazdy",
-    "url": "https://szkopul.edu.pl/problemset/problem/vE94xK5yr-lSfcAMD3IKFd7F/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/vE94xK5yr-lSfcAMD3IKFd7F/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi26_2_gwi/"
   },
   {
     "code": "kon",
@@ -2269,7 +2552,8 @@
     "year": 18,
     "rating": 4200,
     "name": "Zadanie Konspiracja",
-    "url": "https://szkopul.edu.pl/problemset/problem/-Q4lH1UCWU8G3YE94ez0AK30/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/-Q4lH1UCWU8G3YE94ez0AK30/site/",
+    "omowienie_url": null
   },
   {
     "code": "lic",
@@ -2277,7 +2561,8 @@
     "year": 29,
     "rating": 4200,
     "name": "Liczby wzgl\u0119dnie pierwsze",
-    "url": "https://szkopul.edu.pl/problemset/problem/kQ5ExYNkFhx3K2FvVuXAAbn4/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/kQ5ExYNkFhx3K2FvVuXAAbn4/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_2_lic/"
   },
   {
     "code": "pis",
@@ -2285,7 +2570,8 @@
     "year": 27,
     "rating": 4200,
     "name": "Pisarze",
-    "url": "https://szkopul.edu.pl/problemset/problem/v2Y2_UW56ENMcbwP22tkTb7a/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/v2Y2_UW56ENMcbwP22tkTb7a/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi27_1_pis/"
   },
   {
     "code": "nie",
@@ -2293,7 +2579,8 @@
     "year": 26,
     "rating": 4200,
     "name": "Niedba\u0142o\u015b\u0107",
-    "url": "https://szkopul.edu.pl/problemset/problem/PIWHXi6DUtOUJJ0Z2KFUCuYI/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/PIWHXi6DUtOUJJ0Z2KFUCuYI/site/",
+    "omowienie_url": null
   },
   {
     "code": "ban",
@@ -2301,7 +2588,8 @@
     "year": 12,
     "rating": 4200,
     "name": "Zadanie Banknoty",
-    "url": "https://szkopul.edu.pl/problemset/problem/ucULQRwTgKsiCRWkf0t9GoqH/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/ucULQRwTgKsiCRWkf0t9GoqH/site/",
+    "omowienie_url": null
   },
   {
     "code": "odl",
@@ -2309,7 +2597,8 @@
     "year": 19,
     "rating": 4100,
     "name": "Zadanie Odleg\u0142o\u015b\u0107",
-    "url": "https://szkopul.edu.pl/problemset/problem/oK44vqt7NCKfz0ABHGh4gfAT/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/oK44vqt7NCKfz0ABHGh4gfAT/site/",
+    "omowienie_url": null
   },
   {
     "code": "tur",
@@ -2317,7 +2606,8 @@
     "year": 24,
     "rating": 4100,
     "name": "Turysta",
-    "url": "https://szkopul.edu.pl/problemset/problem/kqBM3UKWL-qlFiXIOxPXL35m/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/kqBM3UKWL-qlFiXIOxPXL35m/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi24_1_tur/"
   },
   {
     "code": "str",
@@ -2325,7 +2615,8 @@
     "year": 24,
     "rating": 4000,
     "name": "Strajki",
-    "url": "https://szkopul.edu.pl/problemset/problem/lR_LabSUC2n7EMmDHpw-wk_b/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/lR_LabSUC2n7EMmDHpw-wk_b/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi24_2_str/"
   },
   {
     "code": "wyp",
@@ -2333,7 +2624,8 @@
     "year": 30,
     "rating": 4000,
     "name": "Wyprzedzanie",
-    "url": "https://szkopul.edu.pl/problemset/problem/uYSQBbTHBiOOoTSIPGvYAjoZ/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/uYSQBbTHBiOOoTSIPGvYAjoZ/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi30_1_wyp/"
   },
   {
     "code": "grz*",
@@ -2341,7 +2633,8 @@
     "year": 14,
     "rating": 3900,
     "name": "Zadanie Grzbiety i doliny",
-    "url": "https://szkopul.edu.pl/problemset/problem/RKzLhsYuZBU0mnGt_kXeixFR/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/RKzLhsYuZBU0mnGt_kXeixFR/site/",
+    "omowienie_url": null
   },
   {
     "code": "roz",
@@ -2349,7 +2642,8 @@
     "year": 19,
     "rating": 3900,
     "name": "Zadanie Rozk\u0142ad Fibonacciego",
-    "url": "https://szkopul.edu.pl/problemset/problem/w1QbhPufazp-sH6X-u4pTnNu/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/w1QbhPufazp-sH6X-u4pTnNu/site/",
+    "omowienie_url": null
   },
   {
     "code": "ukl",
@@ -2357,7 +2651,8 @@
     "year": 29,
     "rating": 3900,
     "name": "Uk\u0142adanie kart",
-    "url": "https://szkopul.edu.pl/problemset/problem/K5Ias1qqQ4YUqHd8dj6GMPFl/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/K5Ias1qqQ4YUqHd8dj6GMPFl/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_1_ukl/"
   },
   {
     "code": "roz",
@@ -2365,7 +2660,8 @@
     "year": 25,
     "rating": 3900,
     "name": "R\u00f3\u017cnorodno\u015b\u0107",
-    "url": "https://szkopul.edu.pl/problemset/problem/eHGwrk9xShVF-z_2f7K4Yyb_/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/eHGwrk9xShVF-z_2f7K4Yyb_/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_1_roz/"
   },
   {
     "code": "pio",
@@ -2373,7 +2669,8 @@
     "year": 18,
     "rating": 3900,
     "name": "Zadanie Piorunochron",
-    "url": "https://szkopul.edu.pl/problemset/problem/hzxAdvHhKxBD5duTnQYNiRwW/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/hzxAdvHhKxBD5duTnQYNiRwW/site/",
+    "omowienie_url": null
   },
   {
     "code": "poj",
@@ -2381,7 +2678,8 @@
     "year": 31,
     "rating": 3900,
     "name": "Pojemniki",
-    "url": "https://szkopul.edu.pl/problemset/problem/_uloh99GgCTwxZ0LQVb33ys7/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/_uloh99GgCTwxZ0LQVb33ys7/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_2_poj/"
   },
   {
     "code": "bit",
@@ -2389,7 +2687,8 @@
     "year": 32,
     "rating": 3900,
     "name": "Bitada",
-    "url": "https://szkopul.edu.pl/problemset/problem/wOKsnzwNqHqXqiX6m3AkufgX/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/wOKsnzwNqHqXqiX6m3AkufgX/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi32_1_bit/"
   },
   {
     "code": "kor",
@@ -2397,7 +2696,8 @@
     "year": 17,
     "rating": 3800,
     "name": "Zadanie Korale",
-    "url": "https://szkopul.edu.pl/problemset/problem/6x4-Pmy-UoyrQpi19NsAz6Rn/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/6x4-Pmy-UoyrQpi19NsAz6Rn/site/",
+    "omowienie_url": null
   },
   {
     "code": "kin",
@@ -2405,7 +2705,8 @@
     "year": 22,
     "rating": 3700,
     "name": "Zadanie Kinoman",
-    "url": "https://szkopul.edu.pl/problemset/problem/k-RYEjhwNTo_XdaCidXQUGMU/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/k-RYEjhwNTo_XdaCidXQUGMU/site/",
+    "omowienie_url": null
   },
   {
     "code": "osi",
@@ -2413,7 +2714,8 @@
     "year": 26,
     "rating": 3600,
     "name": "Osiedla",
-    "url": "https://szkopul.edu.pl/problemset/problem/nldsb4EW1YuZykBlf4lcZL1Y/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/nldsb4EW1YuZykBlf4lcZL1Y/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi26_2_osi/"
   },
   {
     "code": "prz",
@@ -2421,7 +2723,8 @@
     "year": 31,
     "rating": 3600,
     "name": "Przyciski",
-    "url": "https://szkopul.edu.pl/problemset/problem/eQ4z7Bnhqsl67nKb_NlISLNZ/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/eQ4z7Bnhqsl67nKb_NlISLNZ/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_1_prz/"
   },
   {
     "code": "pro",
@@ -2429,7 +2732,8 @@
     "year": 33,
     "rating": 3600,
     "name": "Prognoza pogody",
-    "url": "https://szkopul.edu.pl/problemset/problem/up5Q4-UPi107yM0HUxKKoMno/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/up5Q4-UPi107yM0HUxKKoMno/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_2_pro/"
   },
   {
     "code": "prz",
@@ -2437,7 +2741,8 @@
     "year": 18,
     "rating": 3600,
     "name": "Zadanie Przek\u0142adanka",
-    "url": "https://szkopul.edu.pl/problemset/problem/n6S4y9QrbGqYUz64e2O-OV7D/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/n6S4y9QrbGqYUz64e2O-OV7D/site/",
+    "omowienie_url": null
   },
   {
     "code": "dru",
@@ -2445,7 +2750,8 @@
     "year": 29,
     "rating": 3600,
     "name": "Druk",
-    "url": "https://szkopul.edu.pl/problemset/problem/dezxXQ3SlwzbEWu-DGbPqPY9/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/dezxXQ3SlwzbEWu-DGbPqPY9/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_1_dru/"
   },
   {
     "code": "zer*",
@@ -2453,7 +2759,8 @@
     "year": 29,
     "rating": 3600,
     "name": "Zera i jedynki",
-    "url": "https://szkopul.edu.pl/problemset/problem/O8s92dZUIyVOtzxC0mdMS-xf/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/O8s92dZUIyVOtzxC0mdMS-xf/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_3_zer/"
   },
   {
     "code": "dro",
@@ -2461,7 +2768,8 @@
     "year": 25,
     "rating": 3500,
     "name": "Drogi rowerowe",
-    "url": "https://szkopul.edu.pl/problemset/problem/aKKSmtjWTtDOEHDqnmQ3-eAA/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/aKKSmtjWTtDOEHDqnmQ3-eAA/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_2_dro/"
   },
   {
     "code": "ran",
@@ -2469,7 +2777,8 @@
     "year": 19,
     "rating": 3500,
     "name": "Zadanie Randka",
-    "url": "https://szkopul.edu.pl/problemset/problem/gIvRmapl7sX6di87092Rmjdw/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/gIvRmapl7sX6di87092Rmjdw/site/",
+    "omowienie_url": null
   },
   {
     "code": "biu",
@@ -2477,7 +2786,8 @@
     "year": 14,
     "rating": 3500,
     "name": "Zadanie Biura",
-    "url": "https://szkopul.edu.pl/problemset/problem/9k-oNM_F-2na0A-IWrUtQ0I7/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/9k-oNM_F-2na0A-IWrUtQ0I7/site/",
+    "omowienie_url": null
   },
   {
     "code": "kas",
@@ -2485,7 +2795,8 @@
     "year": 32,
     "rating": 3500,
     "name": "Kasyno",
-    "url": "https://szkopul.edu.pl/problemset/problem/ypg8JeDVvTf7vEUypRZ2LxiZ/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/ypg8JeDVvTf7vEUypRZ2LxiZ/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi32_1_kas/"
   },
   {
     "code": "kur",
@@ -2493,7 +2804,8 @@
     "year": 21,
     "rating": 3400,
     "name": "Zadanie Kurierzy",
-    "url": "https://szkopul.edu.pl/problemset/problem/u14-MJgItr5hoHh2c0EBzDmS/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/u14-MJgItr5hoHh2c0EBzDmS/site/",
+    "omowienie_url": null
   },
   {
     "code": "kwa",
@@ -2501,7 +2813,8 @@
     "year": 22,
     "rating": 3400,
     "name": "Zadanie Kwadraty",
-    "url": "https://szkopul.edu.pl/problemset/problem/VeQ6A1Xb8DUSlbUb8eQncsFX/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/VeQ6A1Xb8DUSlbUb8eQncsFX/site/",
+    "omowienie_url": null
   },
   {
     "code": "cza",
@@ -2509,7 +2822,8 @@
     "year": 31,
     "rating": 3300,
     "name": "CzatBBB",
-    "url": "https://szkopul.edu.pl/problemset/problem/R-s87nyFFh8WR12UGiJz_5Ii/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/R-s87nyFFh8WR12UGiJz_5Ii/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_1_cza/"
   },
   {
     "code": "prz",
@@ -2517,7 +2831,8 @@
     "year": 33,
     "rating": 3300,
     "name": "Przegl\u0105darka internetowa",
-    "url": "https://szkopul.edu.pl/problemset/problem/85EZxXkAIIDTTesxBDBh-g9l/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/85EZxXkAIIDTTesxBDBh-g9l/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_1_prz/"
   },
   {
     "code": "pom",
@@ -2525,7 +2840,8 @@
     "year": 27,
     "rating": 3300,
     "name": "Pomniejszenie",
-    "url": "https://szkopul.edu.pl/problemset/problem/K7FKfwLplcsjx-o-BYnJq3b1/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/K7FKfwLplcsjx-o-BYnJq3b1/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi27_1_pom/"
   },
   {
     "code": "pro",
@@ -2533,7 +2849,8 @@
     "year": 13,
     "rating": 3300,
     "name": "Zadanie Profesor Szu",
-    "url": "https://szkopul.edu.pl/problemset/problem/mBGR2EV0zVOpK9nHSlOL0aNr/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/mBGR2EV0zVOpK9nHSlOL0aNr/site/",
+    "omowienie_url": null
   },
   {
     "code": "klo",
@@ -2541,7 +2858,8 @@
     "year": 15,
     "rating": 3200,
     "name": "Klocki",
-    "url": "https://szkopul.edu.pl/problemset/problem/MLVFQImTjM2RXOsqtEq2gw_y/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/MLVFQImTjM2RXOsqtEq2gw_y/site/",
+    "omowienie_url": null
   },
   {
     "code": "clo",
@@ -2549,7 +2867,8 @@
     "year": 15,
     "rating": 3200,
     "name": "Zadanie C\u0142o",
-    "url": "https://szkopul.edu.pl/problemset/problem/ptF7RsWMiiMdzzZWt5BKFAnT/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/ptF7RsWMiiMdzzZWt5BKFAnT/site/",
+    "omowienie_url": null
   },
   {
     "code": "rob",
@@ -2557,7 +2876,8 @@
     "year": 26,
     "rating": 3200,
     "name": "Robocik",
-    "url": "https://szkopul.edu.pl/problemset/problem/p4hlBS7BwoH_rymSj2wtb5_J/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/p4hlBS7BwoH_rymSj2wtb5_J/site/",
+    "omowienie_url": null
   },
   {
     "code": "osi",
@@ -2565,7 +2885,8 @@
     "year": 14,
     "rating": 3100,
     "name": "Zadanie Osie symetrii",
-    "url": "https://szkopul.edu.pl/problemset/problem/ERkPm5ZV8stQhX8u7-1D5_ES/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/ERkPm5ZV8stQhX8u7-1D5_ES/site/",
+    "omowienie_url": null
   },
   {
     "code": "pio",
@@ -2573,7 +2894,8 @@
     "year": 25,
     "rating": 3100,
     "name": "Pionek",
-    "url": "https://szkopul.edu.pl/problemset/problem/NZSCUwz2ACePsBKuVCIVzrRt/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/NZSCUwz2ACePsBKuVCIVzrRt/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_1_pio/"
   },
   {
     "code": "zaw",
@@ -2581,7 +2903,8 @@
     "year": 11,
     "rating": 3100,
     "name": "Zadanie Zawody",
-    "url": "https://szkopul.edu.pl/problemset/problem/UiDG8sd_wsS2RfUPL3zQQ1XW/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/UiDG8sd_wsS2RfUPL3zQQ1XW/site/",
+    "omowienie_url": null
   },
   {
     "code": "sko",
@@ -2589,7 +2912,8 @@
     "year": 12,
     "rating": 3100,
     "name": "Zadanie Skoczki",
-    "url": "https://szkopul.edu.pl/problemset/problem/3BGAy8SxgAh6ZUiC_GwpDKxh/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/3BGAy8SxgAh6ZUiC_GwpDKxh/site/",
+    "omowienie_url": null
   },
   {
     "code": "gra",
@@ -2597,7 +2921,8 @@
     "year": 28,
     "rating": 3100,
     "name": "Gra platformowa",
-    "url": "https://szkopul.edu.pl/problemset/problem/UglLG7z6s5FUkEY21SCW3swi/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/UglLG7z6s5FUkEY21SCW3swi/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi28_1_gra/"
   },
   {
     "code": "pow",
@@ -2605,7 +2930,8 @@
     "year": 25,
     "rating": 3100,
     "name": "Pow\u00f3d\u017a",
-    "url": "https://szkopul.edu.pl/problemset/problem/xCiDtZ0ZX70fyac1Sav8d37J/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/xCiDtZ0ZX70fyac1Sav8d37J/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_1_pow/"
   },
   {
     "code": "spr",
@@ -2613,7 +2939,8 @@
     "year": 32,
     "rating": 3100,
     "name": "Sprawiedliwy podzia\u0142",
-    "url": "https://szkopul.edu.pl/problemset/problem/aKBekEIo5lK0oSLz2UF4F_d9/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/aKBekEIo5lK0oSLz2UF4F_d9/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi32_1_spr/"
   },
   {
     "code": "ukl",
@@ -2621,7 +2948,8 @@
     "year": 27,
     "rating": 3000,
     "name": "Uk\u0142ad scalony",
-    "url": "https://szkopul.edu.pl/problemset/problem/Pc6EAN80QSM9M34nmz_RtjtI/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Pc6EAN80QSM9M34nmz_RtjtI/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi27_1_ukl/"
   },
   {
     "code": "par",
@@ -2629,7 +2957,8 @@
     "year": 26,
     "rating": 3000,
     "name": "Para naszyjnik\u00f3w",
-    "url": "https://szkopul.edu.pl/problemset/problem/OtqvpeGnW8TDwTXsatPekUcF/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/OtqvpeGnW8TDwTXsatPekUcF/site/",
+    "omowienie_url": null
   },
   {
     "code": "mar",
@@ -2637,7 +2966,8 @@
     "year": 27,
     "rating": 2900,
     "name": "Marudny Bajtazar",
-    "url": "https://szkopul.edu.pl/problemset/problem/kvwWom2nxVBqipEfeiMtidn5/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/kvwWom2nxVBqipEfeiMtidn5/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi27_2_mar/"
   },
   {
     "code": "las",
@@ -2645,7 +2975,8 @@
     "year": 22,
     "rating": 2900,
     "name": "Zadanie \u0141asuchy",
-    "url": "https://szkopul.edu.pl/problemset/problem/Hj7Ko64-xPs_FrzJ4WucMde9/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Hj7Ko64-xPs_FrzJ4WucMde9/site/",
+    "omowienie_url": null
   },
   {
     "code": "nww",
@@ -2653,7 +2984,8 @@
     "year": 27,
     "rating": 2900,
     "name": "Najmniejsza wsp\u00f3lna wielokrotno\u015b\u0107",
-    "url": "https://szkopul.edu.pl/problemset/problem/nYCgpBEkq_hw9S-QaoEOOKCI/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/nYCgpBEkq_hw9S-QaoEOOKCI/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi27_1_nww/"
   },
   {
     "code": "laz",
@@ -2661,7 +2993,8 @@
     "year": 33,
     "rating": 2900,
     "name": "\u0141azik kosmiczny",
-    "url": "https://szkopul.edu.pl/problemset/problem/0zPKHCR0LnWRqx-IQl07R3HC/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/0zPKHCR0LnWRqx-IQl07R3HC/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_1_laz/"
   },
   {
     "code": "usu",
@@ -2669,7 +3002,8 @@
     "year": 20,
     "rating": 2900,
     "name": "Zadanie Usuwanka",
-    "url": "https://szkopul.edu.pl/problemset/problem/WXorPFSPZwmWfJWy1GSuJ9QD/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/WXorPFSPZwmWfJWy1GSuJ9QD/site/",
+    "omowienie_url": null
   },
   {
     "code": "rep",
@@ -2677,7 +3011,8 @@
     "year": 24,
     "rating": 2900,
     "name": "Reprezentacje r\u00f3\u017cnicowe",
-    "url": "https://szkopul.edu.pl/problemset/problem/WLKPphrG7df9acKBOlEMEKY3/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/WLKPphrG7df9acKBOlEMEKY3/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi24_1_rep/"
   },
   {
     "code": "mon",
@@ -2685,7 +3020,8 @@
     "year": 29,
     "rating": 2800,
     "name": "Monta\u017cysta",
-    "url": "https://szkopul.edu.pl/problemset/problem/oyn0rTJ97w-M1zXYEWD-ScnN/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/oyn0rTJ97w-M1zXYEWD-ScnN/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_1_mon/"
   },
   {
     "code": "pla",
@@ -2693,7 +3029,8 @@
     "year": 25,
     "rating": 2800,
     "name": "Plan metra",
-    "url": "https://szkopul.edu.pl/problemset/problem/vvd6w7n7EXFVEg3nkqGxEirV/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/vvd6w7n7EXFVEg3nkqGxEirV/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_1_pla/"
   },
   {
     "code": "ban",
@@ -2701,7 +3038,8 @@
     "year": 12,
     "rating": 2800,
     "name": "Bankomat",
-    "url": "https://szkopul.edu.pl/problemset/problem/hsjAImVbRitFug_CJiZ4Kzdn/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/hsjAImVbRitFug_CJiZ4Kzdn/site/",
+    "omowienie_url": null
   },
   {
     "code": "dos",
@@ -2709,7 +3047,8 @@
     "year": 33,
     "rating": 2700,
     "name": "Dostawy",
-    "url": "https://szkopul.edu.pl/problemset/problem/xK8Nwxsp_J6k2H63B_YJRWtH/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/xK8Nwxsp_J6k2H63B_YJRWtH/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_1_dos/"
   },
   {
     "code": "hot",
@@ -2717,7 +3056,8 @@
     "year": 21,
     "rating": 2700,
     "name": "Zadanie Hotele",
-    "url": "https://szkopul.edu.pl/problemset/problem/3_L6ZY7G-HX2CT7tYvkio8wH/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/3_L6ZY7G-HX2CT7tYvkio8wH/site/",
+    "omowienie_url": null
   },
   {
     "code": "klo",
@@ -2725,7 +3065,8 @@
     "year": 21,
     "rating": 2700,
     "name": "Zadanie Klocki",
-    "url": "https://szkopul.edu.pl/problemset/problem/0Zmxq4x0eoOFjuX1-BEK9-qA/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/0Zmxq4x0eoOFjuX1-BEK9-qA/site/",
+    "omowienie_url": null
   },
   {
     "code": "lic",
@@ -2733,7 +3074,8 @@
     "year": 28,
     "rating": 2700,
     "name": "Licznik d\u0142ugu",
-    "url": "https://szkopul.edu.pl/problemset/problem/w3anjkOGa2eMEBt_-GYEosat/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/w3anjkOGa2eMEBt_-GYEosat/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi28_1_lic/"
   },
   {
     "code": "liz",
@@ -2741,7 +3083,8 @@
     "year": 18,
     "rating": 2700,
     "name": "Zadanie Lizak",
-    "url": "https://szkopul.edu.pl/problemset/problem/AWhdD7i4V7mupdKWVtpgfGSM/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/AWhdD7i4V7mupdKWVtpgfGSM/site/",
+    "omowienie_url": null
   },
   {
     "code": "zap",
@@ -2749,7 +3092,8 @@
     "year": 31,
     "rating": 2700,
     "name": "Zapobiegliwy student",
-    "url": "https://szkopul.edu.pl/problemset/problem/CNaWaG3_YWfd96Qi6T36RnO0/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/CNaWaG3_YWfd96Qi6T36RnO0/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_1_zap/"
   },
   {
     "code": "par",
@@ -2757,7 +3101,8 @@
     "year": 23,
     "rating": 2700,
     "name": "Park wodny",
-    "url": "https://szkopul.edu.pl/problemset/problem/70I-ks8dXjgq3xwzRzLV1w4p/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/70I-ks8dXjgq3xwzRzLV1w4p/site/",
+    "omowienie_url": null
   },
   {
     "code": "tak",
@@ -2765,7 +3110,8 @@
     "year": 20,
     "rating": 2600,
     "name": "Zadanie Taks\u00f3wki",
-    "url": "https://szkopul.edu.pl/problemset/problem/Sa5HmhgGMPHhB6qXqPv1asrE/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Sa5HmhgGMPHhB6qXqPv1asrE/site/",
+    "omowienie_url": null
   },
   {
     "code": "kam",
@@ -2773,7 +3119,8 @@
     "year": 16,
     "rating": 2600,
     "name": "Zadanie Kamyki",
-    "url": "https://szkopul.edu.pl/problemset/problem/Ih7AP4H11ARFeeV2nDSeZlQG/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Ih7AP4H11ARFeeV2nDSeZlQG/site/",
+    "omowienie_url": null
   },
   {
     "code": "imp",
@@ -2781,7 +3128,8 @@
     "year": 29,
     "rating": 2600,
     "name": "Impreza krasnali",
-    "url": "https://szkopul.edu.pl/problemset/problem/U9UaVfIMEFZCU5M6RpvcylQT/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/U9UaVfIMEFZCU5M6RpvcylQT/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_1_imp/"
   },
   {
     "code": "bar",
@@ -2789,7 +3137,8 @@
     "year": 21,
     "rating": 2500,
     "name": "Zadanie Bar sa\u0142atkowy",
-    "url": "https://szkopul.edu.pl/problemset/problem/7xybSzndMlQ8nWLZZsMTcM9C/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/7xybSzndMlQ8nWLZZsMTcM9C/site/",
+    "omowienie_url": null
   },
   {
     "code": "sam",
@@ -2797,7 +3146,8 @@
     "year": 12,
     "rating": 2500,
     "name": "Zadanie Samochodziki",
-    "url": "https://szkopul.edu.pl/problemset/problem/DNXEM9WX4TRCI0fFbWedf1qq/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/DNXEM9WX4TRCI0fFbWedf1qq/site/",
+    "omowienie_url": null
   },
   {
     "code": "han",
@@ -2805,7 +3155,8 @@
     "year": 33,
     "rating": 2400,
     "name": "Hanoj",
-    "url": "https://szkopul.edu.pl/problemset/problem/ZaEHdvJb9rH4mtVMHpBTxGWY/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/ZaEHdvJb9rH4mtVMHpBTxGWY/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_1_han/"
   },
   {
     "code": "lit",
@@ -2813,7 +3164,8 @@
     "year": 19,
     "rating": 2400,
     "name": "Zadanie Litery",
-    "url": "https://szkopul.edu.pl/problemset/problem/V1PYHlhJQGTY6KR5ODoTTYU4/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/V1PYHlhJQGTY6KR5ODoTTYU4/site/",
+    "omowienie_url": null
   },
   {
     "code": "pra",
@@ -2821,7 +3173,8 @@
     "year": 25,
     "rating": 2400,
     "name": "Prawnicy",
-    "url": "https://szkopul.edu.pl/problemset/problem/KkN5UonnNGIG3AuMqoI6xr62/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/KkN5UonnNGIG3AuMqoI6xr62/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi25_1_pra/"
   },
   {
     "code": "sab",
@@ -2829,7 +3182,8 @@
     "year": 24,
     "rating": 2400,
     "name": "Sabota\u017c",
-    "url": "https://szkopul.edu.pl/problemset/problem/CUjJDGGSEZmO7HvdZU4FKrL6/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/CUjJDGGSEZmO7HvdZU4FKrL6/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi24_1_sab/"
   },
   {
     "code": "tab",
@@ -2837,7 +3191,8 @@
     "year": 28,
     "rating": 2400,
     "name": "Tablica binarna",
-    "url": "https://szkopul.edu.pl/problemset/problem/3sQlWSD2omwi4M_wdqCbycIW/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/3sQlWSD2omwi4M_wdqCbycIW/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi28_1_tab/"
   },
   {
     "code": "cuk",
@@ -2845,7 +3200,8 @@
     "year": 28,
     "rating": 2400,
     "name": "Cukiernia",
-    "url": "https://szkopul.edu.pl/problemset/problem/rr3lU0T8pNn2mAbL07wBTZT3/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/rr3lU0T8pNn2mAbL07wBTZT3/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi28_1_cuk/"
   },
   {
     "code": "klu",
@@ -2853,7 +3209,8 @@
     "year": 26,
     "rating": 2300,
     "name": "Klubowicze 2",
-    "url": "https://szkopul.edu.pl/problemset/problem/iNO3dMisUj2wQ_ywbKfWLlpi/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/iNO3dMisUj2wQ_ywbKfWLlpi/site/",
+    "omowienie_url": null
   },
   {
     "code": "fla",
@@ -2861,7 +3218,8 @@
     "year": 24,
     "rating": 2300,
     "name": "Flappy Bird",
-    "url": "https://szkopul.edu.pl/problemset/problem/eLy9p2a1VStZ4y9y-LdeB-8f/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/eLy9p2a1VStZ4y9y-LdeB-8f/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi24_1_fla/"
   },
   {
     "code": "wyr",
@@ -2869,7 +3227,8 @@
     "year": 33,
     "rating": 2200,
     "name": "Wyra\u017cenie arytmetyczne",
-    "url": "https://szkopul.edu.pl/problemset/problem/4ZyJsnINeZGNy0dfeSorm-8V/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/4ZyJsnINeZGNy0dfeSorm-8V/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_1_wyr/"
   },
   {
     "code": "pod",
@@ -2877,7 +3236,8 @@
     "year": 24,
     "rating": 2200,
     "name": "Podzielno\u015b\u0107",
-    "url": "https://szkopul.edu.pl/problemset/problem/cSnlafnvkbirhnQrS9CQ9MEw/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/cSnlafnvkbirhnQrS9CQ9MEw/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi24_1_pod/"
   },
   {
     "code": "tes",
@@ -2885,7 +3245,8 @@
     "year": 17,
     "rating": 2000,
     "name": "Test na inteligencj\u0119",
-    "url": "https://szkopul.edu.pl/problemset/problem/Ak4wWPkNtHpF-OiulN1gixfW/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Ak4wWPkNtHpF-OiulN1gixfW/site/",
+    "omowienie_url": null
   },
   {
     "code": "bud",
@@ -2893,7 +3254,8 @@
     "year": 31,
     "rating": 2000,
     "name": "Budowa lotniska",
-    "url": "https://szkopul.edu.pl/problemset/problem/E0WdV0P4l3hYG2WAuFWyQ-TV/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/E0WdV0P4l3hYG2WAuFWyQ-TV/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi31_1_bud/"
   },
   {
     "code": "szp",
@@ -2901,7 +3263,8 @@
     "year": 11,
     "rating": 1900,
     "name": "Zadanie Szpiedzy",
-    "url": "https://szkopul.edu.pl/problemset/problem/RiTxbbjmgXZ84FuD9qo15Aq8/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/RiTxbbjmgXZ84FuD9qo15Aq8/site/",
+    "omowienie_url": null
   },
   {
     "code": "pie",
@@ -2909,7 +3272,8 @@
     "year": 22,
     "rating": 1900,
     "name": "Zadanie Piecz\u0119\u0107",
-    "url": "https://szkopul.edu.pl/problemset/problem/VbW8KlWy9WK3aYvK55X96X7P/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/VbW8KlWy9WK3aYvK55X96X7P/site/",
+    "omowienie_url": null
   },
   {
     "code": "okr",
@@ -2917,7 +3281,8 @@
     "year": 13,
     "rating": 1900,
     "name": "Zadanie Okresy s\u0142\u00f3w",
-    "url": "https://szkopul.edu.pl/problemset/problem/d5ZNN_brr5VUd_EG9OuvsTan/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/d5ZNN_brr5VUd_EG9OuvsTan/site/",
+    "omowienie_url": null
   },
   {
     "code": "dom",
@@ -2925,7 +3290,8 @@
     "year": 29,
     "rating": 1800,
     "name": "Domino",
-    "url": "https://szkopul.edu.pl/problemset/problem/_4AAMIim7XilS6G_v6zD-Vsh/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/_4AAMIim7XilS6G_v6zD-Vsh/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi29_1_dom/"
   },
   {
     "code": "poc",
@@ -2933,7 +3299,8 @@
     "year": 30,
     "rating": 1700,
     "name": "Poci\u0105g towarowy",
-    "url": "https://szkopul.edu.pl/problemset/problem/U5dJG9pa-TT5cl-5Fkf8SrwB/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/U5dJG9pa-TT5cl-5Fkf8SrwB/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi30_1_poc/"
   },
   {
     "code": "pla",
@@ -2941,7 +3308,8 @@
     "year": 15,
     "rating": 1700,
     "name": "Plakatowanie",
-    "url": "https://szkopul.edu.pl/problemset/problem/au-E9FH96-3U9rCKhcNsD5n9/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/au-E9FH96-3U9rCKhcNsD5n9/site/",
+    "omowienie_url": null
   },
   {
     "code": "slo",
@@ -2949,7 +3317,8 @@
     "year": 16,
     "rating": 1700,
     "name": "Zadanie S\u0142onie",
-    "url": "https://szkopul.edu.pl/problemset/problem/hVt8GQhxDxdYzrhLngOSJuzS/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/hVt8GQhxDxdYzrhLngOSJuzS/site/",
+    "omowienie_url": null
   },
   {
     "code": "ska",
@@ -2957,7 +3326,8 @@
     "year": 12,
     "rating": 1600,
     "name": "Zadanie Skarbonki",
-    "url": "https://szkopul.edu.pl/problemset/problem/lm7lS3cC3aTRwlRaCztGRkov/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/lm7lS3cC3aTRwlRaCztGRkov/site/",
+    "omowienie_url": null
   },
   {
     "code": "gil",
@@ -2965,7 +3335,8 @@
     "year": 17,
     "rating": 1500,
     "name": "Gildie",
-    "url": "https://szkopul.edu.pl/problemset/problem/Oys6jiVOIap59lYCHRwDMbNT/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/Oys6jiVOIap59lYCHRwDMbNT/site/",
+    "omowienie_url": null
   },
   {
     "code": "bag",
@@ -2973,7 +3344,8 @@
     "year": 33,
     "rating": 1400,
     "name": "Baga\u017c podr\u0119czny",
-    "url": "https://szkopul.edu.pl/problemset/problem/d-ZnVW_CRkLkGBmjkge89h5r/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/d-ZnVW_CRkLkGBmjkge89h5r/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_1_bag/"
   },
   {
     "code": "pin",
@@ -2981,7 +3353,8 @@
     "year": 11,
     "rating": 1200,
     "name": "PIN-kod",
-    "url": "https://szkopul.edu.pl/problemset/problem/g75YwH_dmmU-iDNvnI3Ym0Wf/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/g75YwH_dmmU-iDNvnI3Ym0Wf/site/",
+    "omowienie_url": null
   },
   {
     "code": "sil",
@@ -2989,7 +3362,8 @@
     "year": 33,
     "rating": 1200,
     "name": "Si\u0142ownia dla pocz\u0105tkuj\u0105cych",
-    "url": "https://szkopul.edu.pl/problemset/problem/8mv7478o3qluQ4Wcr-K3Onb9/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/8mv7478o3qluQ4Wcr-K3Onb9/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi33_1_sil/"
   },
   {
     "code": "ply",
@@ -2997,7 +3371,8 @@
     "year": 30,
     "rating": 1100,
     "name": "P\u0142ytkie nawiasowania",
-    "url": "https://szkopul.edu.pl/problemset/problem/KlznBqTfieN-sWvUfTD0BJdT/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/KlznBqTfieN-sWvUfTD0BJdT/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi30_1_ply/"
   },
   {
     "code": "zam",
@@ -3005,7 +3380,8 @@
     "year": 32,
     "rating": 1000,
     "name": "Zamek cykliczny",
-    "url": "https://szkopul.edu.pl/problemset/problem/mLyF3KRZMSxwdnrKhXMOjUFJ/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/mLyF3KRZMSxwdnrKhXMOjUFJ/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi32_1_zam/"
   },
   {
     "code": "kol",
@@ -3013,7 +3389,8 @@
     "year": 30,
     "rating": 900,
     "name": "Kolorowy w\u0105\u017c",
-    "url": "https://szkopul.edu.pl/problemset/problem/GzVKpGwP7huOf_gNK4ZnIPn1/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/GzVKpGwP7huOf_gNK4ZnIPn1/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi30_1_kol/"
   },
   {
     "code": "wal",
@@ -3021,7 +3398,8 @@
     "year": 32,
     "rating": 800,
     "name": "Walki robot\u00f3w",
-    "url": "https://szkopul.edu.pl/problemset/problem/lk3fxEbWZRKSfjpHbEQT9wGN/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/lk3fxEbWZRKSfjpHbEQT9wGN/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi32_1_wal/"
   },
   {
     "code": "kra",
@@ -3029,7 +3407,8 @@
     "year": 13,
     "rating": 800,
     "name": "Zadanie Kr\u0105\u017cki",
-    "url": "https://szkopul.edu.pl/problemset/problem/fYXVXOreVxlXTRoHZJXyXF2l/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/fYXVXOreVxlXTRoHZJXyXF2l/site/",
+    "omowienie_url": null
   },
   {
     "code": "usu",
@@ -3037,6 +3416,7 @@
     "year": 32,
     "rating": 800,
     "name": "Usuwanie",
-    "url": "https://szkopul.edu.pl/problemset/problem/W8B2SfdW3eGzE3n-vOuHrT3W/site/"
+    "url": "https://szkopul.edu.pl/problemset/problem/W8B2SfdW3eGzE3n-vOuHrT3W/site/",
+    "omowienie_url": "https://oi.edu.pl/l/oi32_1_usu/"
   }
 ]

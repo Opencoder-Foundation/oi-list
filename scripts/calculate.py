@@ -1,15 +1,9 @@
-# this script generates the problem/person ratings. 
-# it needs the results to be in this format: ./data/XXoi.csv where XX is the number of the oi.
-# saves the results in ./results.json
-# author: tejtex
-
-import pandas as pd
-import numpy as np
-import os
-import logging as log
 import json
-
+import logging as log
+import os
 import re
+import numpy as np
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
@@ -19,9 +13,7 @@ log.basicConfig(
     datefmt="%H:%M:%S"
 )
 
-# ============= ELO FUNCTIONS ===============
 def calculate_elo(input: list[list[float]]) -> tuple[np.ndarray, np.ndarray]:
-    
     n = len(input)
     m = len(input[0])
     a = np.zeros(n)
@@ -65,19 +57,15 @@ def calculate_elo(input: list[list[float]]) -> tuple[np.ndarray, np.ndarray]:
         a = (a - mu)
         b = (b - mu)
             
-        
     return a, b
 
 def get_problems_elo(num: int, center: float | None = None, centerstd: float | None = None) -> tuple[dict[str, float], dict[str, float], float, float]:
-    
-
     df = pd.read_csv(f"data/{num}oi.csv")
     prob_cols = [c for c in df.columns if c not in ["imię i nazwisko", "suma1", "suma2", "suma3"]]
     df[prob_cols] = df[prob_cols].apply(pd.to_numeric, errors="coerce")
 
     input = []
     for i, row in df.iterrows():
-        
         input.append([row[c] for c in df.columns if c not in ["imię i nazwisko", "suma1", "suma2", "suma3"]])
     input = np.array(input)
     a, b = calculate_elo(input)
@@ -95,14 +83,13 @@ def get_problems_elo(num: int, center: float | None = None, centerstd: float | N
     b = b * centerstd + center
     a = a * centerstd + center
     
-    
     i = 0
     res = {}
     for name in df.columns:
         if name in ["imię i nazwisko", "suma1", "suma2", "suma3"]:
             continue
         print(name, np.nanmean(input.T[i]))
-        res[str(num) + name] = max(800, int(4000 + 600 *b[i]))
+        res[str(num) + name] = max(800, int(4000 + 600 * b[i]))
         i += 1
         
     people = {}
@@ -111,11 +98,9 @@ def get_problems_elo(num: int, center: float | None = None, centerstd: float | N
         people[row["imię i nazwisko"]] = max(
             800,
             int(4000 + 600 * a[idx])
-         )   
+        )   
     return res, people, mean, std
 
-
-# ============= CALCULATING ELO ===============
 res, people, anchor, anchor2 = get_problems_elo(33)
 
 people_res = []
@@ -141,15 +126,11 @@ for i in range(33):
                 "name": name,
                 "rating": rating
             })
-        
 
-# ============= SORTING ===============
 log.info("[sorting]")
 res = dict(sorted(res.items(), key=lambda x: x[1], reverse=True))
 
-# ============ TRANSFORM ==============
 pattern = re.compile(r"^(\d+)([^_]+)_(\d+)e$")
-
 
 def transform(data: dict) -> list[dict]:
     out = []
@@ -165,12 +146,9 @@ def transform(data: dict) -> list[dict]:
             "rating": round(rating, -2),
         })
     return out
+
 log.info("[transform]")
 res = transform(res)
-
-# ============= ADD DATA ===============
-# this part adds data like the url of a problem, its name etc.
-# there are a few hardcoded problem names/urls because of naming issues
 
 HARDCODED = {
     "slo":  {"url": "https://szkopul.edu.pl/problemset/problem/2_ADV6xog8RC2Gk3RVQaGQGI/site/", "name": "Zadanie Słowa"},
@@ -210,18 +188,41 @@ def scrape_index(url: str = URL) -> dict:
             }
     return index
 
+def get_omowienie_url(year: int, stage: int, code: str) -> str | None:
+    clean_code = code.rstrip("*").lower()
+    target_url = f"https://oi.edu.pl/l/oi{year}_{stage}_{clean_code}/"
+    
+    try:
+        r = requests.get(target_url, allow_redirects=True, timeout=5)
+        
+        if r.status_code == 200:
+            content_lower = r.text.lower()
+            
+            if "organizatorzy" in content_lower:
+                return None
+            
+            return target_url
+    except requests.RequestException:
+        pass
+        
+    return None
+
 def adddata(items: list[dict]) -> list[dict]:
     index = scrape_index()
     for it in items:
         info = index.get((it["year"], it["stage"], it["code"].rstrip("*")))
-        it["name"] = info["name"] if info else HARDCODED[it["code"]]["name"]
-        it["url"]  = info["url"]  if info else HARDCODED[it["code"]]["url"]
+        it["name"]          = info["name"] if info else HARDCODED.get(it["code"], {}).get("name", "")
+        it["url"]           = info["url"]  if info else HARDCODED.get(it["code"], {}).get("url", "")
+        it["omowienie_url"] = get_omowienie_url(it["year"], it["stage"], it["code"])
     return items
-  
+
 data = adddata(res)
+
+os.makedirs("../backend/data", exist_ok=True)
 
 with open("../backend/data/problems.json", "w") as f:
     json.dump(data, f, indent=2)
+
 with open("../backend/data/people.json", "w") as f:
     json.dump(
         people_res,

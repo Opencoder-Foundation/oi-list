@@ -101,7 +101,8 @@
 }
 
 .oi-list-item__tags code,
-.oi-list-item__tags span {
+.oi-list-item__tags span,
+.oi-list-item__tags a {
   border: 1px solid #d9d9d9;
   border-radius: 5px;
   padding: 0.15rem 0.5rem;
@@ -109,6 +110,11 @@
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
+}
+
+.oi-list-item__tags a {
+  color: #4e5660;
+  text-decoration: none;
 }
 
 .oi-list-item__tags svg {
