@@ -45,3 +45,4 @@ __pycache__/
 people.json
 scripts/data/**
 backend/data/results/**
+problems.json

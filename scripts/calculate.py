@@ -36,7 +36,7 @@ def calculate_elo(input: list[list[float]]) -> tuple[np.ndarray, np.ndarray]:
                 x = diff
                 p = sigmoid(x)
                 if np.isnan(s[i][j]):
-                    continue
+                    s[i][j] = 0
                 err = p - s[i][j]
                 
                 ba[i] -= err
