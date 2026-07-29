@@ -38,6 +38,7 @@ def fetch_oi(num: int, etap: int, base: str) -> pd.DataFrame:
 
     res.columns = [c.strip() for c in res.columns]
     res = res[[c for c in res.columns if c not in DROP]]
+    res = res[[c for c in res.columns if c.find('*') == -1]]
     for col in res.columns:
         if col != "imię i nazwisko":
             res[col] = pd.to_numeric(res[col], errors="coerce").astype("float64")

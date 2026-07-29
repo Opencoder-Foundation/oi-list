@@ -36,8 +36,6 @@ def calculate_elo(input: list[list[float]]) -> tuple[np.ndarray, np.ndarray]:
                 x = diff
                 p = sigmoid(x)
                 if np.isnan(s[i][j]):
-                    ba[i] -= p
-                    ca[i] += 1
                     continue
                 err = p - s[i][j]
                 
@@ -59,7 +57,7 @@ def calculate_elo(input: list[list[float]]) -> tuple[np.ndarray, np.ndarray]:
             
     return a, b
 
-def get_problems_elo(num: int, center: float | None = None, centerstd: float | None = None) -> tuple[dict[str, float], dict[str, float], float, float]:
+def get_problems_elo(num: int) -> tuple[dict[str, float], dict[str, float]]:
     df = pd.read_csv(f"data/{num}oi.csv")
     prob_cols = [c for c in df.columns if c not in ["imię i nazwisko", "suma1", "suma2", "suma3"]]
     df[prob_cols] = df[prob_cols].apply(pd.to_numeric, errors="coerce")
@@ -72,23 +70,15 @@ def get_problems_elo(num: int, center: float | None = None, centerstd: float | N
     a = np.array(a)
     b = np.array(b)
     mean = a.mean()
-    std = a.std()
 
-    b = (b - mean) / std
-    a = (a - mean) / std
-    if centerstd == None:
-        centerstd = std
-    if center == None:
-        center = mean
-    b = b * centerstd + center
-    a = a * centerstd + center
+    b = (b - mean)
+    a = (a - mean)
     
     i = 0
     res = {}
     for name in df.columns:
         if name in ["imię i nazwisko", "suma1", "suma2", "suma3"]:
             continue
-        print(name, np.nanmean(input.T[i]))
         res[str(num) + name] = max(800, int(4000 + 600 * b[i]))
         i += 1
         
@@ -99,9 +89,9 @@ def get_problems_elo(num: int, center: float | None = None, centerstd: float | N
             800,
             int(4000 + 600 * a[idx])
         )   
-    return res, people, mean, std
+    return res, people
 
-res, people, anchor, anchor2 = get_problems_elo(33)
+res, people = get_problems_elo(33)
 
 people_res = []
 
@@ -116,7 +106,7 @@ for i in range(33):
     if os.path.exists(f"data/{i}oi.csv"):
         log.info(f"[calculating] {i}th OI")
 
-        cur, cur_people, _, _ = get_problems_elo(i, anchor, anchor2)
+        cur, cur_people = get_problems_elo(i)
 
         res |= cur
 
