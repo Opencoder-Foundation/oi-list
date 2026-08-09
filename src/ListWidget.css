@@ -86,10 +86,20 @@
 }
 
 .oi-list-item__name {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
   font-weight: 600;
   line-height: 1.3;
   color: inherit;
   text-decoration: none;
+}
+
+.oi-list-item__external-link {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  color: #737b86;
 }
 
 a.oi-list-item__name:hover {
