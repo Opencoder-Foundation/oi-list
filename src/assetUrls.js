@@ -41,6 +41,11 @@ export const GET_RESULTS_URL = new URL(
   ensureTrailingSlash(API_BASE_URL),
 ).toString();
 
+export const PROBLEM_PROGRESS_URL = new URL(
+  "/api/problem-progress",
+  ensureTrailingSlash(API_BASE_URL),
+).toString();
+
 export const DELETE_USER_DATA_URL = new URL(
   "/api/user/delete-user-data",
   ensureTrailingSlash(API_BASE_URL),

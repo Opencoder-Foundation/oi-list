@@ -17,7 +17,7 @@
 
 .oi-list-toolbar {
   display: grid;
-  grid-template-columns: 2fr repeat(3, minmax(130px, 1fr));
+  grid-template-columns: 2fr repeat(4, minmax(130px, 1fr));
   gap: 0.5rem;
 }
 
@@ -76,6 +76,11 @@
   border-color: #5865f2;
 }
 
+.oi-list-item.is-complete {
+  background: #f6faf7;
+  border-color: #cbded0;
+}
+
 .oi-list-item-static {
   cursor: default;
 }
@@ -83,6 +88,14 @@
 .oi-list-item__name {
   font-weight: 600;
   line-height: 1.3;
+  color: inherit;
+  text-decoration: none;
+}
+
+a.oi-list-item__name:hover {
+  color: #4552d9;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .oi-list-item__header {
@@ -123,14 +136,44 @@
   flex-shrink: 0;
 }
 
-.oi-list-item__external-link {
-  position: absolute;
-  bottom: 0.85rem;
-  right: 0.85rem;
-  width: 25px;
-  height: 25px;
-  color: #8c8c8c;
-  transition: color 0.02s ease, transform 0.02s ease;
+.oi-list-item__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.15rem;
+}
+
+.oi-list-item__actions button {
+  border: 1px solid #d2d4d8;
+  border-radius: 6px;
+  padding: 0.35rem 0.6rem;
+  background: #ffffff;
+  color: #4e5660;
+  font: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.oi-list-item__actions button:hover:not(:disabled) {
+  border-color: #5865f2;
+  color: #3944c4;
+}
+
+.oi-list-item__actions button.is-active {
+  border-color: #5865f2;
+  background: #eef0ff;
+  color: #3944c4;
+}
+
+.oi-list-item__actions button.is-done {
+  border-color: #4e8c61;
+  background: #edf7f0;
+  color: #326a43;
+}
+
+.oi-list-item__actions button:disabled {
+  cursor: wait;
+  opacity: 0.65;
 }
 
 .oi-list-rating-circle {

@@ -8,6 +8,7 @@ mod problems;
 mod auth;
 mod users;
 mod profile;
+mod progress;
 mod utils;
 
 use health::health_check;
@@ -19,6 +20,7 @@ use reqwest::StatusCode;
 use sqlx::SqlitePool;
 
 use crate::{auth::user, profile::{confirm_result, find_result, get_results}, users::delete_user_data};
+use crate::progress::{get_progress, update_progress};
 
 #[derive(Clone)]
 pub struct AppState {
@@ -86,11 +88,13 @@ async fn main() {
         .route("/profile/find-results", post(find_result))
         .route("/profile/confirm-result", post(confirm_result))
         .route("/profile/get-results", get(get_results))
+        .route("/problem-progress", get(get_progress))
+        .route("/problem-progress/{problem_id}", post(update_progress))
         .route("/user/delete-user-data", delete(delete_user_data))
         .with_state(state);
 
     let cors = CorsLayer::new()
-        .allow_methods([Method::GET, Method::OPTIONS])
+        .allow_methods([Method::GET, Method::POST, Method::DELETE, Method::OPTIONS])
         .allow_headers([CONTENT_TYPE])
         .allow_origin([
             HeaderValue::from_static("http://localhost:5173"),

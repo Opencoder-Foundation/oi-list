@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import "./ListWidget.css";
-import { PROBLEMS_URL } from "./assetUrls";
+import { PROBLEMS_URL, PROBLEM_PROGRESS_URL } from "./assetUrls";
 
 const SORT_OPTIONS = [
   { value: "rating-asc", label: "Rating (od najmniejszego)" },
@@ -75,7 +75,7 @@ const normalizeProblem = (problem, index) => {
   const name = getText(problem.name) || `Problem ${index + 1}`;
   const url = getUrl(problem.url) || getUrl(problem.name);
   return {
-    id: `${problem.code ?? "problem"}-${problem.year ?? "0"}-${problem.stage ?? "0"}-${index}`,
+    id: `${problem.code ?? `problem-${index}`}-${problem.year ?? "0"}-${problem.stage ?? "0"}`,
     code: String(problem.code ?? "").trim(),
     stage: Number(problem.stage ?? 0),
     year: Number(problem.year ?? 0),
@@ -110,6 +110,10 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
   const [stageFilter, setStageFilter] = useState("all");
   const [yearFilter, setYearFilter] = useState("all");
   const [sortBy, setSortBy] = useState("rating-asc");
+  const [statusFilter, setStatusFilter] = useState("all");
+  const [progress, setProgress] = useState({});
+  const [progressEnabled, setProgressEnabled] = useState(false);
+  const [saving, setSaving] = useState(new Set());
 
   useEffect(() => {
     const abortController = new AbortController();
@@ -142,6 +146,62 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
     };
   }, [dataUrl]);
 
+  useEffect(() => {
+    if (embedded) {
+      return;
+    }
+
+    const loadProgress = async () => {
+      const response = await fetch(PROBLEM_PROGRESS_URL, {
+        credentials: "include",
+      });
+
+      if (!response.ok) {
+        return;
+      }
+
+      const payload = await response.json();
+      setProgress(Object.fromEntries(
+        payload.map((item) => [item.problem_id, item.status]),
+      ));
+      setProgressEnabled(true);
+    };
+
+    loadProgress().catch(() => {});
+  }, [embedded]);
+
+  const updateProgress = async (problemId, status) => {
+    const previousStatus = progress[problemId] ?? null;
+    const nextStatus = previousStatus === status ? null : status;
+
+    setProgress((current) => ({ ...current, [problemId]: nextStatus }));
+    setSaving((current) => new Set(current).add(problemId));
+
+    try {
+      const response = await fetch(
+        `${PROBLEM_PROGRESS_URL}/${encodeURIComponent(problemId)}`,
+        {
+          method: "POST",
+          credentials: "include",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ status: nextStatus }),
+        },
+      );
+
+      if (!response.ok) {
+        throw new Error("Could not update progress");
+      }
+    } catch {
+      setProgress((current) => ({ ...current, [problemId]: previousStatus }));
+    } finally {
+      setSaving((current) => {
+        const next = new Set(current);
+        next.delete(problemId);
+        return next;
+      });
+    }
+  };
+
   const stages = useMemo(() => {
     const uniqueStages = new Set(problems.map((problem) => problem.stage));
     return Array.from(uniqueStages).filter(Boolean).sort((a, b) => a - b);
@@ -162,6 +222,9 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
         if (yearFilter !== "all" && String(problem.year) !== yearFilter) {
           return false;
         }
+        if (statusFilter !== "all" && progress[problem.id] !== statusFilter) {
+          return false;
+        }
         if (!normalizedQuery) {
           return true;
         }
@@ -169,7 +232,7 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
         return searchable.includes(normalizedQuery);
       })
       .sort((a, b) => sortProblems(a, b, sortBy));
-  }, [problems, query, stageFilter, yearFilter, sortBy]);
+  }, [problems, progress, query, stageFilter, statusFilter, yearFilter, sortBy]);
 
   return (
     <section className={`oi-list-widget${embedded ? " is-embedded" : ""}`}>
@@ -216,6 +279,17 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
             </option>
           ))}
         </select>
+        {progressEnabled ? (
+          <select
+            className="oi-list-select"
+            value={statusFilter}
+            onChange={(event) => setStatusFilter(event.target.value)}
+          >
+            <option value="all">Wszystkie statusy</option>
+            <option value="todo">Do zrobienia</option>
+            <option value="done">Ukończone</option>
+          </select>
+        ) : null}
       </div>
 
       <p className="oi-list-meta">
@@ -234,7 +308,18 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
             const content = (
               <>
                 <div className="oi-list-item__header">
-                  <span className="oi-list-item__name">{problem.name}</span>
+                  {problem.url ? (
+                    <a
+                      className="oi-list-item__name"
+                      href={problem.url}
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      {problem.name}
+                    </a>
+                  ) : (
+                    <span className="oi-list-item__name">{problem.name}</span>
+                  )}
                   <div className="oi-list-item__rating">
                     <span style={{ color: color }}>{problem.rating}</span>
                     <div
@@ -293,44 +378,35 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
                     </a>
                   ) : null}
                 </span>
-                {problem.url ? (
-                  <svg
-                    className="oi-list-item__external-link"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" />
-                    <path d="M11 13l9 -9" />
-                    <path d="M15 4h5v5" />
-                  </svg>
+                {progressEnabled ? (
+                  <div className="oi-list-item__actions">
+                    <button
+                      className={progress[problem.id] === "todo" ? "is-active" : ""}
+                      type="button"
+                      disabled={saving.has(problem.id)}
+                      onClick={() => updateProgress(problem.id, "todo")}
+                    >
+                      Do zrobienia
+                    </button>
+                    <button
+                      className={progress[problem.id] === "done" ? "is-active is-done" : ""}
+                      type="button"
+                      disabled={saving.has(problem.id)}
+                      onClick={() => updateProgress(problem.id, "done")}
+                    >
+                      {progress[problem.id] === "done" ? "Ukończone" : "Oznacz jako ukończone"}
+                    </button>
+                  </div>
                 ) : null}
               </>
             );
-
-            if (!problem.url) {
-              return (
-                <div key={problem.id} className="oi-list-item oi-list-item-static">
-                  {content}
-                </div>
-              );
-            }
-
             return (
-              <a
+              <div
                 key={problem.id}
-                className="oi-list-item"
-                href={problem.url}
-                target="_blank"
-                rel="noreferrer noopener"
+                className={`oi-list-item${progress[problem.id] === "done" ? " is-complete" : ""}`}
               >
                 {content}
-              </a>
+              </div>
             );
           })}
         </div>
