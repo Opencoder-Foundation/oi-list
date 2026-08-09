@@ -113,6 +113,7 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
   const [statusFilter, setStatusFilter] = useState("all");
   const [progress, setProgress] = useState({});
   const [progressEnabled, setProgressEnabled] = useState(false);
+  const [progressError, setProgressError] = useState("");
   const [saving, setSaving] = useState(new Set());
 
   useEffect(() => {
@@ -157,6 +158,9 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
       });
 
       if (!response.ok) {
+        if (response.status !== 401) {
+          setProgressError("Nie udało się wczytać listy zadań.");
+        }
         return;
       }
 
@@ -167,13 +171,16 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
       setProgressEnabled(true);
     };
 
-    loadProgress().catch(() => {});
+    loadProgress().catch(() => {
+      setProgressError("Nie udało się wczytać listy zadań.");
+    });
   }, [embedded]);
 
   const updateProgress = async (problemId, status) => {
     const previousStatus = progress[problemId] ?? null;
     const nextStatus = previousStatus === status ? null : status;
 
+    setProgressError("");
     setProgress((current) => ({ ...current, [problemId]: nextStatus }));
     setSaving((current) => new Set(current).add(problemId));
 
@@ -193,6 +200,7 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
       }
     } catch {
       setProgress((current) => ({ ...current, [problemId]: previousStatus }));
+      setProgressError("Nie udało się zapisać zmiany. Spróbuj ponownie.");
     } finally {
       setSaving((current) => {
         const next = new Set(current);
@@ -211,6 +219,12 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
     const uniqueYears = new Set(problems.map((problem) => problem.year));
     return Array.from(uniqueYears).filter(Boolean).sort((a, b) => b - a);
   }, [problems]);
+
+  const progressCounts = useMemo(() => ({
+    all: problems.length,
+    todo: problems.filter((problem) => progress[problem.id] === "todo").length,
+    done: problems.filter((problem) => progress[problem.id] === "done").length,
+  }), [problems, progress]);
 
   const visibleProblems = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
@@ -279,23 +293,38 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
             </option>
           ))}
         </select>
-        {progressEnabled ? (
-          <select
-            className="oi-list-select"
-            value={statusFilter}
-            onChange={(event) => setStatusFilter(event.target.value)}
-          >
-            <option value="all">Wszystkie statusy</option>
-            <option value="todo">Do zrobienia</option>
-            <option value="done">Ukończone</option>
-          </select>
-        ) : null}
       </div>
+
+      {progressEnabled ? (
+        <div className="oi-list-tabs" role="tablist" aria-label="Lista zadań">
+          {[
+            { value: "all", label: "Wszystkie" },
+            { value: "todo", label: "Do zrobienia" },
+            { value: "done", label: "Ukończone" },
+          ].map((tab) => (
+            <button
+              key={tab.value}
+              className={statusFilter === tab.value ? "is-active" : ""}
+              type="button"
+              role="tab"
+              aria-selected={statusFilter === tab.value}
+              onClick={() => setStatusFilter(tab.value)}
+            >
+              {tab.label}
+              <span>{progressCounts[tab.value]}</span>
+            </button>
+          ))}
+        </div>
+      ) : null}
 
       <p className="oi-list-meta">
         Wyświetlanie <strong>{visibleProblems.length}</strong> z{" "}
         <strong>{problems.length}</strong> zadań
       </p>
+
+      {progressError ? (
+        <p className="oi-list-progress-error" role="status">{progressError}</p>
+      ) : null}
 
       {loading ? <p className="oi-list-state">Wczytywanie zadań...</p> : null}
       {error ? <p className="oi-list-state oi-list-error">{error}</p> : null}
@@ -349,7 +378,8 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
                     </div>
                   </div>
                 </div>
-                <span className="oi-list-item__tags">
+                <div className="oi-list-item__footer">
+                  <span className="oi-list-item__tags">
                   <code>{problem.code || "N/A"}</code>
                   <span>etap {problem.stage || "?"}</span>
                   <span>edycja {problem.year || "?"}</span>
@@ -393,27 +423,30 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
                       </svg>
                     </a>
                   ) : null}
-                </span>
-                {progressEnabled ? (
-                  <div className="oi-list-item__actions">
-                    <button
-                      className={progress[problem.id] === "todo" ? "is-active" : ""}
-                      type="button"
-                      disabled={saving.has(problem.id)}
-                      onClick={() => updateProgress(problem.id, "todo")}
-                    >
-                      Do zrobienia
-                    </button>
-                    <button
-                      className={progress[problem.id] === "done" ? "is-active is-done" : ""}
-                      type="button"
-                      disabled={saving.has(problem.id)}
-                      onClick={() => updateProgress(problem.id, "done")}
-                    >
-                      {progress[problem.id] === "done" ? "Ukończone" : "Oznacz jako ukończone"}
-                    </button>
-                  </div>
-                ) : null}
+                  </span>
+                  {progressEnabled ? (
+                    <div className="oi-list-item__actions">
+                      <button
+                        className={progress[problem.id] === "todo" ? "is-active" : ""}
+                        type="button"
+                        aria-pressed={progress[problem.id] === "todo"}
+                        disabled={saving.has(problem.id)}
+                        onClick={() => updateProgress(problem.id, "todo")}
+                      >
+                        Do zrobienia
+                      </button>
+                      <button
+                        className={progress[problem.id] === "done" ? "is-active is-done" : ""}
+                        type="button"
+                        aria-pressed={progress[problem.id] === "done"}
+                        disabled={saving.has(problem.id)}
+                        onClick={() => updateProgress(problem.id, "done")}
+                      >
+                        Gotowe
+                      </button>
+                    </div>
+                  ) : null}
+                </div>
               </>
             );
             return (

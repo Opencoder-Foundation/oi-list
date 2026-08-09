@@ -17,8 +17,55 @@
 
 .oi-list-toolbar {
   display: grid;
-  grid-template-columns: 2fr repeat(4, minmax(130px, 1fr));
+  grid-template-columns: 2fr repeat(3, minmax(130px, 1fr));
   gap: 0.5rem;
+}
+
+.oi-list-tabs {
+  display: flex;
+  gap: 0.25rem;
+  margin-top: 0.85rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid #e4e5e7;
+}
+
+.oi-list-tabs button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  border: 0;
+  border-radius: 6px;
+  padding: 0.45rem 0.65rem;
+  background: transparent;
+  color: #656b75;
+  font: inherit;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.oi-list-tabs button:hover {
+  background: #f2f3f5;
+  color: #252832;
+}
+
+.oi-list-tabs button.is-active {
+  background: #eef0ff;
+  color: #3944c4;
+}
+
+.oi-list-tabs button span {
+  min-width: 1.2rem;
+  border-radius: 999px;
+  padding: 0.08rem 0.3rem;
+  background: #e3e5e8;
+  color: #5c626c;
+  text-align: center;
+  font-size: 0.72rem;
+}
+
+.oi-list-tabs button.is-active span {
+  background: #d7dbff;
+  color: #3944c4;
 }
 
 .oi-list-input,
@@ -48,6 +95,12 @@
 
 .oi-list-error {
   color: #c53232;
+}
+
+.oi-list-progress-error {
+  margin: -0.35rem 0 0.75rem;
+  color: #b52d2d;
+  font-size: 0.82rem;
 }
 
 .oi-list-results {
@@ -120,7 +173,13 @@ a.oi-list-item__name:hover {
   gap: 0.35rem;
   font-size: 0.82rem;
   color: #4e5660;
-  padding-right: 1.5rem;
+}
+
+.oi-list-item__footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.75rem;
 }
 
 .oi-list-item__tags code,
@@ -148,15 +207,14 @@ a.oi-list-item__name:hover {
 
 .oi-list-item__actions {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-top: 0.15rem;
+  gap: 0.3rem;
+  flex-shrink: 0;
 }
 
 .oi-list-item__actions button {
   border: 1px solid #d2d4d8;
-  border-radius: 6px;
-  padding: 0.35rem 0.6rem;
+  border-radius: 7px;
+  padding: 0.3rem 0.55rem;
   background: #ffffff;
   color: #4e5660;
   font: inherit;
@@ -171,14 +229,14 @@ a.oi-list-item__name:hover {
 
 .oi-list-item__actions button.is-active {
   border-color: #5865f2;
-  background: #eef0ff;
-  color: #3944c4;
+  background: #5865f2;
+  color: #ffffff;
 }
 
 .oi-list-item__actions button.is-done {
   border-color: #4e8c61;
-  background: #edf7f0;
-  color: #326a43;
+  background: #4e8c61;
+  color: #ffffff;
 }
 
 .oi-list-item__actions button:disabled {
@@ -214,5 +272,14 @@ a.oi-list-item__name:hover {
 @media (max-width: 860px) {
   .oi-list-toolbar {
     grid-template-columns: 1fr;
+  }
+
+  .oi-list-tabs {
+    overflow-x: auto;
+  }
+
+  .oi-list-item__footer {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
