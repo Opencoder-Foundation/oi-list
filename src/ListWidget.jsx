@@ -224,6 +224,7 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
     all: problems.length,
     todo: problems.filter((problem) => progress[problem.id] === "todo").length,
     done: problems.filter((problem) => progress[problem.id] === "done").length,
+    notdone: problems.filter((problem) => progress[problem.id] !== "done").length,
   }), [problems, progress]);
 
   const visibleProblems = useMemo(() => {
@@ -302,8 +303,8 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
         <div className="oi-list-tabs" role="tablist" aria-label="Lista zadań">
           {[
             { value: "all", label: "Wszystkie" },
-            { value: "notdone", label: "Nieukończone" },
             { value: "todo", label: "Do zrobienia" },
+            { value: "notdone", label: "Nieukończone" },
             { value: "done", label: "Ukończone" },
           ].map((tab) => (
             <button
