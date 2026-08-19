@@ -239,6 +239,9 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
         if (statusFilter !== "all" && progress[problem.id] !== statusFilter) {
           return false;
         }
+        if (statusFilter === "notdone" && progress[problem.id] === "done") {
+          return false;
+        }
         if (!normalizedQuery) {
           return true;
         }
@@ -299,6 +302,7 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
         <div className="oi-list-tabs" role="tablist" aria-label="Lista zadań">
           {[
             { value: "all", label: "Wszystkie" },
+            { value: "notdone", label: "Nieukończone" },
             { value: "todo", label: "Do zrobienia" },
             { value: "done", label: "Ukończone" },
           ].map((tab) => (
