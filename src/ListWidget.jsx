@@ -237,7 +237,7 @@ const ListWidget = ({ dataUrl = PROBLEMS_URL, embedded = false }) => {
         if (yearFilter !== "all" && String(problem.year) !== yearFilter) {
           return false;
         }
-        if (statusFilter !== "all" && progress[problem.id] !== statusFilter) {
+        if (statusFilter !== "all" && statusFilter !== "notdone" && progress[problem.id] !== statusFilter) {
           return false;
         }
         if (statusFilter === "notdone" && progress[problem.id] === "done") {
